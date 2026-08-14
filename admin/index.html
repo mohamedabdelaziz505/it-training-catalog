@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Training Catalog Admin V3</title>
+<style>
+body{margin:0;background:#f5f7fb;font-family:Arial,sans-serif;color:#1e293b}
+header{background:#0a355d;color:#fff;padding:18px 24px}.wrap{max-width:1250px;margin:auto;padding:18px}
+.tabs{display:flex;gap:8px;overflow:auto;margin-bottom:16px}.tab{width:auto;padding:10px 15px;background:#e8edf5;color:#123;border:0;border-radius:10px}.tab.active{background:#0a4f86;color:#fff}
+.panel{display:none}.panel.active{display:block}.card{background:#fff;border-radius:16px;padding:18px;margin-bottom:16px;box-shadow:0 4px 18px #0000000c}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+input,textarea,select,button{font:inherit;padding:10px;border:1px solid #cbd5e1;border-radius:10px;width:100%;box-sizing:border-box}
+button{cursor:pointer;background:#0a4f86;color:#fff;border:0}.secondary{background:#64748b}.danger{background:#b42318}.success{background:#18864b}
+.actions{display:flex;gap:7px;flex-wrap:wrap}.actions button{width:auto}.muted{color:#64748b;font-size:13px}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #eef2f7;text-align:right;vertical-align:top}
+label{font-size:13px;font-weight:bold}.check{display:flex;align-items:center;gap:8px}.check input{width:auto}
+</style></head>
+<body>
+<header><b>Training Catalog Admin V3</b><div class="muted" style="color:#d7e5f1">Dynamic Branding + Courses + Notifications</div></header>
+<div class="wrap">
+<div class="tabs">
+<button class="tab active" onclick="tab('branding',this)">Branding</button>
+<button class="tab" onclick="tab('courses',this)">Courses</button>
+<button class="tab" onclick="tab('categories',this)">Categories</button>
+<button class="tab" onclick="tab('notifications',this)">Notifications</button>
+<button class="tab" onclick="tab('github',this)">GitHub</button>
+</div>
+
+<section id="branding" class="panel active">
+<div class="card"><h3>Dynamic Branding</h3><div class="grid">
+<input id="organization_name_ar" placeholder="اسم الجهة عربي">
+<input id="organization_name_en" placeholder="Organization English">
+<input id="app_title_ar" placeholder="العنوان الفرعي عربي">
+<input id="app_title_en" placeholder="Subtitle English">
+<input id="hero_eyebrow_ar" placeholder="Hero eyebrow عربي">
+<input id="hero_eyebrow_en" placeholder="Hero eyebrow English">
+<input id="hero_title_ar" placeholder="Hero title عربي">
+<input id="hero_title_en" placeholder="Hero title English">
+<input id="hero_text_ar" placeholder="Hero text عربي">
+<input id="hero_text_en" placeholder="Hero text English">
+<input id="logo_url" placeholder="Logo URL">
+<input id="whatsapp_number" placeholder="WhatsApp 2010XXXXXXXX">
+<input id="notification_topic" placeholder="Notification Topic">
+</div><br>
+<div class="grid">
+<label class="check"><input id="show_featured" type="checkbox"> Show Featured</label>
+<label class="check"><input id="show_search" type="checkbox"> Show Search</label>
+<label class="check"><input id="show_favorites" type="checkbox"> Show Favorites</label>
+</div><br>
+<button onclick="saveBranding()">Save Branding Locally</button>
+<p class="muted">بعدها اضغط Publish Changes في GitHub. التطبيق يقرأ القيم الجديدة بدون APK جديد.</p>
+</div>
+</section>
+
+<section id="courses" class="panel">
+<div class="card"><h3>Add / Edit Course</h3><input type="hidden" id="editIndex">
+<div class="grid">
+<input id="id" placeholder="Code"><select id="category_id"></select>
+<input id="name_ar" placeholder="اسم الكورس عربي"><input id="name_en" placeholder="Course English">
+<input id="hours" type="number" placeholder="Hours"><input id="level_ar" placeholder="Level Arabic">
+<input id="level_en" placeholder="Level English"><input id="delivery" placeholder="Online, Offline">
+<input id="image" placeholder="Image URL"><input id="order" type="number" placeholder="Order">
+<input id="attachments" placeholder="Attachments comma separated"><input id="certificates" placeholder="Certificates comma separated">
+<input id="skills_ar" placeholder="Skills Arabic comma separated"><input id="skills_en" placeholder="Skills English comma separated">
+<input id="syllabus_ar" placeholder="Syllabus Arabic comma separated"><input id="syllabus_en" placeholder="Syllabus English comma separated">
+</div><br>
+<textarea id="description_ar" rows="3" placeholder="Description Arabic"></textarea><br><br>
+<textarea id="description_en" rows="3" placeholder="Description English"></textarea><br><br>
+<div class="grid"><label class="check"><input id="featured" type="checkbox"> Featured</label><label class="check"><input id="active" type="checkbox" checked> Active</label></div><br>
+<div class="actions"><button onclick="saveCourse()">Save Course</button><button class="secondary" onclick="clearCourse()">Clear</button></div>
+</div>
+<div class="card"><table><thead><tr><th>Code</th><th>Course</th><th>Hours</th><th>Status</th><th>Actions</th></tr></thead><tbody id="courseRows"></tbody></table></div>
+</section>
+
+<section id="categories" class="panel">
+<div class="card"><h3>Categories</h3><input type="hidden" id="catEditIndex">
+<div class="grid"><input id="cat_id" placeholder="ID"><input id="cat_name_ar" placeholder="Arabic"><input id="cat_name_en" placeholder="English"><input id="cat_icon" placeholder="security / lan / cloud / code / database / support"><input id="cat_order" type="number" placeholder="Order"></div><br>
+<label class="check"><input id="cat_active" type="checkbox" checked> Active</label><br>
+<div class="actions"><button onclick="saveCategory()">Save Category</button><button class="secondary" onclick="clearCategory()">Clear</button></div></div>
+<div class="card"><table><thead><tr><th>ID</th><th>Arabic</th><th>English</th><th>Active</th><th>Actions</th></tr></thead><tbody id="catRows"></tbody></table></div>
+</section>
+
+<section id="notifications" class="panel">
+<div class="card"><h3>Push Notification</h3><div class="grid">
+<input id="worker_url" placeholder="Cloudflare Worker URL"><input id="worker_admin_key" type="password" placeholder="Admin Key">
+<input id="notif_title" placeholder="Title"><input id="notif_course_id" placeholder="Course ID optional"><input id="notif_topic" value="all_users" placeholder="Topic">
+</div><br><textarea id="notif_body" rows="3" placeholder="Notification body"></textarea><br><br>
+<button class="success" onclick="sendNotification()">Send Notification</button><div id="notifResult" class="muted"></div></div>
+</section>
+
+<section id="github" class="panel">
+<div class="card"><h3>GitHub</h3><div class="grid"><input id="owner" placeholder="Owner"><input id="repo" placeholder="Repo"><input id="branch" value="main"><input id="path" value="admin/courses.json"><input id="token" type="password" placeholder="Fine-grained token"></div><br>
+<div class="actions"><button onclick="loadGithub()">Load</button><button class="success" onclick="saveGithub()">Publish Changes</button><button class="secondary" onclick="downloadJson()">Backup JSON</button></div></div>
+</section>
+</div>
+
+<script>
+let data={version:3,last_updated:'',settings:{},categories:[],courses:[]};
+const $=x=>document.getElementById(x),v=x=>$(x).value,csv=x=>x.split(',').map(s=>s.trim()).filter(Boolean);
+function tab(id,b){document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');b.classList.add('active')}
+function touch(){data.version=(data.version||0)+1;data.last_updated=new Date().toISOString();render()}
+const keys=['organization_name_ar','organization_name_en','app_title_ar','app_title_en','hero_eyebrow_ar','hero_eyebrow_en','hero_title_ar','hero_title_en','hero_text_ar','hero_text_en','logo_url','whatsapp_number','notification_topic'];
+function render(){keys.forEach(k=>{if($(k))$(k).value=data.settings?.[k]??''});$('show_featured').checked=data.settings?.show_featured!==false;$('show_search').checked=data.settings?.show_search!==false;$('show_favorites').checked=data.settings?.show_favorites!==false;
+$('category_id').innerHTML=data.categories.map(c=>`<option value="${c.id}">${c.name_ar} / ${c.name_en}</option>`).join('');
+$('courseRows').innerHTML=data.courses.map((c,i)=>`<tr><td>${c.id}</td><td>${c.name_ar}<br><span class="muted">${c.name_en}</span></td><td>${c.hours}</td><td>${c.active!==false?'Active':'Inactive'} ${c.featured?'• Featured':''}</td><td><div class="actions"><button onclick="editCourse(${i})">Edit</button><button class="danger" onclick="delCourse(${i})">Delete</button></div></td></tr>`).join('');
+$('catRows').innerHTML=data.categories.map((c,i)=>`<tr><td>${c.id}</td><td>${c.name_ar}</td><td>${c.name_en}</td><td>${c.active!==false?'Yes':'No'}</td><td><div class="actions"><button onclick="editCategory(${i})">Edit</button><button class="danger" onclick="delCategory(${i})">Delete</button></div></td></tr>`).join('')}
+function saveBranding(){data.settings=data.settings||{};keys.forEach(k=>data.settings[k]=v(k));data.settings.show_featured=$('show_featured').checked;data.settings.show_search=$('show_search').checked;data.settings.show_favorites=$('show_favorites').checked;touch();alert('Branding saved locally. Publish to GitHub to make it live.')}
+function clearCourse(){['editIndex','id','name_ar','name_en','hours','level_ar','level_en','delivery','image','order','attachments','certificates','skills_ar','skills_en','syllabus_ar','syllabus_en','description_ar','description_en'].forEach(k=>$(k).value='');$('featured').checked=false;$('active').checked=true}
+function saveCourse(){let i=v('editIndex'),o=i===''?{}:data.courses[+i],c={...o,id:v('id'),category_id:v('category_id'),name_ar:v('name_ar'),name_en:v('name_en'),hours:+v('hours')||0,level_ar:v('level_ar'),level_en:v('level_en'),delivery:csv(v('delivery')),image:v('image'),order:+v('order')||data.courses.length+1,attachments:csv(v('attachments')),certificates:csv(v('certificates')),skills_ar:csv(v('skills_ar')),skills_en:csv(v('skills_en')),syllabus_ar:csv(v('syllabus_ar')),syllabus_en:csv(v('syllabus_en')),description_ar:v('description_ar'),description_en:v('description_en'),featured:$('featured').checked,active:$('active').checked};if(!c.id||!c.name_ar)return alert('Code and Arabic name required');c.whatsapp_message_ar=o.whatsapp_message_ar||`مرحبًا، أريد معرفة سعر برنامج ${c.name_ar} - ${c.id}`;c.whatsapp_message_en=o.whatsapp_message_en||`Hello, I would like to know the price of ${c.name_en} - ${c.id}`;if(i==='')data.courses.push(c);else data.courses[+i]=c;clearCourse();touch()}
+function editCourse(i){let c=data.courses[i];$('editIndex').value=i;['id','category_id','name_ar','name_en','hours','level_ar','level_en','image','order','description_ar','description_en'].forEach(k=>$(k).value=c[k]??'');['delivery','attachments','certificates','skills_ar','skills_en','syllabus_ar','syllabus_en'].forEach(k=>$(k).value=(c[k]||[]).join(', '));$('featured').checked=!!c.featured;$('active').checked=c.active!==false}
+function delCourse(i){if(confirm('Delete course?')){data.courses.splice(i,1);touch()}}
+function clearCategory(){['catEditIndex','cat_id','cat_name_ar','cat_name_en','cat_icon','cat_order'].forEach(k=>$(k).value='');$('cat_active').checked=true}
+function saveCategory(){let i=v('catEditIndex'),c={id:v('cat_id'),name_ar:v('cat_name_ar'),name_en:v('cat_name_en'),icon:v('cat_icon')||'school',order:+v('cat_order')||data.categories.length+1,active:$('cat_active').checked};if(!c.id||!c.name_ar)return alert('ID and Arabic name required');if(i==='')data.categories.push(c);else data.categories[+i]=c;clearCategory();touch()}
+function editCategory(i){let c=data.categories[i];$('catEditIndex').value=i;$('cat_id').value=c.id;$('cat_name_ar').value=c.name_ar;$('cat_name_en').value=c.name_en;$('cat_icon').value=c.icon||'';$('cat_order').value=c.order||0;$('cat_active').checked=c.active!==false}
+function delCategory(i){let id=data.categories[i].id;if(data.courses.some(c=>c.category_id===id))return alert('Category has courses');if(confirm('Delete category?')){data.categories.splice(i,1);touch()}}
+function auth(){return {owner:v('owner'),repo:v('repo'),branch:v('branch')||'main',path:v('path')||'admin/courses.json',token:v('token')}}
+async function loadGithub(){let a=auth(),url=`https://api.github.com/repos/${a.owner}/${a.repo}/contents/${a.path}?ref=${a.branch}`;let r=await fetch(url,{headers:{Authorization:`Bearer ${a.token}`,Accept:'application/vnd.github+json'}});if(!r.ok)return alert('Load failed '+r.status);let j=await r.json();data=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\\n/g,'')))));render();alert('Loaded')}
+async function saveGithub(){let a=auth(),url=`https://api.github.com/repos/${a.owner}/${a.repo}/contents/${a.path}`,sha=null,gr=await fetch(url+'?ref='+a.branch,{headers:{Authorization:`Bearer ${a.token}`,Accept:'application/vnd.github+json'}});if(gr.ok)sha=(await gr.json()).sha;let body={message:`Update catalog v${data.version}`,content:btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2)))),branch:a.branch};if(sha)body.sha=sha;let r=await fetch(url,{method:'PUT',headers:{Authorization:`Bearer ${a.token}`,Accept:'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)return alert('Publish failed '+r.status+' '+await r.text());alert('Published')}
+function downloadJson(){let b=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='courses_v3_backup.json';a.click()}
+async function sendNotification(){let r=await fetch(v('worker_url'),{method:'POST',headers:{'Content-Type':'application/json','X-Admin-Key':v('worker_admin_key')},body:JSON.stringify({topic:v('notif_topic')||'all_users',title:v('notif_title'),body:v('notif_body'),course_id:v('notif_course_id')})});$('notifResult').textContent=(r.ok?'Sent: ':'Failed: ')+await r.text()}
+render();
+</script>
+</body></html>
