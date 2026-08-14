@@ -1,1 +1,246 @@
+"version": 3,
+  "last_updated": "2026-08-13T22:40:00+03:00",
+  "settings": {
+    "organization_name_ar": "قطاع التدريب",
+    "organization_name_en": "Training Sector",
+    "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
+    "app_title_en": "IT Training Programs & Courses",
+    "hero_eyebrow_ar": "ابدأ مسارك المهني",
+    "hero_eyebrow_en": "Start your career path",
+    "hero_title_ar": "طوّر مهاراتك في الـ IT",
+    "hero_title_en": "Build Your IT Skills",
+    "hero_text_ar": "برامج تدريب عملية في DevOps، الشبكات، الأمن السيبراني، البرمجة، والـCloud.",
+    "hero_text_en": "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
+    "logo_url": "",
+    "whatsapp_number": "201000000000",
+    "show_featured": true,
+    "show_search": true,
+    "show_favorites": true,
+    "notification_topic": "all_users"
+  },
+  "categories": [
+    {
+      "id": "cyber",
+      "name_ar": "الأمن السيبراني",
+      "name_en": "Cyber Security",
+      "icon": "security",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "network",
+      "name_ar": "الشبكات",
+      "name_en": "Networking",
+      "icon": "lan",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "devops",
+      "name_ar": "Cloud و DevOps",
+      "name_en": "Cloud & DevOps",
+      "icon": "cloud",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "programming",
+      "name_ar": "البرمجة",
+      "name_en": "Programming",
+      "icon": "code",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "database",
+      "name_ar": "قواعد البيانات",
+      "name_en": "Databases",
+      "icon": "database",
+      "order": 5,
+      "active": true
+    },
+    {
+      "id": "support",
+      "name_ar": "الدعم الفني",
+      "name_en": "IT Support",
+      "icon": "support",
+      "order": 6,
+      "active": true
+    }
+  ],
+  "courses": [
+    {
+      "id": "CYB001",
+      "category_id": "cyber",
+      "name_ar": "Cyber Security Professional",
+      "name_en": "Cyber Security Professional",
+      "hours": 60,
+      "level_ar": "متوسط",
+      "level_en": "Intermediate",
+      "delivery": [
+        "Online",
+        "Offline"
+      ],
+      "description_ar": "برنامج احترافي عملي في أساسيات الأمن السيبراني وإدارة المخاطر والحماية والاستجابة للحوادث.",
+      "description_en": "Professional hands-on program in cybersecurity fundamentals, risk management, protection and incident response.",
+      "image": "",
+      "attachments": [
+        "Course Material",
+        "Labs",
+        "PDF Notes"
+      ],
+      "certificates": [
+        "Training Sector Certificate"
+      ],
+      "skills_ar": [
+        "فهم أساسيات الأمن السيبراني",
+        "تقييم المخاطر والثغرات",
+        "حماية الشبكات والأنظمة",
+        "الاستجابة للحوادث الأمنية"
+      ],
+      "skills_en": [
+        "Cybersecurity fundamentals",
+        "Risk and vulnerability assessment",
+        "Network and system protection",
+        "Incident response"
+      ],
+      "syllabus_ar": [
+        "أساسيات الأمن السيبراني",
+        "الشبكات والبروتوكولات",
+        "إدارة المخاطر والثغرات",
+        "التشفير وأمن البيانات",
+        "اختبار الاختراق",
+        "الاستجابة للحوادث",
+        "مشروع عملي شامل"
+      ],
+      "syllabus_en": [
+        "Cybersecurity Fundamentals",
+        "Networks & Protocols",
+        "Risk & Vulnerability Management",
+        "Cryptography & Data Security",
+        "Penetration Testing",
+        "Incident Response",
+        "Capstone Project"
+      ],
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
+      "featured": true,
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "DEV001",
+      "category_id": "devops",
+      "name_ar": "DevOps Engineer",
+      "name_en": "DevOps Engineer",
+      "hours": 50,
+      "level_ar": "متوسط",
+      "level_en": "Intermediate",
+      "delivery": [
+        "Online",
+        "Offline"
+      ],
+      "description_ar": "برنامج عملي يغطي Linux وGit وDocker وCI/CD وKubernetes ومبادئ المراقبة.",
+      "description_en": "Hands-on program covering Linux, Git, Docker, CI/CD, Kubernetes and monitoring basics.",
+      "image": "",
+      "attachments": [
+        "Course Material",
+        "Labs"
+      ],
+      "certificates": [
+        "Training Sector Certificate"
+      ],
+      "skills_ar": [
+        "Linux",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Kubernetes"
+      ],
+      "skills_en": [
+        "Linux",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Kubernetes"
+      ],
+      "syllabus_ar": [
+        "Linux Fundamentals",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Kubernetes",
+        "Monitoring"
+      ],
+      "syllabus_en": [
+        "Linux Fundamentals",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Kubernetes",
+        "Monitoring"
+      ],
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
+      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
+      "featured": true,
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "NET001",
+      "category_id": "network",
+      "name_ar": "CCNA & Networking",
+      "name_en": "CCNA & Networking",
+      "hours": 72,
+      "level_ar": "مبتدئ",
+      "level_en": "Beginner",
+      "delivery": [
+        "Offline"
+      ],
+      "description_ar": "برنامج تأسيسي وعملي في الشبكات وSwitching وRouting والعنونة ومفاهيم Cisco.",
+      "description_en": "Practical networking program covering switching, routing, addressing and Cisco fundamentals.",
+      "image": "",
+      "attachments": [
+        "PDF Notes",
+        "Labs"
+      ],
+      "certificates": [
+        "Training Sector Certificate"
+      ],
+      "skills_ar": [
+        "IP Addressing",
+        "Switching",
+        "Routing",
+        "Cisco Fundamentals"
+      ],
+      "skills_en": [
+        "IP Addressing",
+        "Switching",
+        "Routing",
+        "Cisco Fundamentals"
+      ],
+      "syllabus_ar": [
+        "Network Fundamentals",
+        "IP Addressing",
+        "Switching",
+        "Routing",
+        "Wireless",
+        "Troubleshooting"
+      ],
+      "syllabus_en": [
+        "Network Fundamentals",
+        "IP Addressing",
+        "Switching",
+        "Routing",
+        "Wireless",
+        "Troubleshooting"
+      ],
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
+      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001",
+      "featured": true,
+      "active": true,
+      "order": 3
+    }
+  ]
+}
 
