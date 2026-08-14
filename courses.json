@@ -1,246 +1,785 @@
-"version": 3,
-  "last_updated": "2026-08-13T22:40:00+03:00",
-  "settings": {
-    "organization_name_ar": "قطاع التدريب",
-    "organization_name_en": "Training Sector",
-    "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
-    "app_title_en": "IT Training Programs & Courses",
-    "hero_eyebrow_ar": "ابدأ مسارك المهني",
-    "hero_eyebrow_en": "Start your career path",
-    "hero_title_ar": "طوّر مهاراتك في الـ IT",
-    "hero_title_en": "Build Your IT Skills",
-    "hero_text_ar": "برامج تدريب عملية في DevOps، الشبكات، الأمن السيبراني، البرمجة، والـCloud.",
-    "hero_text_en": "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
-    "logo_url": "",
-    "whatsapp_number": "201000000000",
-    "show_featured": true,
-    "show_search": true,
-    "show_favorites": true,
-    "notification_topic": "all_users"
-  },
-  "categories": [
-    {
-      "id": "cyber",
-      "name_ar": "الأمن السيبراني",
-      "name_en": "Cyber Security",
-      "icon": "security",
-      "order": 1,
-      "active": true
-    },
-    {
-      "id": "network",
-      "name_ar": "الشبكات",
-      "name_en": "Networking",
-      "icon": "lan",
-      "order": 2,
-      "active": true
-    },
-    {
-      "id": "devops",
-      "name_ar": "Cloud و DevOps",
-      "name_en": "Cloud & DevOps",
-      "icon": "cloud",
-      "order": 3,
-      "active": true
-    },
-    {
-      "id": "programming",
-      "name_ar": "البرمجة",
-      "name_en": "Programming",
-      "icon": "code",
-      "order": 4,
-      "active": true
-    },
-    {
-      "id": "database",
-      "name_ar": "قواعد البيانات",
-      "name_en": "Databases",
-      "icon": "database",
-      "order": 5,
-      "active": true
-    },
-    {
-      "id": "support",
-      "name_ar": "الدعم الفني",
-      "name_en": "IT Support",
-      "icon": "support",
-      "order": 6,
-      "active": true
-    }
-  ],
-  "courses": [
-    {
-      "id": "CYB001",
-      "category_id": "cyber",
-      "name_ar": "Cyber Security Professional",
-      "name_en": "Cyber Security Professional",
-      "hours": 60,
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "برنامج احترافي عملي في أساسيات الأمن السيبراني وإدارة المخاطر والحماية والاستجابة للحوادث.",
-      "description_en": "Professional hands-on program in cybersecurity fundamentals, risk management, protection and incident response.",
-      "image": "",
-      "attachments": [
-        "Course Material",
-        "Labs",
-        "PDF Notes"
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "skills_ar": [
-        "فهم أساسيات الأمن السيبراني",
-        "تقييم المخاطر والثغرات",
-        "حماية الشبكات والأنظمة",
-        "الاستجابة للحوادث الأمنية"
-      ],
-      "skills_en": [
-        "Cybersecurity fundamentals",
-        "Risk and vulnerability assessment",
-        "Network and system protection",
-        "Incident response"
-      ],
-      "syllabus_ar": [
-        "أساسيات الأمن السيبراني",
-        "الشبكات والبروتوكولات",
-        "إدارة المخاطر والثغرات",
-        "التشفير وأمن البيانات",
-        "اختبار الاختراق",
-        "الاستجابة للحوادث",
-        "مشروع عملي شامل"
-      ],
-      "syllabus_en": [
-        "Cybersecurity Fundamentals",
-        "Networks & Protocols",
-        "Risk & Vulnerability Management",
-        "Cryptography & Data Security",
-        "Penetration Testing",
-        "Incident Response",
-        "Capstone Project"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
-      "featured": true,
-      "active": true,
-      "order": 1
-    },
-    {
-      "id": "DEV001",
-      "category_id": "devops",
-      "name_ar": "DevOps Engineer",
-      "name_en": "DevOps Engineer",
-      "hours": 50,
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "برنامج عملي يغطي Linux وGit وDocker وCI/CD وKubernetes ومبادئ المراقبة.",
-      "description_en": "Hands-on program covering Linux, Git, Docker, CI/CD, Kubernetes and monitoring basics.",
-      "image": "",
-      "attachments": [
-        "Course Material",
-        "Labs"
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "skills_ar": [
-        "Linux",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes"
-      ],
-      "skills_en": [
-        "Linux",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes"
-      ],
-      "syllabus_ar": [
-        "Linux Fundamentals",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes",
-        "Monitoring"
-      ],
-      "syllabus_en": [
-        "Linux Fundamentals",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes",
-        "Monitoring"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
-      "featured": true,
-      "active": true,
-      "order": 2
-    },
-    {
-      "id": "NET001",
-      "category_id": "network",
-      "name_ar": "CCNA & Networking",
-      "name_en": "CCNA & Networking",
-      "hours": 72,
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "delivery": [
-        "Offline"
-      ],
-      "description_ar": "برنامج تأسيسي وعملي في الشبكات وSwitching وRouting والعنونة ومفاهيم Cisco.",
-      "description_en": "Practical networking program covering switching, routing, addressing and Cisco fundamentals.",
-      "image": "",
-      "attachments": [
-        "PDF Notes",
-        "Labs"
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "skills_ar": [
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Cisco Fundamentals"
-      ],
-      "skills_en": [
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Cisco Fundamentals"
-      ],
-      "syllabus_ar": [
-        "Network Fundamentals",
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Wireless",
-        "Troubleshooting"
-      ],
-      "syllabus_en": [
-        "Network Fundamentals",
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Wireless",
-        "Troubleshooting"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
-      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001",
-      "featured": true,
-      "active": true,
-      "order": 3
-    }
-  ]
+ "version":  3,
+    "last_updated":  "2026-08-13T22:40:00+03:00",
+    "settings":  {
+                     "organization_name_ar":  "قطاع التدريب",
+                     "organization_name_en":  "Training Sector",
+                     "app_title_ar":  "برامج وكورسات تكنولوجيا المعلومات",
+                     "app_title_en":  "IT Training Programs \u0026 Courses",
+                     "hero_eyebrow_ar":  "ابدأ مسارك المهني",
+                     "hero_eyebrow_en":  "Start your career path",
+                     "hero_title_ar":  "طوّر مهاراتك في الـ IT",
+                     "hero_title_en":  "Build Your IT Skills",
+                     "hero_text_ar":  "برامج تدريب عملية في DevOps، الشبكات، الأمن السيبراني، البرمجة، والـCloud.",
+                     "hero_text_en":  "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
+                     "logo_url":  "",
+                     "whatsapp_number":  "201000000000",
+                     "show_featured":  true,
+                     "show_search":  true,
+                     "show_favorites":  true,
+                     "notification_topic":  "all_users"
+                 },
+    "categories":  [
+                       {
+                           "id":  "cyber",
+                           "name_ar":  "الأمن السيبراني",
+                           "name_en":  "Cyber Security",
+                           "icon":  "security",
+                           "order":  1,
+                           "active":  true
+                       },
+                       {
+                           "id":  "network",
+                           "name_ar":  "الشبكات",
+                           "name_en":  "Networking",
+                           "icon":  "lan",
+                           "order":  2,
+                           "active":  true
+                       },
+                       {
+                           "id":  "devops",
+                           "name_ar":  "Cloud و DevOps",
+                           "name_en":  "Cloud \u0026 DevOps",
+                           "icon":  "cloud",
+                           "order":  3,
+                           "active":  true
+                       },
+                       {
+                           "id":  "programming",
+                           "name_ar":  "البرمجة",
+                           "name_en":  "Programming",
+                           "icon":  "code",
+                           "order":  4,
+                           "active":  true
+                       },
+                       {
+                           "id":  "database",
+                           "name_ar":  "قواعد البيانات",
+                           "name_en":  "Databases",
+                           "icon":  "database",
+                           "order":  5,
+                           "active":  true
+                       },
+                       {
+                           "id":  "support",
+                           "name_ar":  "الدعم الفني",
+                           "name_en":  "IT Support",
+                           "icon":  "support",
+                           "order":  6,
+                           "active":  true
+                       },
+                       {
+                           "id":  "data-ai",
+                           "name_ar":  "البيانات والذكاء الاصطناعي",
+                           "name_en":  "Data \u0026 AI",
+                           "icon":  "analytics",
+                           "order":  7,
+                           "active":  true
+                       },
+                       {
+                           "id":  "design",
+                           "name_ar":  "التصميم الرقمي",
+                           "name_en":  "Digital Design",
+                           "icon":  "design",
+                           "order":  8,
+                           "active":  true
+                       }
+                   ],
+    "courses":  [
+                    {
+                        "id":  "CYB001",
+                        "category_id":  "cyber",
+                        "name_ar":  "Cyber Security Professional",
+                        "name_en":  "Cyber Security Professional",
+                        "hours":  60,
+                        "level_ar":  "متوسط",
+                        "level_en":  "Intermediate",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "برنامج احترافي عملي في أساسيات الأمن السيبراني وإدارة المخاطر والحماية والاستجابة للحوادث.",
+                        "description_en":  "Professional hands-on program in cybersecurity fundamentals, risk management, protection and incident response.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Course Material",
+                                            "Labs",
+                                            "PDF Notes"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "فهم أساسيات الأمن السيبراني",
+                                          "تقييم المخاطر والثغرات",
+                                          "حماية الشبكات والأنظمة",
+                                          "الاستجابة للحوادث الأمنية"
+                                      ],
+                        "skills_en":  [
+                                          "Cybersecurity fundamentals",
+                                          "Risk and vulnerability assessment",
+                                          "Network and system protection",
+                                          "Incident response"
+                                      ],
+                        "syllabus_ar":  [
+                                            "أساسيات الأمن السيبراني",
+                                            "الشبكات والبروتوكولات",
+                                            "إدارة المخاطر والثغرات",
+                                            "التشفير وأمن البيانات",
+                                            "اختبار الاختراق",
+                                            "الاستجابة للحوادث",
+                                            "مشروع عملي شامل"
+                                        ],
+                        "syllabus_en":  [
+                                            "Cybersecurity Fundamentals",
+                                            "Networks \u0026 Protocols",
+                                            "Risk \u0026 Vulnerability Management",
+                                            "Cryptography \u0026 Data Security",
+                                            "Penetration Testing",
+                                            "Incident Response",
+                                            "Capstone Project"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Cyber Security Professional - CYB001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  1
+                    },
+                    {
+                        "id":  "DEV001",
+                        "category_id":  "devops",
+                        "name_ar":  "DevOps Engineer",
+                        "name_en":  "DevOps Engineer",
+                        "hours":  50,
+                        "level_ar":  "متوسط",
+                        "level_en":  "Intermediate",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "برنامج عملي يغطي Linux وGit وDocker وCI/CD وKubernetes ومبادئ المراقبة.",
+                        "description_en":  "Hands-on program covering Linux, Git, Docker, CI/CD, Kubernetes and monitoring basics.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Course Material",
+                                            "Labs"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Linux",
+                                          "Git",
+                                          "Docker",
+                                          "CI/CD",
+                                          "Kubernetes"
+                                      ],
+                        "skills_en":  [
+                                          "Linux",
+                                          "Git",
+                                          "Docker",
+                                          "CI/CD",
+                                          "Kubernetes"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Linux Fundamentals",
+                                            "Git",
+                                            "Docker",
+                                            "CI/CD",
+                                            "Kubernetes",
+                                            "Monitoring"
+                                        ],
+                        "syllabus_en":  [
+                                            "Linux Fundamentals",
+                                            "Git",
+                                            "Docker",
+                                            "CI/CD",
+                                            "Kubernetes",
+                                            "Monitoring"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of DevOps Engineer - DEV001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  2
+                    },
+                    {
+                        "id":  "NET001",
+                        "category_id":  "network",
+                        "name_ar":  "CCNA \u0026 Networking",
+                        "name_en":  "CCNA \u0026 Networking",
+                        "hours":  72,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Offline"
+                                     ],
+                        "description_ar":  "برنامج تأسيسي وعملي في الشبكات وSwitching وRouting والعنونة ومفاهيم Cisco.",
+                        "description_en":  "Practical networking program covering switching, routing, addressing and Cisco fundamentals.",
+                        "image":  "",
+                        "attachments":  [
+                                            "PDF Notes",
+                                            "Labs"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "IP Addressing",
+                                          "Switching",
+                                          "Routing",
+                                          "Cisco Fundamentals"
+                                      ],
+                        "skills_en":  [
+                                          "IP Addressing",
+                                          "Switching",
+                                          "Routing",
+                                          "Cisco Fundamentals"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Network Fundamentals",
+                                            "IP Addressing",
+                                            "Switching",
+                                            "Routing",
+                                            "Wireless",
+                                            "Troubleshooting"
+                                        ],
+                        "syllabus_en":  [
+                                            "Network Fundamentals",
+                                            "IP Addressing",
+                                            "Switching",
+                                            "Routing",
+                                            "Wireless",
+                                            "Troubleshooting"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج CCNA \u0026 Networking - NET001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of CCNA \u0026 Networking - NET001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  3
+                    },
+                    {
+                        "id":  "PY001",
+                        "category_id":  "programming",
+                        "name_ar":  "برمجة Python من الصفر",
+                        "name_en":  "Python Programming Bootcamp",
+                        "hours":  48,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "مسار عملي لبناء أساس قوي في Python وكتابة برامج وأدوات حقيقية.",
+                        "description_en":  "A practical path to build strong Python fundamentals and real-world scripts.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Python Tutorial PDF|https://docs.python.org/3/tutorial/tutorial.pdf",
+                                            "Exercises and projects"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "أساسيات Python",
+                                          "البرمجة الكائنية",
+                                          "التعامل مع الملفات",
+                                          "بناء مشاريع صغيرة"
+                                      ],
+                        "skills_en":  [
+                                          "Python syntax",
+                                          "OOP",
+                                          "Files and APIs",
+                                          "Mini projects"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Python basics",
+                                            "Functions and modules",
+                                            "OOP",
+                                            "Files and exceptions",
+                                            "APIs",
+                                            "Final project"
+                                        ],
+                        "syllabus_en":  [
+                                            "Python basics",
+                                            "Functions and modules",
+                                            "OOP",
+                                            "Files and exceptions",
+                                            "APIs",
+                                            "Final project"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Python Programming Bootcamp - PY001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Python Programming Bootcamp - PY001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  4
+                    },
+                    {
+                        "id":  "WEB001",
+                        "category_id":  "programming",
+                        "name_ar":  "تطوير الويب Full Stack",
+                        "name_en":  "Full Stack Web Development",
+                        "hours":  80,
+                        "level_ar":  "متوسط",
+                        "level_en":  "Intermediate",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "من HTML وCSS وJavaScript إلى بناء تطبيق ويب متكامل وربطه بواجهة خلفية.",
+                        "description_en":  "From HTML, CSS and JavaScript to building a complete web application with a backend.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Course Roadmap",
+                                            "Practical labs",
+                                            "Git Book PDF|https://git-scm.com/book/en/v2/book.pdf"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "HTML وCSS",
+                                          "JavaScript",
+                                          "REST APIs",
+                                          "قواعد البيانات",
+                                          "Git"
+                                      ],
+                        "skills_en":  [
+                                          "HTML and CSS",
+                                          "JavaScript",
+                                          "REST APIs",
+                                          "Databases",
+                                          "Git"
+                                      ],
+                        "syllabus_ar":  [
+                                            "HTML fundamentals",
+                                            "Responsive CSS",
+                                            "JavaScript ES6",
+                                            "REST APIs",
+                                            "Authentication",
+                                            "Deployment"
+                                        ],
+                        "syllabus_en":  [
+                                            "HTML fundamentals",
+                                            "Responsive CSS",
+                                            "JavaScript ES6",
+                                            "REST APIs",
+                                            "Authentication",
+                                            "Deployment"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Full Stack Web Development - WEB001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Full Stack Web Development - WEB001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  5
+                    },
+                    {
+                        "id":  "LIN001",
+                        "category_id":  "support",
+                        "name_ar":  "Linux وإدارة الأنظمة",
+                        "name_en":  "Linux System Administration",
+                        "hours":  45,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "تدريب عملي على Linux والأوامر وإدارة المستخدمين والخدمات والنسخ الاحتياطي.",
+                        "description_en":  "Hands-on Linux training covering commands, users, services and backups.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Command Reference",
+                                            "Lab checklist",
+                                            "Administration exercises"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Linux CLI",
+                                          "إدارة المستخدمين",
+                                          "الصلاحيات",
+                                          "الخدمات",
+                                          "النسخ الاحتياطي"
+                                      ],
+                        "skills_en":  [
+                                          "Linux CLI",
+                                          "Users and groups",
+                                          "Permissions",
+                                          "Services",
+                                          "Backups"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Linux fundamentals",
+                                            "Shell commands",
+                                            "Users and permissions",
+                                            "Processes",
+                                            "Networking",
+                                            "Backup and recovery"
+                                        ],
+                        "syllabus_en":  [
+                                            "Linux fundamentals",
+                                            "Shell commands",
+                                            "Users and permissions",
+                                            "Processes",
+                                            "Networking",
+                                            "Backup and recovery"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Linux System Administration - LIN001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Linux System Administration - LIN001",
+                        "featured":  false,
+                        "active":  true,
+                        "order":  6
+                    },
+                    {
+                        "id":  "CLO001",
+                        "category_id":  "devops",
+                        "name_ar":  "Cloud Fundamentals",
+                        "name_en":  "Cloud Computing Fundamentals",
+                        "hours":  42,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "فهم عملي لمفاهيم Cloud وIaaS وPaaS وطرق بناء بنية سحابية آمنة.",
+                        "description_en":  "Practical introduction to cloud concepts, IaaS, PaaS and secure cloud architecture.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Cloud Study Guide",
+                                            "Architecture exercises",
+                                            "Security checklist"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Cloud concepts",
+                                          "IaaS وPaaS",
+                                          "التخزين السحابي",
+                                          "الشبكات السحابية",
+                                          "الأمان"
+                                      ],
+                        "skills_en":  [
+                                          "Cloud concepts",
+                                          "IaaS and PaaS",
+                                          "Cloud storage",
+                                          "Cloud networking",
+                                          "Security"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Cloud models",
+                                            "Virtual machines",
+                                            "Storage",
+                                            "Networking",
+                                            "IAM",
+                                            "Cost and security"
+                                        ],
+                        "syllabus_en":  [
+                                            "Cloud models",
+                                            "Virtual machines",
+                                            "Storage",
+                                            "Networking",
+                                            "IAM",
+                                            "Cost and security"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Cloud Computing Fundamentals - CLO001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  7
+                    },
+                    {
+                        "id":  "DAT001",
+                        "category_id":  "data-ai",
+                        "name_ar":  "تحليل البيانات باستخدام Excel وPower BI",
+                        "name_en":  "Data Analysis with Excel \u0026 Power BI",
+                        "hours":  36,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "حوّل البيانات الخام إلى تقارير ولوحات معلومات تساعد على اتخاذ القرار.",
+                        "description_en":  "Turn raw data into reports and dashboards that support better decisions.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Templates",
+                                            "Dashboard project",
+                                            "Data glossary"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Excel formulas",
+                                          "تنظيف البيانات",
+                                          "Power Query",
+                                          "Dashboards",
+                                          "Data storytelling"
+                                      ],
+                        "skills_en":  [
+                                          "Excel formulas",
+                                          "Data cleaning",
+                                          "Power Query",
+                                          "Dashboards",
+                                          "Data storytelling"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Excel essentials",
+                                            "Data cleaning",
+                                            "Power Query",
+                                            "Data modeling",
+                                            "DAX basics",
+                                            "Dashboard project"
+                                        ],
+                        "syllabus_en":  [
+                                            "Excel essentials",
+                                            "Data cleaning",
+                                            "Power Query",
+                                            "Data modeling",
+                                            "DAX basics",
+                                            "Dashboard project"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Data Analysis with Excel \u0026 Power BI - DAT001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Data Analysis with Excel \u0026 Power BI - DAT001",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  8
+                    },
+                    {
+                        "id":  "AI001",
+                        "category_id":  "data-ai",
+                        "name_ar":  "مقدمة في الذكاء الاصطناعي وMachine Learning",
+                        "name_en":  "AI \u0026 Machine Learning Foundations",
+                        "hours":  50,
+                        "level_ar":  "متوسط",
+                        "level_en":  "Intermediate",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "مدخل مبسط وعملي إلى البيانات والنماذج والتقييم وبناء أول نموذج تعلم آلي.",
+                        "description_en":  "A practical introduction to data, models, evaluation and your first machine-learning project.",
+                        "image":  "",
+                        "attachments":  [
+                                            "ML Workbook",
+                                            "Datasets",
+                                            "Practice notebooks"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Python للبيانات",
+                                          "تحضير البيانات",
+                                          "الانحدار والتصنيف",
+                                          "تقييم النماذج"
+                                      ],
+                        "skills_en":  [
+                                          "Python for data",
+                                          "Data preparation",
+                                          "Regression and classification",
+                                          "Model evaluation"
+                                      ],
+                        "syllabus_ar":  [
+                                            "AI overview",
+                                            "NumPy and Pandas",
+                                            "Data preparation",
+                                            "Regression",
+                                            "Classification",
+                                            "Model evaluation"
+                                        ],
+                        "syllabus_en":  [
+                                            "AI overview",
+                                            "NumPy and Pandas",
+                                            "Data preparation",
+                                            "Regression",
+                                            "Classification",
+                                            "Model evaluation"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج AI \u0026 Machine Learning Foundations - AI001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of AI \u0026 Machine Learning Foundations - AI001",
+                        "featured":  false,
+                        "active":  true,
+                        "order":  9
+                    },
+                    {
+                        "id":  "SEC002",
+                        "category_id":  "cyber",
+                        "name_ar":  "اختبار الاختراق الأخلاقي",
+                        "name_en":  "Ethical Hacking Essentials",
+                        "hours":  60,
+                        "level_ar":  "متوسط",
+                        "level_en":  "Intermediate",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "مسار تدريبي منظم لفهم مراحل اختبار الاختراق وأمن الشبكات والتقارير بصورة قانونية.",
+                        "description_en":  "A structured path through ethical penetration testing, network security and professional reporting.",
+                        "image":  "",
+                        "attachments":  [
+                                            "OWASP Top 10 PDF|https://owasp.org/www-chapter-quebec-city/assets/presentations/Top10_2021.pdf",
+                                            "Lab safety rules",
+                                            "Report template"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Reconnaissance",
+                                          "أمن الشبكات",
+                                          "Web security",
+                                          "كتابة التقارير",
+                                          "أخلاقيات الاختبار"
+                                      ],
+                        "skills_en":  [
+                                          "Reconnaissance",
+                                          "Network security",
+                                          "Web security",
+                                          "Reporting",
+                                          "Testing ethics"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Ethics and scope",
+                                            "Reconnaissance",
+                                            "Scanning",
+                                            "Web vulnerabilities",
+                                            "Reporting",
+                                            "Remediation"
+                                        ],
+                        "syllabus_en":  [
+                                            "Ethics and scope",
+                                            "Reconnaissance",
+                                            "Scanning",
+                                            "Web vulnerabilities",
+                                            "Reporting",
+                                            "Remediation"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Ethical Hacking Essentials - SEC002",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002",
+                        "featured":  true,
+                        "active":  true,
+                        "order":  10
+                    },
+                    {
+                        "id":  "NET002",
+                        "category_id":  "network",
+                        "name_ar":  "الشبكات المتقدمة وNetwork Security",
+                        "name_en":  "Advanced Networking \u0026 Security",
+                        "hours":  64,
+                        "level_ar":  "متقدم",
+                        "level_en":  "Advanced",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "تعمق في Routing وSwitching وVPN وFirewall ومراقبة الشبكات.",
+                        "description_en":  "Deep dive into routing, switching, VPNs, firewalls and network monitoring.",
+                        "image":  "",
+                        "attachments":  [
+                                            "Topology diagrams",
+                                            "Lab scenarios",
+                                            "Troubleshooting guide"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "Routing protocols",
+                                          "Switching",
+                                          "VPN",
+                                          "Firewalls",
+                                          "Monitoring"
+                                      ],
+                        "skills_en":  [
+                                          "Routing protocols",
+                                          "Switching",
+                                          "VPNs",
+                                          "Firewalls",
+                                          "Monitoring"
+                                      ],
+                        "syllabus_ar":  [
+                                            "Advanced switching",
+                                            "OSPF",
+                                            "NAT and VPN",
+                                            "Firewalls",
+                                            "Network monitoring",
+                                            "Troubleshooting"
+                                        ],
+                        "syllabus_en":  [
+                                            "Advanced switching",
+                                            "OSPF",
+                                            "NAT and VPN",
+                                            "Firewalls",
+                                            "Network monitoring",
+                                            "Troubleshooting"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج Advanced Networking \u0026 Security - NET002",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of Advanced Networking \u0026 Security - NET002",
+                        "featured":  false,
+                        "active":  true,
+                        "order":  11
+                    },
+                    {
+                        "id":  "UI001",
+                        "category_id":  "design",
+                        "name_ar":  "UI/UX Design للمبتدئين",
+                        "name_en":  "UI/UX Design Foundations",
+                        "hours":  30,
+                        "level_ar":  "مبتدئ",
+                        "level_en":  "Beginner",
+                        "delivery":  [
+                                         "Online",
+                                         "Offline"
+                                     ],
+                        "description_ar":  "تعلّم فهم المستخدم وبناء wireframes وواجهات بسيطة قابلة للاستخدام.",
+                        "description_en":  "Learn user research, wireframes and usable interface design from the ground up.",
+                        "image":  "",
+                        "attachments":  [
+                                            "UX Workbook",
+                                            "Wireframe templates",
+                                            "Portfolio checklist"
+                                        ],
+                        "certificates":  [
+                                             "Training Sector Certificate"
+                                         ],
+                        "skills_ar":  [
+                                          "User research",
+                                          "Wireframes",
+                                          "Design systems",
+                                          "Prototyping"
+                                      ],
+                        "skills_en":  [
+                                          "User research",
+                                          "Wireframes",
+                                          "Design systems",
+                                          "Prototyping"
+                                      ],
+                        "syllabus_ar":  [
+                                            "UX mindset",
+                                            "User personas",
+                                            "Wireframes",
+                                            "Visual hierarchy",
+                                            "Prototype",
+                                            "Portfolio case study"
+                                        ],
+                        "syllabus_en":  [
+                                            "UX mindset",
+                                            "User personas",
+                                            "Wireframes",
+                                            "Visual hierarchy",
+                                            "Prototype",
+                                            "Portfolio case study"
+                                        ],
+                        "whatsapp_message_ar":  "مرحبًا، أريد معرفة سعر برنامج UI/UX Design Foundations - UI001",
+                        "whatsapp_message_en":  "Hello, I would like to know the price of UI/UX Design Foundations - UI001",
+                        "featured":  false,
+                        "active":  true,
+                        "order":  12
+                    }
+                ]
 }
-
