@@ -1,12 +1,12 @@
 {
   "categories": [
     {
-      "active": true,
-      "icon": "security",
       "id": "cyber",
       "name_ar": "الأمن السيبراني",
       "name_en": "Cyber Security",
-      "order": 1
+      "icon": "security",
+      "order": 1,
+      "active": true
     },
     {
       "active": true,
@@ -818,7 +818,7 @@
       "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
     }
   ],
-  "last_updated": "2026-08-16T17:52:02.645Z",
+  "last_updated": "2026-08-16T17:55:46.174Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "WE Training Programs & Diplomas",
@@ -837,5 +837,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 13
+  "version": 16
 }
