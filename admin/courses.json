@@ -190,16 +190,6 @@
         "Kubernetes",
         "Monitoring"
       ],
-      "syllabus_en": [
-        "Linux Fundamentals",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes",
-        "Monitoring"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
       "syllabus_details_ar": [
         "123123123123123",
         "",
@@ -215,7 +205,17 @@
         "",
         "",
         ""
-      ]
+      ],
+      "syllabus_en": [
+        "Linux Fundamentals",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Kubernetes",
+        "Monitoring"
+      ],
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
+      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001"
     },
     {
       "active": true,
@@ -797,7 +797,7 @@
       "whatsapp_message_en": "Hello, I would like to know the price of UI/UX Design Foundations - UI001"
     }
   ],
-  "last_updated": "2026-08-16T10:20:00.065Z",
+  "last_updated": "2026-08-16T10:20:37.161Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "IT Training Programs & Courses",
@@ -816,5 +816,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 10
+  "version": 11
 }
