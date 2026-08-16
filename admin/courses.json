@@ -837,9 +837,45 @@
       "active": true,
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الأمن السيبراني - 01",
       "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
+    },
+    {
+      "id": "01",
+      "category_id": "cyber",
+      "name_ar": "الأمن السيبراني",
+      "name_en": "Cyber Security Diploma - Blue Team - Soc Analyst",
+      "hours": 250,
+      "level_ar": "None",
+      "level_en": "None",
+      "delivery": [
+        "Offline"
+      ],
+      "image": "Content •\tCCNA (Fast Track) •\tNetwork Security & Firewall •\tLinux\t• MCSA (Fast Track) •\tPython for Security\t• Ethical Hacking •\tSOC (Security Operation Center) •\tSIEM Solution (Operation and Implementation) •\tThreat Intelligence & Threat Hunting •\tDigital Forensics and Incident Response (DFIR) •\tBrand Protection & Dark WEB Monitor •\tSOC ANALYST ROADMAP & CAREER PATH •\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")",
+      "order": 1,
+      "attachments": [],
+      "certificates": [
+        "WE - Certificate"
+      ],
+      "skills_ar": [
+        "ساسيات الشبكات وأمنها (Network Fundamentals & Security)  إدارة الأنظمة (System Administration)  الختراق الأخلاقي واختبار الاختراق (Ethical Hacking & Penetration Testing)  أتمتة الأمن السيبراني (Security Automation)  عمليات مركز إدارة الأمن وإدارة الأحداث والمعلومات الأمنية (SOC Operations & SIEM)  استخبارات التهديدات وصيد التهديدات (Threat Intelligence & Hunting)  الأدلة الجنائية الرقمية والاستجابة للحوادث (Digital Forensics & Incident Response - DFIR)  الويب المظلم وحماية العلامة التجارية (Dark Web & Brand Protection)  الاستعداد المهني والتطوير الوظيفي (Career Preparedness)"
+      ],
+      "skills_en": [
+        "•\tNetwork Fundamentals & Security •\tSystem Administration •\tEthical Hacking & Penetration Testing •\tSecurity Automation •\tSOC Operations & SIEM •\tThreat Intelligence & Hunting •\tDigital Forensics & Incident Response (DFIR) •\tDark Web & Brand Protection  •\tCareer Preparedness"
+      ],
+      "syllabus_ar": [
+        "إعداد وتطوير الشبكات والشبكات الفرعية (CCNA - المسار السريع): بناء وفهم أساسيات الشبكات، التوجيه (Routing)، والتحويل (Switching).  أمن الشبكات وجدران الحماية: ضبط وتكوين جدران الحماية (Firewalls) وأنظمة حماية محيط الشبكة.  إدارة نظام لينكس (Linux): تشغيل وإدارة نظام لينكس وتأمينه كبنية تحتية أساسية.  إدارة خوادم ويندوز (MCSA - المسار السريع): إدارة وتأمين بيئات ويندوز المؤسسية والخوادم.  لغة بايثون للأمن السيبراني: استخدام لغة Python لأتمتة المهام الأمنية وإنشاء أدوات الفحص والتحليل.  الاختراق الأخلاقي: اكتشاف الثغرات الأمنية واختبار اختراق الأنظمة لتقييم مستويات الأمان.  مركز العمليات الأمنية (SOC): مراقبة الأحداث الأمنية في الوقت الفعلي وتحليل التنبيهات والتهديدات.  حلول إدارة الأحداث والمعلومات الأمنية (SIEM - التشغيل والتطبيق): تطبيق وتجهيز أنظمة SIEM لجمع وتحليل السجلات الأمنية (Logs).  استخبارات التهديدات وصيد التهديدات: التتبع الاستباقي للتهديدات المخفية واستخدام بيانات الاستخبارات للتنبؤ بالهجمات.  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR): التحقيق في الخروقات الأمنية، جمع الأدلة الرقمية، والسيطرة على الحوادث.  حماية العلامة التجارية ومراقبة الويب المظلم: مراقبة أنشطة الويب المظلم (Dark Web) لحماية سمعة المؤسسة والبيانات المباشرة.  خارطة طريق ومسار محلل مركز العمليات الأمنية (SOC Analyst): فهم المسار الوظيفي والمهارات المطلوبة للترقي في هذا المجال.  الاستعداد الفعال للمقابلات الوظيفية التقنية في الأمن السيبراني: التجهيز للمقابلات التقنية بإشراف خبراء من قطاع الأمن السيبراني (شركة WE)."
+      ],
+      "syllabus_en": [
+        "Content •\tCCNA (Fast Track) •\tNetwork Security & Firewall •\tLinux\t• MCSA (Fast Track) •\tPython for Security\t• Ethical Hacking •\tSOC (Security Operation Center) •\tSIEM Solution (Operation and Implementation) •\tThreat Intelligence & Threat Hunting •\tDigital Forensics and Incident Response (DFIR) •\tBrand Protection & Dark WEB Monitor •\tSOC ANALYST ROADMAP & CAREER PATH •\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")"
+      ],
+      "description_ar": "إعداد وتطوير الشبكات والشبكات الفرعية (CCNA - المسار السريع): بناء وفهم أساسيات الشبكات، التوجيه (Routing)، والتحويل (Switching).\n\nأمن الشبكات وجدران الحماية: ضبط وتكوين جدران الحماية (Firewalls) وأنظمة حماية محيط الشبكة.\n\nإدارة نظام لينكس (Linux): تشغيل وإدارة نظام لينكس وتأمينه كبنية تحتية أساسية.\n\nإدارة خوادم ويندوز (MCSA - المسار السريع): إدارة وتأمين بيئات ويندوز المؤسسية والخوادم.\n\nلغة بايثون للأمن السيبراني: استخدام لغة Python لأتمتة المهام الأمنية وإنشاء أدوات الفحص والتحليل.\n\nالاختراق الأخلاقي: اكتشاف الثغرات الأمنية واختبار اختراق الأنظمة لتقييم مستويات الأمان.\n\nمركز العمليات الأمنية (SOC): مراقبة الأحداث الأمنية في الوقت الفعلي وتحليل التنبيهات والتهديدات.\n\nحلول إدارة الأحداث والمعلومات الأمنية (SIEM - التشغيل والتطبيق): تطبيق وتجهيز أنظمة SIEM لجمع وتحليل السجلات الأمنية (Logs).\n\nاستخبارات التهديدات وصيد التهديدات: التتبع الاستباقي للتهديدات المخفية واستخدام بيانات الاستخبارات للتنبؤ بالهجمات.\n\nالأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR): التحقيق في الخروقات الأمنية، جمع الأدلة الرقمية، والسيطرة على الحوادث.\n\nحماية العلامة التجارية ومراقبة الويب المظلم: مراقبة أنشطة الويب المظلم (Dark Web) لحماية سمعة المؤسسة والبيانات المباشرة.\n\nخارطة طريق ومسار محلل مركز العمليات الأمنية (SOC Analyst): فهم المسار الوظيفي والمهارات المطلوبة للترقي في هذا المجال.\n\nالاستعداد الفعال للمقابلات الوظيفية التقنية في الأمن السيبراني: التجهيز للمقابلات التقنية بإشراف خبراء من قطاع الأمن السيبراني (شركة WE).",
+      "description_en": "Content\n•\tCCNA (Fast Track)\n•\tNetwork Security & Firewall\n•\tLinux\t• MCSA (Fast Track)\n•\tPython for Security\t• Ethical Hacking\n•\tSOC (Security Operation Center)\n•\tSIEM Solution (Operation and Implementation)\n•\tThreat Intelligence & Threat Hunting\n•\tDigital Forensics and Incident Response (DFIR)\n•\tBrand Protection & Dark WEB Monitor\n•\tSOC ANALYST ROADMAP & CAREER PATH\n•\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")\n",
+      "featured": false,
+      "active": true,
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الأمن السيبراني - 01",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
     }
   ],
-  "last_updated": "2026-08-16T12:56:52.573Z",
+  "last_updated": "2026-08-16T13:47:44.004Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "WE Training Programs & Diplomas",
@@ -858,5 +894,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 8
+  "version": 9
 }
