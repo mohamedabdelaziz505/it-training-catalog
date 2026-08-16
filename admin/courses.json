@@ -69,11 +69,20 @@
     {
       "active": true,
       "attachments": [
-        "Course Material",
+        "Course Material|https://drive.google.com/file/d/1Iz4FuJUta16k2U8UTfCu9Us4hKNW6vVn/view?usp=sharing",
         "Labs",
         "PDF Notes"
       ],
       "category_id": "cyber",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "WE - Certificate"
       ],
@@ -197,16 +206,7 @@
       "training_hours": "250",
       "whatsapp_link": "",
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ]
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001"
     },
     {
       "active": true,
@@ -215,9 +215,24 @@
         "Labs"
       ],
       "category_id": "devops",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -233,6 +248,9 @@
       "name_ar": "DevOps Engineer",
       "name_en": "DevOps Engineer",
       "order": 2,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Linux",
         "Git",
@@ -263,28 +281,10 @@
         "Kubernetes",
         "Monitoring"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": ""
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
+      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001"
     },
     {
       "active": true,
