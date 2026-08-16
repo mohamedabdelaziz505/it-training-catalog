@@ -85,7 +85,7 @@
       "featured": true,
       "hours": 250,
       "id": "CYB001",
-      "image": "",
+      "image": "https://drive.google.com/file/d/1Iz4FuJUta16k2U8UTfCu9Us4hKNW6vVn/view?usp=sharing",
       "level_ar": "-",
       "level_en": "-",
       "name_ar": "الأمن السيبراني",
@@ -105,7 +105,7 @@
         ""
       ],
       "syllabus_details_en": [
-        ""
+        "Content \n\tCCNA (Fast Track) •\tNetwork Security & Firewall •\tLinux\t• MCSA (Fast Track) •\tPython for Security\t• Ethical Hacking •\tSOC (Security Operation Center) •\tSIEM Solution (Operation and Implementation) •\tThreat Intelligence & Threat Hunting •\tDigital Forensics and Incident Response (DFIR) •\tBrand Protection & Dark WEB Monitor •\tSOC ANALYST ROADMAP & CAREER PATH •\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")"
       ]
     },
     {
@@ -814,7 +814,7 @@
       "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
     }
   ],
-  "last_updated": "2026-08-16T17:36:51.485Z",
+  "last_updated": "2026-08-16T17:40:41.237Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "WE Training Programs & Diplomas",
@@ -833,5 +833,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 9
+  "version": 10
 }
