@@ -101,10 +101,38 @@
       "price_sons": "5100",
       "price_undergraduate": "9700",
       "skills_ar": [
-        "•  أمن الشبكات والجدران النارية  •  شبكات CCNA  •  إدارة أنظمة Linux  •  لغة Python للأمن السيبراني  •  عمليات مركز العمليات الأمنية (SOC)  •  أنظمة إدارة المعلومات والأحداث الأمنية (SIEM)  •  استخبارات التهديدات السيبرانية  •  البحث الاستباقي عن التهديدات (Threat Hunting)  •  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR)  •  الاختراق الأخلاقي  •  إدارة أنظمة Microsoft / MCSA  •  حماية العلامات التجارية ومراقبة الـ Dark Web  •  المراقبة الأمنية واكتشاف الحوادث  •  مهارات محلل SOC والمسار الوظيفي  •  مهارات المقابلات التقنية في مجال الأمن السيبراني"
+        "أمن الشبكات والجدران النارية",
+        "شبكات CCNA",
+        "إدارة أنظمة Linux",
+        "Python للأمن السيبراني",
+        "عمليات مركز العمليات الأمنية SOC",
+        "تنفيذ ومراقبة أنظمة SIEM",
+        "استخبارات التهديدات",
+        "صيد التهديدات",
+        "الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
+        "الاختراق الأخلاقي",
+        "إدارة الأنظمة و MCSA",
+        "حماية العلامة التجارية ومراقبة Dark Web",
+        "المراقبة الأمنية واكتشاف الحوادث",
+        "مهارات محلل SOC والمسار الوظيفي",
+        "مهارات المقابلات التقنية في الأمن السيبراني"
       ],
       "skills_en": [
-        "Network Security & Firewall   \tCCNA & Networking   \tLinux Administration   \tPython for Cybersecurity   \tSOC Operations   \tSIEM Implementation & Monitoring   \tThreat Intelligence   \tThreat Hunting   \tDigital Forensics & Incident Response (DFIR)   \tEthical Hacking   \tMCSA / System Administration   \tBrand Protection & Dark Web Monitoring   \tSecurity Monitoring & Incident Detection   \tSOC Analyst Skills & Career Path   \tCybersecurity Technical Interview Skills"
+        "Network Security & Firewall",
+        "CCNA & Networking",
+        "Linux Administration",
+        "Python for Cybersecurity",
+        "SOC Operations",
+        "SIEM Implementation & Monitoring",
+        "Threat Intelligence",
+        "Threat Hunting",
+        "Digital Forensics & Incident Response (DFIR)",
+        "Ethical Hacking",
+        "MCSA / System Administration",
+        "Brand Protection & Dark Web Monitoring",
+        "Security Monitoring & Incident Detection",
+        "SOC Analyst Skills & Career Path",
+        "Cybersecurity Technical Interview Skills"
       ],
       "syllabus_ar": [
         "CCNA - المسار السريع",
