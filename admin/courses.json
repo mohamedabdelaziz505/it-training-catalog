@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "last_updated": "2026-08-16T11:59:02.077Z",
+  "version": 5,
+  "last_updated": "2026-08-16T12:03:31.478Z",
   "settings": {
     "organization_name_ar": "قطاع التدريب مدينه نصر ",
     "organization_name_en": "Training Sector",
@@ -12,7 +12,7 @@
     "hero_title_en": "Build Your IT Skills",
     "hero_text_ar": "برامج تدريب عملية في DevOps، الشبكات، الأمن السيبراني، البرمجة، والـCloud.",
     "hero_text_en": "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
-    "logo_url": "",
+    "logo_url": "https://drive.google.com/file/d/1uq8IwrtZrfCKuiRRVT0MdHDoYzeom0z8/view?usp=sharing",
     "whatsapp_number": "201000000000",
     "show_featured": true,
     "show_search": true,
