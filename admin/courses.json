@@ -864,36 +864,6 @@
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج UI/UX Design Foundations - UI001",
       "whatsapp_message_en": "Hello, I would like to know the price of UI/UX Design Foundations - UI001"
-    },
-    {
-      "active": true,
-      "attachments": [],
-      "category_id": "cyber",
-      "certificates": [
-        "WE - Certificate"
-      ],
-      "delivery": [
-        "Offline"
-      ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": false,
-      "hours": 250,
-      "id": "01",
-      "image": "",
-      "level_ar": "None",
-      "level_en": "None",
-      "name_ar": "الأمن السيبراني",
-      "name_en": "Cyber Security Diploma - Blue Team - Soc Analyst",
-      "order": 1,
-      "skills_ar": [],
-      "skills_en": [],
-      "syllabus_ar": [],
-      "syllabus_en": [
-        "Content •\tCCNA (Fast Track) •\tNetwork Security & Firewall •\tLinux\t• MCSA (Fast Track) •\tPython for Security\t• Ethical Hacking •\tSOC (Security Operation Center) •\tSIEM Solution (Operation and Implementation) •\tThreat Intelligence & Threat Hunting •\tDigital Forensics and Incident Response (DFIR) •\tBrand Protection & Dark WEB Monitor •\tSOC ANALYST ROADMAP & CAREER PATH •\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الأمن السيبراني - 01",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
     }
   ],
   "last_updated": "2026-08-16T17:55:46.174Z",
