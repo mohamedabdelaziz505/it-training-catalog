@@ -797,7 +797,7 @@
       "whatsapp_message_en": "Hello, I would like to know the price of UI/UX Design Foundations - UI001"
     }
   ],
-  "last_updated": "2026-08-16T10:20:37.161Z",
+  "last_updated": "2026-08-16T10:56:51.507Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "IT Training Programs & Courses",
@@ -807,7 +807,7 @@
     "hero_text_en": "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
     "hero_title_ar": "طوّر مهاراتك في الـ IT",
     "hero_title_en": "Build Your IT Skills",
-    "logo_url": "",
+    "logo_url": "https://drive.google.com/file/d/17b0_SCaNNgF9ukAnpvf8_7BCyNU78IOQ/view?usp=sharing",
     "notification_topic": "all_users",
     "organization_name_ar": "قطاع التدريب",
     "organization_name_en": "Training Sector",
@@ -816,5 +816,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 11
+  "version": 12
 }
