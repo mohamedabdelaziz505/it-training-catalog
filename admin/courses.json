@@ -77,20 +77,29 @@
       "certificates": [
         "WE - Certificate"
       ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "WE Training and Development Sector | @Telecom.Egypt.Training.Sector",
+      "cost": "",
       "delivery": [
         "Offline"
       ],
-      "description_ar": "برنامج تدريبي شامل في مجال الأمن السيبراني، يهدف إلى إعداد المشاركين للعمل في وظائف الفريق الأزرق (Blue Team) ومحلل مركز العمليات الأمنية (SOC Analyst)، من خلال تدريب عملي على أمن الشبكات، Linux، Python، الاختراق الأخلاقي، أنظمة SIEM، استخبارات التهديدات، البحث عن التهديدات، الأدلة الجنائية الرقمية، والاستجابة للحوادث.",
-      "description_en": "A comprehensive cybersecurity training program designed to prepare participants for Blue Team and SOC Analyst roles through practical training in network security, Linux, Python, ethical hacking, SIEM, threat intelligence, threat hunting, digital forensics, and incident response.",
+      "description_ar": "دبلومة تدريبية شاملة لإعداد محللي مركز العمليات الأمنية وفريق الدفاع الأزرق، مع تدريب عملي على الشبكات وأمن المعلومات وLinux وPython وSIEM والاستجابة للحوادث.",
+      "description_en": "A comprehensive Cyber Security Diploma designed to prepare Blue Team and SOC Analyst professionals through practical training in networking, Linux, Python, SIEM, threat intelligence, digital forensics and incident response.",
       "featured": true,
       "hours": 250,
       "id": "CYB001",
       "image": "https://drive.google.com/file/d/1Iz4FuJUta16k2U8UTfCu9Us4hKNW6vVn/view?usp=sharing",
       "level_ar": "-",
       "level_en": "-",
-      "name_ar": "الأمن السيبراني",
-      "name_en": "Cyber Security Diploma - Blue Team - Soc Analyst",
+      "name_ar": "دبلومة الأمن السيبراني - Blue Team (SOC Analyst)",
+      "name_en": "Cyber Security Diploma - Blue Team (SOC Analyst)",
       "order": 1,
+      "price_graduate": "10200",
+      "price_sons": "5100",
+      "price_undergraduate": "9700",
       "skills_ar": [
         "•  أمن الشبكات والجدران النارية  •  شبكات CCNA  •  إدارة أنظمة Linux  •  لغة Python للأمن السيبراني  •  عمليات مركز العمليات الأمنية (SOC)  •  أنظمة إدارة المعلومات والأحداث الأمنية (SIEM)  •  استخبارات التهديدات السيبرانية  •  البحث الاستباقي عن التهديدات (Threat Hunting)  •  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR)  •  الاختراق الأخلاقي  •  إدارة أنظمة Microsoft / MCSA  •  حماية العلامات التجارية ومراقبة الـ Dark Web  •  المراقبة الأمنية واكتشاف الحوادث  •  مهارات محلل SOC والمسار الوظيفي  •  مهارات المقابلات التقنية في مجال الأمن السيبراني"
       ],
@@ -98,30 +107,69 @@
         "Network Security & Firewall   \tCCNA & Networking   \tLinux Administration   \tPython for Cybersecurity   \tSOC Operations   \tSIEM Implementation & Monitoring   \tThreat Intelligence   \tThreat Hunting   \tDigital Forensics & Incident Response (DFIR)   \tEthical Hacking   \tMCSA / System Administration   \tBrand Protection & Dark Web Monitoring   \tSecurity Monitoring & Incident Detection   \tSOC Analyst Skills & Career Path   \tCybersecurity Technical Interview Skills"
       ],
       "syllabus_ar": [
-        "إعداد وتطوير الشبكات والشبكات الفرعية (CCNA - المسار السريع): بناء وفهم أساسيات الشبكات، التوجيه (Routing)، والتحويل (Switching).  أمن الشبكات وجدران الحماية: ضبط وتكوين جدران الحماية (Firewalls) وأنظمة حماية محيط الشبكة.  إدارة نظام لينكس (Linux): تشغيل وإدارة نظام لينكس وتأمينه كبنية تحتية أساسية.  إدارة خوادم ويندوز (MCSA - المسار السريع): إدارة وتأمين بيئات ويندوز المؤسسية والخوادم.  لغة بايثون للأمن السيبراني: استخدام لغة Python لأتمتة المهام الأمنية وإنشاء أدوات الفحص والتحليل.  الاختراق الأخلاقي: اكتشاف الثغرات الأمنية واختبار اختراق الأنظمة لتقييم مستويات الأمان.  مركز العمليات الأمنية (SOC): مراقبة الأحداث الأمنية في الوقت الفعلي وتحليل التنبيهات والتهديدات.  حلول إدارة الأحداث والمعلومات الأمنية (SIEM - التشغيل والتطبيق): تطبيق وتجهيز أنظمة SIEM لجمع وتحليل السجلات الأمنية (Logs).  استخبارات التهديدات وصيد التهديدات: التتبع الاستباقي للتهديدات المخفية واستخدام بيانات الاستخبارات للتنبؤ بالهجمات.  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR): التحقيق في الخروقات الأمنية، جمع الأدلة الرقمية، والسيطرة على الحوادث.  حماية العلامة التجارية ومراقبة الويب المظلم: مراقبة أنشطة الويب المظلم (Dark Web) لحماية سمعة المؤسسة والبيانات المباشرة.  خارطة طريق ومسار محلل مركز العمليات الأمنية (SOC Analyst): فهم المسار الوظيفي والمهارات المطلوبة للترقي في هذا المجال.  الاستعداد الفعال للمقابلات الوظيفية التقنية في الأمن السيبراني: التجهيز للمقابلات التقنية بإشراف خبراء من قطاع الأمن السيبراني (شركة WE)."
+        "CCNA - المسار السريع",
+        "أمن الشبكات والجدران النارية",
+        "Linux",
+        "MCSA - المسار السريع",
+        "Python للأمن السيبراني",
+        "الاختراق الأخلاقي",
+        "عمليات مركز العمليات الأمنية SOC",
+        "حلول SIEM: التشغيل والتنفيذ",
+        "استخبارات التهديدات وصيد التهديدات",
+        "الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
+        "حماية العلامة التجارية ومراقبة Dark Web",
+        "خريطة طريق محلل SOC والمسار الوظيفي",
+        "الاستعداد لمقابلات العمل التقنية في الأمن السيبراني"
       ],
       "syllabus_details_ar": [
-        ""
+        "أساسيات الشبكات والتوجيه والتحويل.",
+        "تكوين الجدران النارية وحماية محيط الشبكة.",
+        "إدارة وتأمين أنظمة Linux.",
+        "إدارة وتأمين بيئات Windows والخوادم.",
+        "أتمتة المهام الأمنية وبناء أدوات التحليل.",
+        "اكتشاف الثغرات واختبار الأنظمة بشكل قانوني.",
+        "مراقبة التنبيهات والأحداث الأمنية في الوقت الفعلي.",
+        "جمع وتحليل السجلات الأمنية باستخدام SIEM.",
+        "التتبع الاستباقي للتهديدات المخفية.",
+        "التحقيق في الاختراقات وجمع الأدلة الرقمية.",
+        "مراقبة Dark Web لحماية المؤسسة وبياناتها.",
+        "المهارات المطلوبة لمسار محلل SOC.",
+        "تجهيز عملي للمقابلات التقنية مع خبراء الصناعة."
       ],
       "syllabus_details_en": [
-        "**Technical Cyber Security Job Interview Preparation:** Mock interviews, industry expectations, and scenario-based technical prep led by industry experts from \"WE\"."
+        "Networking fundamentals, routing and switching.",
+        "Firewall configuration and network perimeter security.",
+        "Linux administration and hardening.",
+        "Windows enterprise and server administration.",
+        "Security automation and analysis tools with Python.",
+        "Legal vulnerability discovery and security testing.",
+        "Real-time monitoring of alerts and security events.",
+        "Security log collection and analysis with SIEM.",
+        "Proactive tracking of hidden threats.",
+        "Digital investigation, evidence collection and incident response.",
+        "Dark Web monitoring for brand and data protection.",
+        "Skills and career path for SOC Analysts.",
+        "Mock interviews and technical preparation with industry experts."
       ],
       "syllabus_en": [
-        "Content •\tCCNA (Fast Track) •\tNetwork Security & Firewall •\tLinux\t• MCSA (Fast Track) •\tPython for Security\t• Ethical Hacking •\tSOC (Security Operation Center) •\tSIEM Solution (Operation and Implementation) •\tThreat Intelligence & Threat Hunting •\tDigital Forensics and Incident Response (DFIR) •\tBrand Protection & Dark WEB Monitor •\tSOC ANALYST ROADMAP & CAREER PATH •\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")"
+        "CCNA (Fast Track)",
+        "Network Security & Firewall",
+        "Linux",
+        "MCSA (Fast Track)",
+        "Python for Security",
+        "Ethical Hacking",
+        "SOC (Security Operation Center)",
+        "SIEM Solution (Operation and Implementation)",
+        "Threat Intelligence & Threat Hunting",
+        "Digital Forensics and Incident Response (DFIR)",
+        "Brand Protection & Dark Web Monitoring",
+        "SOC Analyst Roadmap & Career Path",
+        "Technical Cyber Security Job Interview Preparation"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
-      "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "training_hours": "250",
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": ""
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001"
     },
     {
       "active": true,
