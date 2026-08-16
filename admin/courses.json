@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "last_updated": "2026-08-14T18:20:22.253Z",
+  "last_updated": "2026-08-16T09:24:23.352Z",
   "settings": {
     "organization_name_ar": "قطاع التدريب",
     "organization_name_en": "Training Sector",
@@ -91,7 +91,7 @@
       "category_id": "cyber",
       "name_ar": "Cyber Security Professional",
       "name_en": "Cyber Security Professional",
-      "hours": 48,
+      "hours": 2323,
       "level_ar": "متوسط",
       "level_en": "Intermediate",
       "delivery": [
@@ -102,7 +102,7 @@
       "description_en": "Professional hands-on program in cybersecurity fundamentals, risk management, protection and incident response.",
       "image": "",
       "attachments": [
-        "Course Material",
+        "Course Material|https://drive.google.com/file/d/1o6vbi_Ac-n51ofSphZbhj27I-GoISfKy/view?usp=sharing",
         "Labs",
         "PDF Notes"
       ],
@@ -143,7 +143,25 @@
       "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
       "featured": true,
       "active": true,
-      "order": 2
+      "order": 1,
+      "syllabus_details_ar": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "syllabus_details_en": [
+        "ثصضثصضثصضثصضثضصثضصث",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "DEV001",
