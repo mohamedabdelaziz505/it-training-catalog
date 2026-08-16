@@ -80,8 +80,8 @@
       "delivery": [
         "Offline"
       ],
-      "description_ar": "برنامج احترافي عملي في أساسيات الأمن السيبراني وإدارة المخاطر والحماية والاستجابة للحوادث.",
-      "description_en": "",
+      "description_ar": "برنامج تدريبي شامل في مجال الأمن السيبراني، يهدف إلى إعداد المشاركين للعمل في وظائف الفريق الأزرق (Blue Team) ومحلل مركز العمليات الأمنية (SOC Analyst)، من خلال تدريب عملي على أمن الشبكات، Linux، Python، الاختراق الأخلاقي، أنظمة SIEM، استخبارات التهديدات، البحث عن التهديدات، الأدلة الجنائية الرقمية، والاستجابة للحوادث.",
+      "description_en": "A comprehensive cybersecurity training program designed to prepare participants for Blue Team and SOC Analyst roles through practical training in network security, Linux, Python, ethical hacking, SIEM, threat intelligence, threat hunting, digital forensics, and incident response.",
       "featured": true,
       "hours": 250,
       "id": "CYB001",
@@ -91,8 +91,12 @@
       "name_ar": "الأمن السيبراني",
       "name_en": "Cyber Security Diploma - Blue Team - Soc Analyst",
       "order": 1,
-      "skills_ar": [],
-      "skills_en": [],
+      "skills_ar": [
+        "•  أمن الشبكات والجدران النارية  •  شبكات CCNA  •  إدارة أنظمة Linux  •  لغة Python للأمن السيبراني  •  عمليات مركز العمليات الأمنية (SOC)  •  أنظمة إدارة المعلومات والأحداث الأمنية (SIEM)  •  استخبارات التهديدات السيبرانية  •  البحث الاستباقي عن التهديدات (Threat Hunting)  •  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR)  •  الاختراق الأخلاقي  •  إدارة أنظمة Microsoft / MCSA  •  حماية العلامات التجارية ومراقبة الـ Dark Web  •  المراقبة الأمنية واكتشاف الحوادث  •  مهارات محلل SOC والمسار الوظيفي  •  مهارات المقابلات التقنية في مجال الأمن السيبراني"
+      ],
+      "skills_en": [
+        "Network Security & Firewall   \tCCNA & Networking   \tLinux Administration   \tPython for Cybersecurity   \tSOC Operations   \tSIEM Implementation & Monitoring   \tThreat Intelligence   \tThreat Hunting   \tDigital Forensics & Incident Response (DFIR)   \tEthical Hacking   \tMCSA / System Administration   \tBrand Protection & Dark Web Monitoring   \tSecurity Monitoring & Incident Detection   \tSOC Analyst Skills & Career Path   \tCybersecurity Technical Interview Skills"
+      ],
       "syllabus_ar": [
         "إعداد وتطوير الشبكات والشبكات الفرعية (CCNA - المسار السريع): بناء وفهم أساسيات الشبكات، التوجيه (Routing)، والتحويل (Switching).  أمن الشبكات وجدران الحماية: ضبط وتكوين جدران الحماية (Firewalls) وأنظمة حماية محيط الشبكة.  إدارة نظام لينكس (Linux): تشغيل وإدارة نظام لينكس وتأمينه كبنية تحتية أساسية.  إدارة خوادم ويندوز (MCSA - المسار السريع): إدارة وتأمين بيئات ويندوز المؤسسية والخوادم.  لغة بايثون للأمن السيبراني: استخدام لغة Python لأتمتة المهام الأمنية وإنشاء أدوات الفحص والتحليل.  الاختراق الأخلاقي: اكتشاف الثغرات الأمنية واختبار اختراق الأنظمة لتقييم مستويات الأمان.  مركز العمليات الأمنية (SOC): مراقبة الأحداث الأمنية في الوقت الفعلي وتحليل التنبيهات والتهديدات.  حلول إدارة الأحداث والمعلومات الأمنية (SIEM - التشغيل والتطبيق): تطبيق وتجهيز أنظمة SIEM لجمع وتحليل السجلات الأمنية (Logs).  استخبارات التهديدات وصيد التهديدات: التتبع الاستباقي للتهديدات المخفية واستخدام بيانات الاستخبارات للتنبؤ بالهجمات.  الأدلة الجنائية الرقمية والاستجابة للحوادث (DFIR): التحقيق في الخروقات الأمنية، جمع الأدلة الرقمية، والسيطرة على الحوادث.  حماية العلامة التجارية ومراقبة الويب المظلم: مراقبة أنشطة الويب المظلم (Dark Web) لحماية سمعة المؤسسة والبيانات المباشرة.  خارطة طريق ومسار محلل مركز العمليات الأمنية (SOC Analyst): فهم المسار الوظيفي والمهارات المطلوبة للترقي في هذا المجال.  الاستعداد الفعال للمقابلات الوظيفية التقنية في الأمن السيبراني: التجهيز للمقابلات التقنية بإشراف خبراء من قطاع الأمن السيبراني (شركة WE)."
       ],
@@ -814,7 +818,7 @@
       "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team - Soc Analyst - 01"
     }
   ],
-  "last_updated": "2026-08-16T17:41:45.131Z",
+  "last_updated": "2026-08-16T17:52:02.645Z",
   "settings": {
     "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
     "app_title_en": "WE Training Programs & Diplomas",
@@ -833,5 +837,5 @@
     "show_search": true,
     "whatsapp_number": "201000000000"
   },
-  "version": 12
+  "version": 13
 }
