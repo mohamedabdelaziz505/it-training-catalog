@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "last_updated": "2026-08-16T16:12:11.256Z",
+  "version": 8,
+  "last_updated": "2026-08-16T16:20:14.572Z",
   "settings": {
     "organization_name_ar": "إدارة تسويق البرامج ",
     "organization_name_en": "WE-Training & Development Sector",
@@ -98,7 +98,7 @@
         "Offline"
       ],
       "description_ar": "برنامج احترافي عملي في أساسيات الأمن السيبراني وإدارة المخاطر والحماية والاستجابة للحوادث.",
-      "description_en": "Professional hands-on program in cybersecurity fundamentals, risk management, protection and incident response.",
+      "description_en": "•\tCCNA (Fast Track) / \n•\tNetwork Security & Firewall\n•\tLinux\t• MCSA (Fast Track)\n•\tPython for Security\t• Ethical Hacking\n•\tSOC (Security Operation Center)\n•\tSIEM Solution (Operation and Implementation)\n•\tThreat Intelligence & Threat Hunting\n•\tDigital Forensics and Incident Response (DFIR)\n•\tBrand Protection & Dark WEB Monitor\n•\tSOC ANALYST ROADMAP & CAREER PATH\n•\tEffective Preparations for a Technical Cyber Security job interview (Industry Experts from the Cyber Security Sector \"WE\")\n\n",
       "image": "",
       "attachments": [
         "Course Material",
