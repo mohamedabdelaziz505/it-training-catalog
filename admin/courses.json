@@ -922,65 +922,6 @@
     {
       "active": true,
       "attachments": [
-        "Topology diagrams",
-        "Lab scenarios",
-        "Troubleshooting guide"
-      ],
-      "category_id": "network",
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "تعمق في Routing وSwitching وVPN وFirewall ومراقبة الشبكات.",
-      "description_en": "Deep dive into routing, switching, VPNs, firewalls and network monitoring.",
-      "featured": false,
-      "hours": 64,
-      "id": "NET002",
-      "image": "",
-      "level_ar": "متقدم",
-      "level_en": "Advanced",
-      "name_ar": "الشبكات المتقدمة وNetwork Security",
-      "name_en": "Advanced Networking & Security",
-      "order": 11,
-      "skills_ar": [
-        "Routing protocols",
-        "Switching",
-        "VPN",
-        "Firewalls",
-        "Monitoring"
-      ],
-      "skills_en": [
-        "Routing protocols",
-        "Switching",
-        "VPNs",
-        "Firewalls",
-        "Monitoring"
-      ],
-      "syllabus_ar": [
-        "Advanced switching",
-        "OSPF",
-        "NAT and VPN",
-        "Firewalls",
-        "Network monitoring",
-        "Troubleshooting"
-      ],
-      "syllabus_en": [
-        "Advanced switching",
-        "OSPF",
-        "NAT and VPN",
-        "Firewalls",
-        "Network monitoring",
-        "Troubleshooting"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Advanced Networking & Security - NET002",
-      "whatsapp_message_en": "Hello, I would like to know the price of Advanced Networking & Security - NET002"
-    },
-    {
-      "active": true,
-      "attachments": [
         "UX Workbook",
         "Wireframe templates",
         "Portfolio checklist"
