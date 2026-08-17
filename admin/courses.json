@@ -448,7 +448,7 @@
         "Practical labs",
         "Git Book PDF|https://git-scm.com/book/en/v2/book.pdf"
       ],
-      "category_id": "programming",
+      "category_id": "data-ai",
       "certificates": [
         "Training Sector Certificate"
       ],
@@ -456,16 +456,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "من HTML وCSS وJavaScript إلى بناء تطبيق ويب متكامل وربطه بواجهة خلفية.",
-      "description_en": "From HTML, CSS and JavaScript to building a complete web application with a backend.",
+      "description_ar": "",
+      "description_en": "",
       "featured": true,
-      "hours": 80,
-      "id": "WEB001",
+      "hours": 0,
+      "id": "AI001",
       "image": "",
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "name_ar": "تطوير الويب Full Stack",
-      "name_en": "Full Stack Web Development",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Artificial Intelligence",
+      "name_en": "Artificial Intelligence",
       "order": 5,
       "skills_ar": [
         "HTML وCSS",
@@ -498,7 +498,28 @@
         "Deployment"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Full Stack Web Development - WEB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development - WEB001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development - WEB001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
