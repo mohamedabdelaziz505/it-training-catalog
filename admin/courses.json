@@ -846,7 +846,7 @@
         "Lab safety rules",
         "Report template"
       ],
-      "category_id": "cyber",
+      "category_id": "support",
       "certificates": [
         "Training Sector Certificate"
       ],
@@ -854,16 +854,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "مسار تدريبي منظم لفهم مراحل اختبار الاختراق وأمن الشبكات والتقارير بصورة قانونية.",
-      "description_en": "A structured path through ethical penetration testing, network security and professional reporting.",
+      "description_ar": "",
+      "description_en": "",
       "featured": true,
-      "hours": 60,
-      "id": "SEC002",
+      "hours": 0,
+      "id": "BC002",
       "image": "",
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "name_ar": "اختبار الاختراق الأخلاقي",
-      "name_en": "Ethical Hacking Essentials",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Business, Sales & Career Development",
+      "name_en": "Business, Sales & Career Development",
       "order": 10,
       "skills_ar": [
         "Reconnaissance",
@@ -896,7 +896,28 @@
         "Remediation"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Ethical Hacking Essentials - SEC002",
-      "whatsapp_message_en": "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002"
+      "whatsapp_message_en": "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
