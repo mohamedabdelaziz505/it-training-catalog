@@ -918,63 +918,6 @@
       "contact_email": "",
       "contact_social": "",
       "whatsapp_available": true
-    },
-    {
-      "active": true,
-      "attachments": [
-        "UX Workbook",
-        "Wireframe templates",
-        "Portfolio checklist"
-      ],
-      "category_id": "design",
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "تعلّم فهم المستخدم وبناء wireframes وواجهات بسيطة قابلة للاستخدام.",
-      "description_en": "Learn user research, wireframes and usable interface design from the ground up.",
-      "featured": false,
-      "hours": 30,
-      "id": "UI001",
-      "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "UI/UX Design للمبتدئين",
-      "name_en": "UI/UX Design Foundations",
-      "order": 12,
-      "skills_ar": [
-        "User research",
-        "Wireframes",
-        "Design systems",
-        "Prototyping"
-      ],
-      "skills_en": [
-        "User research",
-        "Wireframes",
-        "Design systems",
-        "Prototyping"
-      ],
-      "syllabus_ar": [
-        "UX mindset",
-        "User personas",
-        "Wireframes",
-        "Visual hierarchy",
-        "Prototype",
-        "Portfolio case study"
-      ],
-      "syllabus_en": [
-        "UX mindset",
-        "User personas",
-        "Wireframes",
-        "Visual hierarchy",
-        "Prototype",
-        "Portfolio case study"
-      ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج UI/UX Design Foundations - UI001",
-      "whatsapp_message_en": "Hello, I would like to know the price of UI/UX Design Foundations - UI001"
     }
   ],
   "last_updated": "2026-08-16T17:55:46.174Z",
