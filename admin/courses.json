@@ -301,16 +301,16 @@
       "delivery": [
         "Offline"
       ],
-      "description_ar": "برنامج تأسيسي وعملي في الشبكات وSwitching وRouting والعنونة ومفاهيم Cisco.",
-      "description_en": "Practical networking program covering switching, routing, addressing and Cisco fundamentals.",
+      "description_ar": "",
+      "description_en": "",
       "featured": true,
-      "hours": 72,
+      "hours": 0,
       "id": "NET001",
       "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "CCNA & Networking",
-      "name_en": "CCNA & Networking",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Networking & Infrastructure",
+      "name_en": "Networking & Infrastructure",
       "order": 3,
       "skills_ar": [
         "IP Addressing",
@@ -342,9 +342,27 @@
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
       "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001",
-      "certificate_images": [],
-      "certificate_details_ar": [],
-      "certificate_details_en": []
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
