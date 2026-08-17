@@ -776,16 +776,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "مدخل مبسط وعملي إلى البيانات والنماذج والتقييم وبناء أول نموذج تعلم آلي.",
-      "description_en": "A practical introduction to data, models, evaluation and your first machine-learning project.",
+      "description_ar": "",
+      "description_en": "",
       "featured": false,
-      "hours": 50,
-      "id": "AI001",
+      "hours": 0,
+      "id": "UI001",
       "image": "",
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "name_ar": "مقدمة في الذكاء الاصطناعي وMachine Learning",
-      "name_en": "AI & Machine Learning Foundations",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "UI/UX Design",
+      "name_en": "UI/UX Design",
       "order": 9,
       "skills_ar": [
         "Python للبيانات",
@@ -816,7 +816,28 @@
         "Model evaluation"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج AI & Machine Learning Foundations - AI001",
-      "whatsapp_message_en": "Hello, I would like to know the price of AI & Machine Learning Foundations - AI001"
+      "whatsapp_message_en": "Hello, I would like to know the price of AI & Machine Learning Foundations - AI001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
