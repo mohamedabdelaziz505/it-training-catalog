@@ -528,7 +528,7 @@
         "Lab checklist",
         "Administration exercises"
       ],
-      "category_id": "support",
+      "category_id": "data-ai",
       "certificates": [
         "Training Sector Certificate"
       ],
@@ -536,16 +536,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "تدريب عملي على Linux والأوامر وإدارة المستخدمين والخدمات والنسخ الاحتياطي.",
-      "description_en": "Hands-on Linux training covering commands, users, services and backups.",
+      "description_ar": "",
+      "description_en": "",
       "featured": false,
-      "hours": 45,
-      "id": "LIN001",
+      "hours": 0,
+      "id": "DA001",
       "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "Linux وإدارة الأنظمة",
-      "name_en": "Linux System Administration",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Data Science & Analytics",
+      "name_en": "Data Science & Analytics",
       "order": 6,
       "skills_ar": [
         "Linux CLI",
@@ -578,7 +578,28 @@
         "Backup and recovery"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Linux System Administration - LIN001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Linux System Administration - LIN001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Linux System Administration - LIN001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
