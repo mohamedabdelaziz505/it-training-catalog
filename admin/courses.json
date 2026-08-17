@@ -688,7 +688,7 @@
         "Dashboard project",
         "Data glossary"
       ],
-      "category_id": "data-ai",
+      "category_id": "design",
       "certificates": [
         "Training Sector Certificate"
       ],
@@ -696,16 +696,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "حوّل البيانات الخام إلى تقارير ولوحات معلومات تساعد على اتخاذ القرار.",
-      "description_en": "Turn raw data into reports and dashboards that support better decisions.",
+      "description_ar": "-",
+      "description_en": "-",
       "featured": true,
-      "hours": 36,
-      "id": "DAT001",
+      "hours": 0,
+      "id": "ES001",
       "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "تحليل البيانات باستخدام Excel وPower BI",
-      "name_en": "Data Analysis with Excel & Power BI",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Embedded Systems",
+      "name_en": "Embedded Systems",
       "order": 8,
       "skills_ar": [
         "Excel formulas",
@@ -738,7 +738,28 @@
         "Dashboard project"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Data Analysis with Excel & Power BI - DAT001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis with Excel & Power BI - DAT001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis with Excel & Power BI - DAT001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
