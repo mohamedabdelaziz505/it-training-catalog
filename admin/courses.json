@@ -378,16 +378,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "مسار عملي لبناء أساس قوي في Python وكتابة برامج وأدوات حقيقية.",
-      "description_en": "A practical path to build strong Python fundamentals and real-world scripts.",
+      "description_ar": "",
+      "description_en": "",
       "featured": true,
-      "hours": 48,
-      "id": "PY001",
+      "hours": 0,
+      "id": "SW001",
       "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "برمجة Python من الصفر",
-      "name_en": "Python Programming Bootcamp",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Software Development",
+      "name_en": "Software Development",
       "order": 4,
       "skills_ar": [
         "أساسيات Python",
@@ -418,7 +418,28 @@
         "Final project"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Python Programming Bootcamp - PY001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Python Programming Bootcamp - PY001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Python Programming Bootcamp - PY001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
