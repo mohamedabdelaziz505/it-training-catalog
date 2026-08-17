@@ -69,7 +69,7 @@
     {
       "active": true,
       "attachments": [
-        "Course Material|https://drive.google.com/file/d/1Iz4FuJUta16k2U8UTfCu9Us4hKNW6vVn/view?usp=sharing",
+        "AD & Content|https://drive.google.com/file/d/1Iz4FuJUta16k2U8UTfCu9Us4hKNW6vVn/view?usp=sharing",
         "Labs",
         "PDF Notes"
       ],
@@ -204,10 +204,10 @@
         "Technical Cyber Security Job Interview Preparation"
       ],
       "training_hours": "",
+      "whatsapp_available": true,
       "whatsapp_link": "https://chat.whatsapp.com/HAMWJFKOgBfLPAT5yT7Qcl?s=cl&p=a&ilr=0",
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
-      "whatsapp_available": true
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001"
     },
     {
       "active": true,
@@ -215,7 +215,7 @@
         "Course Material",
         "Labs"
       ],
-      "category_id": "devops",
+      "category_id": "network",
       "certificate_details_ar": [
         ""
       ],
@@ -238,16 +238,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "برنامج عملي يغطي Linux وGit وDocker وCI/CD وKubernetes ومبادئ المراقبة.",
-      "description_en": "Hands-on program covering Linux, Git, Docker, CI/CD, Kubernetes and monitoring basics.",
+      "description_ar": "",
+      "description_en": "",
       "featured": true,
-      "hours": 50,
-      "id": "DEV001",
+      "hours": 0,
+      "id": "Tele001",
       "image": "",
-      "level_ar": "متوسط",
-      "level_en": "Intermediate",
-      "name_ar": "DevOps Engineer",
-      "name_en": "DevOps Engineer",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Telecommunications",
+      "name_en": "Telecommunications",
       "order": 2,
       "price_graduate": "",
       "price_sons": "",
@@ -285,7 +285,8 @@
       "training_hours": "",
       "whatsapp_link": "",
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001"
+      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
+      "whatsapp_available": true
     },
     {
       "active": true,
@@ -340,7 +341,10 @@
         "Troubleshooting"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
-      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001"
+      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001",
+      "certificate_images": [],
+      "certificate_details_ar": [],
+      "certificate_details_en": []
     },
     {
       "active": true,
