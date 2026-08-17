@@ -616,16 +616,16 @@
         "Online",
         "Offline"
       ],
-      "description_ar": "فهم عملي لمفاهيم Cloud وIaaS وPaaS وطرق بناء بنية سحابية آمنة.",
-      "description_en": "Practical introduction to cloud concepts, IaaS, PaaS and secure cloud architecture.",
+      "description_ar": "-",
+      "description_en": "-",
       "featured": true,
-      "hours": 42,
+      "hours": 0,
       "id": "CLO001",
       "image": "",
-      "level_ar": "مبتدئ",
-      "level_en": "Beginner",
-      "name_ar": "Cloud Fundamentals",
-      "name_en": "Cloud Computing Fundamentals",
+      "level_ar": "-",
+      "level_en": "-",
+      "name_ar": "Cloud Computing",
+      "name_en": "Cloud Computing",
       "order": 7,
       "skills_ar": [
         "Cloud concepts",
@@ -658,7 +658,28 @@
         "Cost and security"
       ],
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cloud Computing Fundamentals - CLO001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001",
+      "certificate_images": [
+        ""
+      ],
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "training_hours": "",
+      "cost": "",
+      "price_undergraduate": "",
+      "price_graduate": "",
+      "price_sons": "",
+      "whatsapp_link": "",
+      "contact_address": "",
+      "contact_phone": "",
+      "contact_mobile": "",
+      "contact_email": "",
+      "contact_social": "",
+      "whatsapp_available": true
     },
     {
       "active": true,
