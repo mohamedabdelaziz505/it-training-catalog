@@ -203,10 +203,11 @@
         "SOC Analyst Roadmap & Career Path",
         "Technical Cyber Security Job Interview Preparation"
       ],
-      "training_hours": "250",
+      "training_hours": "",
       "whatsapp_link": "https://chat.whatsapp.com/HAMWJFKOgBfLPAT5yT7Qcl?s=cl&p=a&ilr=0",
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001"
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001",
+      "whatsapp_available": true
     },
     {
       "active": true,
@@ -878,7 +879,7 @@
     "hero_title_en": "Build Your IT Skills",
     "logo_url": "https://drive.google.com/file/d/1uq8IwrtZrfCKuiRRVT0MdHDoYzeom0z8/view?usp=sharing",
     "notification_topic": "all_users",
-    "organization_name_ar": "إدارة تسويق البرامج ",
+    "organization_name_ar": "إدارة تسويق البرامج",
     "organization_name_en": "WE-Training & Development Sector",
     "show_favorites": true,
     "show_featured": true,
