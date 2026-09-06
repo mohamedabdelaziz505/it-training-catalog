@@ -30,7 +30,7 @@
       "name_en": "Programming",
       "icon": "code",
       "order": 4,
-      "active": false
+      "active": true
     },
     {
       "id": "database",
