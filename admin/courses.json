@@ -1,68 +1,68 @@
 {
   "categories": [
     {
-      "active": true,
-      "icon": "security",
       "id": "cyber",
       "name_ar": "الأمن السيبراني",
       "name_en": "Cyber Security",
-      "order": 1
+      "icon": "security",
+      "order": 1,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "lan",
       "id": "network",
       "name_ar": "الشبكات",
       "name_en": "Networking",
-      "order": 2
+      "icon": "lan",
+      "order": 2,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "cloud",
       "id": "devops",
       "name_ar": "Cloud و DevOps",
       "name_en": "Cloud & DevOps",
-      "order": 3
+      "icon": "cloud",
+      "order": 3,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "code",
       "id": "programming",
       "name_ar": "البرمجة",
       "name_en": "Programming",
-      "order": 4
+      "icon": "code",
+      "order": 4,
+      "active": false
     },
     {
-      "active": true,
-      "icon": "database",
       "id": "database",
       "name_ar": "قواعد البيانات",
       "name_en": "Databases",
-      "order": 5
+      "icon": "database",
+      "order": 5,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "support",
       "id": "support",
       "name_ar": "الدعم الفني",
       "name_en": "IT Support",
-      "order": 6
+      "icon": "support",
+      "order": 6,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "analytics",
       "id": "data-ai",
       "name_ar": "البيانات والذكاء الاصطناعي",
       "name_en": "Data & AI",
-      "order": 7
+      "icon": "analytics",
+      "order": 7,
+      "active": true
     },
     {
-      "active": true,
-      "icon": "design",
       "id": "design",
       "name_ar": "التصميم الرقمي",
       "name_en": "Digital Design",
-      "order": 8
+      "icon": "design",
+      "order": 8,
+      "active": true
     }
   ],
   "courses": [
@@ -283,10 +283,10 @@
         "Monitoring"
       ],
       "training_hours": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
       "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001",
-      "whatsapp_available": true
+      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001"
     },
     {
       "active": true,
@@ -295,9 +295,24 @@
         "Labs"
       ],
       "category_id": "network",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Offline"
       ],
@@ -312,6 +327,9 @@
       "name_ar": "Networking & Infrastructure",
       "name_en": "Networking & Infrastructure",
       "order": 3,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "IP Addressing",
         "Switching",
@@ -340,29 +358,11 @@
         "Wireless",
         "Troubleshooting"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
-      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
+      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001"
     },
     {
       "active": true,
@@ -371,9 +371,24 @@
         "Exercises and projects"
       ],
       "category_id": "programming",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -389,6 +404,9 @@
       "name_ar": "Software Development",
       "name_en": "Software Development",
       "order": 4,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "أساسيات Python",
         "البرمجة الكائنية",
@@ -417,29 +435,11 @@
         "APIs",
         "Final project"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Python Programming Bootcamp - PY001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Python Programming Bootcamp - PY001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Python Programming Bootcamp - PY001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Python Programming Bootcamp - PY001"
     },
     {
       "active": true,
@@ -449,9 +449,24 @@
         "Git Book PDF|https://git-scm.com/book/en/v2/book.pdf"
       ],
       "category_id": "data-ai",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -467,6 +482,9 @@
       "name_ar": "Artificial Intelligence",
       "name_en": "Artificial Intelligence",
       "order": 5,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "HTML وCSS",
         "JavaScript",
@@ -497,29 +515,11 @@
         "Authentication",
         "Deployment"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Full Stack Web Development - WEB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development - WEB001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Full Stack Web Development - WEB001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development - WEB001"
     },
     {
       "active": true,
@@ -529,9 +529,24 @@
         "Administration exercises"
       ],
       "category_id": "data-ai",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -547,6 +562,9 @@
       "name_ar": "Data Science & Analytics",
       "name_en": "Data Science & Analytics",
       "order": 6,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Linux CLI",
         "إدارة المستخدمين",
@@ -577,29 +595,11 @@
         "Networking",
         "Backup and recovery"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Linux System Administration - LIN001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Linux System Administration - LIN001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Linux System Administration - LIN001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Linux System Administration - LIN001"
     },
     {
       "active": true,
@@ -609,9 +609,24 @@
         "Security checklist"
       ],
       "category_id": "devops",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -627,6 +642,9 @@
       "name_ar": "Cloud Computing",
       "name_en": "Cloud Computing",
       "order": 7,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Cloud concepts",
         "IaaS وPaaS",
@@ -657,29 +675,11 @@
         "IAM",
         "Cost and security"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cloud Computing Fundamentals - CLO001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cloud Computing Fundamentals - CLO001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001"
     },
     {
       "active": true,
@@ -689,9 +689,24 @@
         "Data glossary"
       ],
       "category_id": "design",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -707,6 +722,9 @@
       "name_ar": "Embedded Systems",
       "name_en": "Embedded Systems",
       "order": 8,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Excel formulas",
         "تنظيف البيانات",
@@ -737,29 +755,11 @@
         "DAX basics",
         "Dashboard project"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Data Analysis with Excel & Power BI - DAT001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis with Excel & Power BI - DAT001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Data Analysis with Excel & Power BI - DAT001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis with Excel & Power BI - DAT001"
     },
     {
       "active": true,
@@ -769,9 +769,24 @@
         "Practice notebooks"
       ],
       "category_id": "data-ai",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -787,6 +802,9 @@
       "name_ar": "UI/UX Design",
       "name_en": "UI/UX Design",
       "order": 9,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Python للبيانات",
         "تحضير البيانات",
@@ -815,29 +833,11 @@
         "Classification",
         "Model evaluation"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج AI & Machine Learning Foundations - AI001",
-      "whatsapp_message_en": "Hello, I would like to know the price of AI & Machine Learning Foundations - AI001",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج AI & Machine Learning Foundations - AI001",
+      "whatsapp_message_en": "Hello, I would like to know the price of AI & Machine Learning Foundations - AI001"
     },
     {
       "active": true,
@@ -847,9 +847,24 @@
         "Report template"
       ],
       "category_id": "support",
+      "certificate_details_ar": [
+        ""
+      ],
+      "certificate_details_en": [
+        ""
+      ],
+      "certificate_images": [
+        ""
+      ],
       "certificates": [
         "Training Sector Certificate"
       ],
+      "contact_address": "",
+      "contact_email": "",
+      "contact_mobile": "",
+      "contact_phone": "",
+      "contact_social": "",
+      "cost": "",
       "delivery": [
         "Online",
         "Offline"
@@ -865,6 +880,9 @@
       "name_ar": "Business, Sales & Career Development",
       "name_en": "Business, Sales & Career Development",
       "order": 10,
+      "price_graduate": "",
+      "price_sons": "",
+      "price_undergraduate": "",
       "skills_ar": [
         "Reconnaissance",
         "أمن الشبكات",
@@ -895,29 +913,11 @@
         "Reporting",
         "Remediation"
       ],
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Ethical Hacking Essentials - SEC002",
-      "whatsapp_message_en": "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002",
-      "certificate_images": [
-        ""
-      ],
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
       "training_hours": "",
-      "cost": "",
-      "price_undergraduate": "",
-      "price_graduate": "",
-      "price_sons": "",
+      "whatsapp_available": true,
       "whatsapp_link": "",
-      "contact_address": "",
-      "contact_phone": "",
-      "contact_mobile": "",
-      "contact_email": "",
-      "contact_social": "",
-      "whatsapp_available": true
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Ethical Hacking Essentials - SEC002",
+      "whatsapp_message_en": "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002"
     }
   ],
   "last_updated": "2026-08-16T17:55:46.174Z",
