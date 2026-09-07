@@ -22,7 +22,7 @@
       "name_en": "Cloud & DevOps",
       "icon": "cloud",
       "order": 3,
-      "active": true
+      "active": false
     },
     {
       "id": "programming",
