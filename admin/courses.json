@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "id": "cyber",
-      "name_ar": "الأمن السيبراني",
-      "name_en": "Cyber Security",
-      "icon": "security",
+      "id": "telecom",
+      "name_ar": "الاتصالات",
+      "name_en": "Telecommunications",
+      "icon": "cell_tower",
       "order": 1,
       "active": true
     },
@@ -17,43 +17,19 @@
       "active": true
     },
     {
-      "id": "devops",
-      "name_ar": "Cloud و DevOps",
-      "name_en": "Cloud & DevOps",
-      "icon": "cloud",
+      "id": "cyber",
+      "name_ar": "الأمن السيبراني",
+      "name_en": "Cyber Security",
+      "icon": "security",
       "order": 3,
       "active": true
     },
     {
       "id": "programming",
-      "name_ar": "البرمجة",
-      "name_en": "Programming",
+      "name_ar": "البرمجة وتطوير البرمجيات",
+      "name_en": "Programming & Software",
       "icon": "code",
       "order": 4,
-      "active": true
-    },
-    {
-      "id": "database",
-      "name_ar": "قواعد البيانات",
-      "name_en": "Databases",
-      "icon": "database",
-      "order": 5,
-      "active": true
-    },
-    {
-      "id": "support",
-      "name_ar": "الدعم الفني",
-      "name_en": "IT Support",
-      "icon": "support",
-      "order": 6,
-      "active": true
-    },
-    {
-      "id": "data-ai",
-      "name_ar": "البيانات والذكاء الاصطناعي",
-      "name_en": "Data & AI",
-      "icon": "analytics",
-      "order": 7,
       "active": true
     },
     {
@@ -61,6 +37,30 @@
       "name_ar": "التصميم الرقمي",
       "name_en": "Digital Design",
       "icon": "design",
+      "order": 5,
+      "active": true
+    },
+    {
+      "id": "ai-data",
+      "name_ar": "البيانات والذكاء الاصطناعي",
+      "name_en": "AI & Data",
+      "icon": "analytics",
+      "order": 6,
+      "active": true
+    },
+    {
+      "id": "cloud",
+      "name_ar": "الحوسبة السحابية وDevOps",
+      "name_en": "Cloud & DevOps",
+      "icon": "cloud",
+      "order": 7,
+      "active": true
+    },
+    {
+      "id": "professional",
+      "name_ar": "المهارات المهنية",
+      "name_en": "Professional Skills",
+      "icon": "school",
       "order": 8,
       "active": true
     }
@@ -68,876 +68,2499 @@
   "courses": [
     {
       "active": true,
-      "attachments": [
-        "AD & Content",
-        "Labs",
-        "PDF Notes"
-      ],
-      "category_id": "cyber",
+      "attachments": [],
+      "category_id": "telecom",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
       "certificate_images": [
-        "https://drive.google.com/file/d/1uq8IwrtZrfCKuiRRVT0MdHDoYzeom0z8/view"
+        ""
       ],
       "certificates": [
-        "WE - Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
       "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
       "contact_email": "we.training@te.eg",
       "contact_mobile": "01550001181",
       "contact_phone": "23129208 - 23129028",
-      "contact_social": "WE Training and Development Sector | @Telecom.Egypt.Training.Sector",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152LinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "دبلومة تدريبية شاملة لإعداد محللي مركز العمليات الأمنية وفريق الدفاع الأزرق، مع تدريب عملي على الشبكات وأمن المعلومات وLinux وPython وSIEM والاستجابة للحوادث.",
-      "description_en": "A comprehensive Cyber Security Diploma designed to prepare Blue Team and SOC Analyst professionals through practical training in networking, Linux, Python, SIEM, threat intelligence, digital forensics and incident response.",
+      "delivery_pricing": {},
+      "description_ar": "دبلومة عملية في أنظمة الاتصالات تشمل الألياف الضوئية وتقنيات SDH وDWDM وFTTH وGPON والاتصالات عبر الأقمار الصناعية، مع تدريب عملي وزيارات ميدانية.",
+      "description_en": "A practical diploma covering optical fiber, SDH, DWDM, FTTH, GPON, satellite and VSAT communication, with hands-on training and field visits.",
+      "featured": true,
+      "hours": 120,
+      "id": "TEL001",
+      "image": "https://drive.google.com/file/d/1fxMyRQOxn0ET26n-BFpolwdA5ErRk7xP/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تدريب أنظمة الاتصالات",
+      "name_en": "Communication Systems Training Diploma",
+      "order": 1,
+      "price_graduate": "4100",
+      "price_sons": "2050",
+      "price_undergraduate": "3600",
+      "skills_ar": [
+        "الألياف الضوئية",
+        "تقنية SDH",
+        "تقنية DWDM",
+        "تقنية FTTH",
+        "تقنية GPON",
+        "الاتصالات عبر الأقمار الصناعية وVSAT",
+        "التدريب العملي والزيارات الميدانية"
+      ],
+      "skills_en": [
+        "Optical Fiber",
+        "SDH Technology",
+        "DWDM Technology",
+        "FTTH Technology",
+        "GPON Technology",
+        "Satellite Communication and VSAT Technology",
+        "Practical Training and Field Visits"
+      ],
+      "syllabus_ar": [
+        "الألياف الضوئية",
+        "تقنية SDH",
+        "تقنية DWDM",
+        "تقنية FTTH",
+        "تقنية GPON",
+        "الاتصالات عبر الأقمار الصناعية وVSAT",
+        "التدريب العملي والزيارات الميدانية"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: الألياف الضوئية",
+        "يتناول البرنامج: تقنية SDH",
+        "يتناول البرنامج: تقنية DWDM",
+        "يتناول البرنامج: تقنية FTTH",
+        "يتناول البرنامج: تقنية GPON",
+        "يتناول البرنامج: الاتصالات عبر الأقمار الصناعية وVSAT",
+        "يتناول البرنامج: التدريب العملي والزيارات الميدانية"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Optical Fiber",
+        "This program covers: SDH Technology",
+        "This program covers: DWDM Technology",
+        "This program covers: FTTH Technology",
+        "This program covers: GPON Technology",
+        "This program covers: Satellite Communication and VSAT Technology",
+        "This program covers: Practical Training and Field Visits"
+      ],
+      "syllabus_en": [
+        "Optical Fiber",
+        "SDH Technology",
+        "DWDM Technology",
+        "FTTH Technology",
+        "GPON Technology",
+        "Satellite Communication and VSAT Technology",
+        "Practical Training and Field Visits"
+      ],
+      "training_hours": "120",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تدريب أنظمة الاتصالات - TEL001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Communication Systems Training Diploma - TEL001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "telecom",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "باقة متخصصة في الألياف الضوئية وتقنيات SDH وDWDM، مع تطبيقات عملية على التجهيز والقياس والصيانة.",
+      "description_en": "A focused package on optical fiber, SDH and DWDM technologies, including practical preparation, measurement, maintenance and testing.",
+      "featured": false,
+      "hours": 50,
+      "id": "TEL002",
+      "image": "https://drive.google.com/file/d/1xU9uG4BpyJ2AUCOj7BZ-fyahfOXjiXyK/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "باقة Transmission Way to the Future",
+      "name_en": "Transmission Way to the Future Package",
+      "order": 2,
+      "price_graduate": "2000",
+      "price_sons": "1000",
+      "price_undergraduate": "1800",
+      "skills_ar": [
+        "أساسيات الألياف الضوئية وتجهيز الكابلات",
+        "لحام وقياس كابلات الألياف الضوئية",
+        "Multiplexing وتقنية SDH",
+        "عناصر STM-1 وMapping وOverhead",
+        "الحماية والقياس والصيانة في SDH",
+        "مقدمة في DWDM والتأثيرات الخطية وغير الخطية",
+        "الأجهزة الضوئية والقياسات والتدريب العملي"
+      ],
+      "skills_en": [
+        "Fiber Optic Fundamentals and Cable Preparation",
+        "Fiber Optic Splicing and Measurements",
+        "Multiplexing and SDH Technology",
+        "STM-1 Elements, Mapping and Overhead",
+        "SDH Protection, Measurement and Maintenance",
+        "DWDM Introduction and Linear/Non-linear Effects",
+        "Optical Devices, Measurements and Practical Training"
+      ],
+      "syllabus_ar": [
+        "أساسيات الألياف الضوئية وتجهيز الكابلات",
+        "لحام وقياس كابلات الألياف الضوئية",
+        "Multiplexing وتقنية SDH",
+        "عناصر STM-1 وMapping وOverhead",
+        "الحماية والقياس والصيانة في SDH",
+        "مقدمة في DWDM والتأثيرات الخطية وغير الخطية",
+        "الأجهزة الضوئية والقياسات والتدريب العملي"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: أساسيات الألياف الضوئية وتجهيز الكابلات",
+        "يتناول البرنامج: لحام وقياس كابلات الألياف الضوئية",
+        "يتناول البرنامج: Multiplexing وتقنية SDH",
+        "يتناول البرنامج: عناصر STM-1 وMapping وOverhead",
+        "يتناول البرنامج: الحماية والقياس والصيانة في SDH",
+        "يتناول البرنامج: مقدمة في DWDM والتأثيرات الخطية وغير الخطية",
+        "يتناول البرنامج: الأجهزة الضوئية والقياسات والتدريب العملي"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Fiber Optic Fundamentals and Cable Preparation",
+        "This program covers: Fiber Optic Splicing and Measurements",
+        "This program covers: Multiplexing and SDH Technology",
+        "This program covers: STM-1 Elements, Mapping and Overhead",
+        "This program covers: SDH Protection, Measurement and Maintenance",
+        "This program covers: DWDM Introduction and Linear/Non-linear Effects",
+        "This program covers: Optical Devices, Measurements and Practical Training"
+      ],
+      "syllabus_en": [
+        "Fiber Optic Fundamentals and Cable Preparation",
+        "Fiber Optic Splicing and Measurements",
+        "Multiplexing and SDH Technology",
+        "STM-1 Elements, Mapping and Overhead",
+        "SDH Protection, Measurement and Maintenance",
+        "DWDM Introduction and Linear/Non-linear Effects",
+        "Optical Devices, Measurements and Practical Training"
+      ],
+      "training_hours": "50",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج باقة Transmission Way to the Future - TEL002",
+      "whatsapp_message_en": "Hello, I would like to know the price of Transmission Way to the Future Package - TEL002"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "telecom",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج يجمع بين تنفيذ وقياس الألياف الضوئية وفهم شبكات المحمول من 2G حتى 5G وIMS، مع تدريب وزيارة لموقع اتصالات.",
+      "description_en": "A combined program covering fiber optic implementation and measurement plus mobile networks from 2G to 5G and IMS, with practical training and a site visit.",
+      "featured": false,
+      "hours": 75,
+      "id": "TEL003",
+      "image": "https://drive.google.com/file/d/16qeKFAyYJNSmW3jwGdBsMURJRVPozwSR/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "الألياف الضوئية والاتصالات المحمولة",
+      "name_en": "Optical Fiber & Mobile Communication",
+      "order": 3,
+      "price_graduate": "3500",
+      "price_sons": "1750",
+      "price_undergraduate": "3000",
+      "skills_ar": [
+        "أساسيات الألياف الضوئية وتجهيزها ولحامها وقياسها",
+        "نظرة عامة على الاتصالات المحمولة",
+        "2G GSM و2.5G GPRS",
+        "3G UMTS وHSPA",
+        "4G LTE وLTE-Advanced",
+        "5G New Radio NR",
+        "NGN وIMS وسيناريوهات المكالمات",
+        "استكشاف أعطال شبكات IMS وحوادث الشبكة",
+        "التدريب العملي والزيارة الميدانية"
+      ],
+      "skills_en": [
+        "Optical Fiber Fundamentals, Preparation, Splicing and Measurements",
+        "Mobile Communication Overview",
+        "2G GSM and 2.5G GPRS",
+        "3G UMTS and HSPA",
+        "4G LTE and LTE-Advanced",
+        "5G New Radio NR",
+        "NGN, IMS and Call Scenarios",
+        "IMS Troubleshooting and Practical Network Incidents",
+        "Practical Training and Site Visit"
+      ],
+      "syllabus_ar": [
+        "أساسيات الألياف الضوئية وتجهيزها ولحامها وقياسها",
+        "نظرة عامة على الاتصالات المحمولة",
+        "2G GSM و2.5G GPRS",
+        "3G UMTS وHSPA",
+        "4G LTE وLTE-Advanced",
+        "5G New Radio NR",
+        "NGN وIMS وسيناريوهات المكالمات",
+        "استكشاف أعطال شبكات IMS وحوادث الشبكة",
+        "التدريب العملي والزيارة الميدانية"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: أساسيات الألياف الضوئية وتجهيزها ولحامها وقياسها",
+        "يتناول البرنامج: نظرة عامة على الاتصالات المحمولة",
+        "يتناول البرنامج: 2G GSM و2.5G GPRS",
+        "يتناول البرنامج: 3G UMTS وHSPA",
+        "يتناول البرنامج: 4G LTE وLTE-Advanced",
+        "يتناول البرنامج: 5G New Radio NR",
+        "يتناول البرنامج: NGN وIMS وسيناريوهات المكالمات",
+        "يتناول البرنامج: استكشاف أعطال شبكات IMS وحوادث الشبكة",
+        "يتناول البرنامج: التدريب العملي والزيارة الميدانية"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Optical Fiber Fundamentals, Preparation, Splicing and Measurements",
+        "This program covers: Mobile Communication Overview",
+        "This program covers: 2G GSM and 2.5G GPRS",
+        "This program covers: 3G UMTS and HSPA",
+        "This program covers: 4G LTE and LTE-Advanced",
+        "This program covers: 5G New Radio NR",
+        "This program covers: NGN, IMS and Call Scenarios",
+        "This program covers: IMS Troubleshooting and Practical Network Incidents",
+        "This program covers: Practical Training and Site Visit"
+      ],
+      "syllabus_en": [
+        "Optical Fiber Fundamentals, Preparation, Splicing and Measurements",
+        "Mobile Communication Overview",
+        "2G GSM and 2.5G GPRS",
+        "3G UMTS and HSPA",
+        "4G LTE and LTE-Advanced",
+        "5G New Radio NR",
+        "NGN, IMS and Call Scenarios",
+        "IMS Troubleshooting and Practical Network Incidents",
+        "Practical Training and Site Visit"
+      ],
+      "training_hours": "75",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الألياف الضوئية والاتصالات المحمولة - TEL003",
+      "whatsapp_message_en": "Hello, I would like to know the price of Optical Fiber & Mobile Communication - TEL003"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "telecom",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج عملي قصير يشرح أساسيات الألياف الضوئية وتجهيز الكابلات ولحامها وقياسها.",
+      "description_en": "A short practical program covering optical fiber fundamentals, cable preparation, splicing and measurements.",
+      "featured": false,
+      "hours": 25,
+      "id": "TEL004",
+      "image": "https://drive.google.com/file/d/1FXbNXySnHK3C4Gt5s2yQiTyGYl3V-S5d/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "وسائط نقل الألياف الضوئية",
+      "name_en": "Optical Fiber Transmission Media",
+      "order": 4,
+      "price_graduate": "2000",
+      "price_sons": "1000",
+      "price_undergraduate": "1500",
+      "skills_ar": [
+        "أساسيات الألياف الضوئية",
+        "تجهيز كابلات الألياف الضوئية",
+        "لحام كابلات الألياف الضوئية",
+        "قياس كابلات الألياف الضوئية"
+      ],
+      "skills_en": [
+        "Fiber Optic Fundamentals",
+        "Fiber Optic Cable Preparation",
+        "Fiber Optic Cable Splicing",
+        "Fiber Optic Cable Measurements"
+      ],
+      "syllabus_ar": [
+        "أساسيات الألياف الضوئية",
+        "تجهيز كابلات الألياف الضوئية",
+        "لحام كابلات الألياف الضوئية",
+        "قياس كابلات الألياف الضوئية"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: أساسيات الألياف الضوئية",
+        "يتناول البرنامج: تجهيز كابلات الألياف الضوئية",
+        "يتناول البرنامج: لحام كابلات الألياف الضوئية",
+        "يتناول البرنامج: قياس كابلات الألياف الضوئية"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Fiber Optic Fundamentals",
+        "This program covers: Fiber Optic Cable Preparation",
+        "This program covers: Fiber Optic Cable Splicing",
+        "This program covers: Fiber Optic Cable Measurements"
+      ],
+      "syllabus_en": [
+        "Fiber Optic Fundamentals",
+        "Fiber Optic Cable Preparation",
+        "Fiber Optic Cable Splicing",
+        "Fiber Optic Cable Measurements"
+      ],
+      "training_hours": "25",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج وسائط نقل الألياف الضوئية - TEL004",
+      "whatsapp_message_en": "Hello, I would like to know the price of Optical Fiber Transmission Media - TEL004"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "telecom",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج عملي لفهم تطور شبكات المحمول وتقنيات 2G و3G و4G و5G وNGN وIMS واستكشاف الأعطال.",
+      "description_en": "A practical program covering the evolution of mobile networks, 2G, 3G, 4G, 5G, NGN, IMS and troubleshooting.",
+      "featured": false,
+      "hours": 50,
+      "id": "TEL005",
+      "image": "https://drive.google.com/file/d/1-4WXgTqO2DGRZF5th7351XVebIwpjFv1/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "الاتصالات المحمولة",
+      "name_en": "Mobile Communication",
+      "order": 5,
+      "price_graduate": "2000",
+      "price_sons": "1000",
+      "price_undergraduate": "1800",
+      "skills_ar": [
+        "نظرة عامة على الاتصالات المحمولة",
+        "2G GSM و2.5G GPRS",
+        "3G UMTS وHSPA",
+        "4G LTE وLTE-Advanced",
+        "5G New Radio NR",
+        "زيارة ميدانية لموقع محمول",
+        "مقدمة في NGN",
+        "معمارية IMS وسيناريو المكالمة",
+        "استكشاف أعطال IMS وحوادث الشبكة"
+      ],
+      "skills_en": [
+        "Mobile Communication Overview",
+        "2G GSM and 2.5G GPRS",
+        "3G UMTS and HSPA",
+        "4G LTE and LTE-Advanced",
+        "5G New Radio NR",
+        "Practical Visit to a Real Mobile Site",
+        "Introduction to NGN",
+        "IMS Architecture and Call Scenario",
+        "IMS Troubleshooting and Practical Network Incidents"
+      ],
+      "syllabus_ar": [
+        "نظرة عامة على الاتصالات المحمولة",
+        "2G GSM و2.5G GPRS",
+        "3G UMTS وHSPA",
+        "4G LTE وLTE-Advanced",
+        "5G New Radio NR",
+        "زيارة ميدانية لموقع محمول",
+        "مقدمة في NGN",
+        "معمارية IMS وسيناريو المكالمة",
+        "استكشاف أعطال IMS وحوادث الشبكة"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: نظرة عامة على الاتصالات المحمولة",
+        "يتناول البرنامج: 2G GSM و2.5G GPRS",
+        "يتناول البرنامج: 3G UMTS وHSPA",
+        "يتناول البرنامج: 4G LTE وLTE-Advanced",
+        "يتناول البرنامج: 5G New Radio NR",
+        "يتناول البرنامج: زيارة ميدانية لموقع محمول",
+        "يتناول البرنامج: مقدمة في NGN",
+        "يتناول البرنامج: معمارية IMS وسيناريو المكالمة",
+        "يتناول البرنامج: استكشاف أعطال IMS وحوادث الشبكة"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Mobile Communication Overview",
+        "This program covers: 2G GSM and 2.5G GPRS",
+        "This program covers: 3G UMTS and HSPA",
+        "This program covers: 4G LTE and LTE-Advanced",
+        "This program covers: 5G New Radio NR",
+        "This program covers: Practical Visit to a Real Mobile Site",
+        "This program covers: Introduction to NGN",
+        "This program covers: IMS Architecture and Call Scenario",
+        "This program covers: IMS Troubleshooting and Practical Network Incidents"
+      ],
+      "syllabus_en": [
+        "Mobile Communication Overview",
+        "2G GSM and 2.5G GPRS",
+        "3G UMTS and HSPA",
+        "4G LTE and LTE-Advanced",
+        "5G New Radio NR",
+        "Practical Visit to a Real Mobile Site",
+        "Introduction to NGN",
+        "IMS Architecture and Call Scenario",
+        "IMS Troubleshooting and Practical Network Incidents"
+      ],
+      "training_hours": "50",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الاتصالات المحمولة - TEL005",
+      "whatsapp_message_en": "Hello, I would like to know the price of Mobile Communication - TEL005"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "telecom",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج يشرح تكنولوجيا الميكروويف الرقمي والانتشار والتركيب والضبط والتشخيص، مع مسح ميداني عملي.",
+      "description_en": "A practical program covering digital microwave radio technology, propagation, installation, alignment, diagnostics and field survey.",
+      "featured": false,
+      "hours": 30,
+      "id": "TEL006",
+      "image": "https://drive.google.com/file/d/1j8C-E6ATcCSXf-urLAZVJVQHs_gaKp6w/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "مبادئ الميكروويف الرقمي",
+      "name_en": "Principles of Digital Microwave",
+      "order": 6,
+      "price_graduate": "3500",
+      "price_sons": "1750",
+      "price_undergraduate": "3000",
+      "skills_ar": [
+        "مقدمة في تكنولوجيا الميكروويف الرقمي",
+        "انتشار الموجات الميكروويف",
+        "تركيب الميكروويف",
+        "تهيئة النظام وضبط المحاذاة",
+        "أنظمة هوائيات الميكروويف وتطبيقاتها",
+        "التشخيص والتشغيل واستكشاف الأعطال",
+        "المسح الميداني العملي"
+      ],
+      "skills_en": [
+        "Introduction to Digital Microwave Radio Technology",
+        "Microwave Radio Propagation",
+        "Microwave Installation",
+        "System Configuration and Alignment",
+        "Microwave Antenna Systems and Applications",
+        "Diagnostics, Commissioning and Troubleshooting",
+        "Practical Survey"
+      ],
+      "syllabus_ar": [
+        "مقدمة في تكنولوجيا الميكروويف الرقمي",
+        "انتشار الموجات الميكروويف",
+        "تركيب الميكروويف",
+        "تهيئة النظام وضبط المحاذاة",
+        "أنظمة هوائيات الميكروويف وتطبيقاتها",
+        "التشخيص والتشغيل واستكشاف الأعطال",
+        "المسح الميداني العملي"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مقدمة في تكنولوجيا الميكروويف الرقمي",
+        "يتناول البرنامج: انتشار الموجات الميكروويف",
+        "يتناول البرنامج: تركيب الميكروويف",
+        "يتناول البرنامج: تهيئة النظام وضبط المحاذاة",
+        "يتناول البرنامج: أنظمة هوائيات الميكروويف وتطبيقاتها",
+        "يتناول البرنامج: التشخيص والتشغيل واستكشاف الأعطال",
+        "يتناول البرنامج: المسح الميداني العملي"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to Digital Microwave Radio Technology",
+        "This program covers: Microwave Radio Propagation",
+        "This program covers: Microwave Installation",
+        "This program covers: System Configuration and Alignment",
+        "This program covers: Microwave Antenna Systems and Applications",
+        "This program covers: Diagnostics, Commissioning and Troubleshooting",
+        "This program covers: Practical Survey"
+      ],
+      "syllabus_en": [
+        "Introduction to Digital Microwave Radio Technology",
+        "Microwave Radio Propagation",
+        "Microwave Installation",
+        "System Configuration and Alignment",
+        "Microwave Antenna Systems and Applications",
+        "Diagnostics, Commissioning and Troubleshooting",
+        "Practical Survey"
+      ],
+      "training_hours": "30",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج مبادئ الميكروويف الرقمي - TEL006",
+      "whatsapp_message_en": "Hello, I would like to know the price of Principles of Digital Microwave - TEL006"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "programming",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "دبلومة عملية في تصميم الأنظمة المدمجة والبرمجة بلغة C وربط المتحكمات والحساسات وأنظمة التشغيل في الوقت الحقيقي.",
+      "description_en": "A practical diploma in embedded systems design, C programming, microcontroller interfacing, real-time operating systems and testing.",
+      "featured": false,
+      "hours": 120,
+      "id": "PROG001",
+      "image": "https://drive.google.com/file/d/1TBujePanIwpqycbnDlmZDB1A4EZcLTzl/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة الأنظمة المدمجة",
+      "name_en": "Embedded Systems Diploma",
+      "order": 7,
+      "price_graduate": "7500",
+      "price_sons": "3750",
+      "price_undergraduate": "7000",
+      "skills_ar": [
+        "مقدمة في الأنظمة المدمجة",
+        "البرمجة بلغة C وهياكل البيانات",
+        "ربط المتحكمات الدقيقة AVR",
+        "أدوات الأنظمة المدمجة وهندسة البرمجيات",
+        "نظام التشغيل في الوقت الحقيقي RTOS",
+        "الاختبار وتقنيات حافلات السيارات"
+      ],
+      "skills_en": [
+        "Introduction to Embedded Systems",
+        "C Programming and Data Structures",
+        "AVR Microcontroller Interfacing",
+        "Embedded Systems Tools and Software Engineering",
+        "Real-Time Operating Systems",
+        "Testing and Automotive Bus Technologies"
+      ],
+      "syllabus_ar": [
+        "مقدمة في الأنظمة المدمجة",
+        "البرمجة بلغة C وهياكل البيانات",
+        "ربط المتحكمات الدقيقة AVR",
+        "أدوات الأنظمة المدمجة وهندسة البرمجيات",
+        "نظام التشغيل في الوقت الحقيقي RTOS",
+        "الاختبار وتقنيات حافلات السيارات"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مقدمة في الأنظمة المدمجة",
+        "يتناول البرنامج: البرمجة بلغة C وهياكل البيانات",
+        "يتناول البرنامج: ربط المتحكمات الدقيقة AVR",
+        "يتناول البرنامج: أدوات الأنظمة المدمجة وهندسة البرمجيات",
+        "يتناول البرنامج: نظام التشغيل في الوقت الحقيقي RTOS",
+        "يتناول البرنامج: الاختبار وتقنيات حافلات السيارات"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to Embedded Systems",
+        "This program covers: C Programming and Data Structures",
+        "This program covers: AVR Microcontroller Interfacing",
+        "This program covers: Embedded Systems Tools and Software Engineering",
+        "This program covers: Real-Time Operating Systems",
+        "This program covers: Testing and Automotive Bus Technologies"
+      ],
+      "syllabus_en": [
+        "Introduction to Embedded Systems",
+        "C Programming and Data Structures",
+        "AVR Microcontroller Interfacing",
+        "Embedded Systems Tools and Software Engineering",
+        "Real-Time Operating Systems",
+        "Testing and Automotive Bus Technologies"
+      ],
+      "training_hours": "120",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة الأنظمة المدمجة - PROG001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Embedded Systems Diploma - PROG001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "network",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "دبلومة شاملة في الشبكات تجمع بين CCNA وCCNP Enterprise وMCSA Windows Server، مع معامل وأجهزة Cisco وتدريب عملي.",
+      "description_en": "A comprehensive networking diploma combining CCNA, CCNP Enterprise and MCSA Windows Server with official labs, Cisco devices and practical training.",
+      "featured": true,
+      "hours": 250,
+      "id": "NET001",
+      "image": "https://drive.google.com/file/d/1opvHKvmAicIReCgQjev0F8XSFLFZYXKn/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة الشبكات والبنية التحتية",
+      "name_en": "Networking Diploma (CCNA, CCNP Enterprise & MCSA)",
+      "order": 8,
+      "price_graduate": "10000",
+      "price_sons": "5000",
+      "price_undergraduate": "9500",
+      "skills_ar": [
+        "Cisco CCNA 200-301",
+        "Cisco CCNP Enterprise ENCOR وENARSI",
+        "MCSA Windows Server",
+        "معامل عملية على أجهزة Cisco",
+        "الاستعداد للاختبارات والشهادات"
+      ],
+      "skills_en": [
+        "Cisco CCNA 200-301",
+        "Cisco CCNP Enterprise ENCOR and ENARSI",
+        "MCSA Windows Server",
+        "Practical Labs on Cisco Devices",
+        "Exam and Certification Preparation"
+      ],
+      "syllabus_ar": [
+        "Cisco CCNA 200-301",
+        "Cisco CCNP Enterprise ENCOR وENARSI",
+        "MCSA Windows Server",
+        "معامل عملية على أجهزة Cisco",
+        "الاستعداد للاختبارات والشهادات"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: Cisco CCNA 200-301",
+        "يتناول البرنامج: Cisco CCNP Enterprise ENCOR وENARSI",
+        "يتناول البرنامج: MCSA Windows Server",
+        "يتناول البرنامج: معامل عملية على أجهزة Cisco",
+        "يتناول البرنامج: الاستعداد للاختبارات والشهادات"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Cisco CCNA 200-301",
+        "This program covers: Cisco CCNP Enterprise ENCOR and ENARSI",
+        "This program covers: MCSA Windows Server",
+        "This program covers: Practical Labs on Cisco Devices",
+        "This program covers: Exam and Certification Preparation"
+      ],
+      "syllabus_en": [
+        "Cisco CCNA 200-301",
+        "Cisco CCNP Enterprise ENCOR and ENARSI",
+        "MCSA Windows Server",
+        "Practical Labs on Cisco Devices",
+        "Exam and Certification Preparation"
+      ],
+      "training_hours": "250",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة الشبكات والبنية التحتية - NET001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Networking Diploma (CCNA, CCNP Enterprise & MCSA) - NET001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "network",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج تأسيسي وعملي في الشبكات والتوجيه والتحويل والشبكات اللاسلكية وأمن الشبكات والأتمتة.",
+      "description_en": "A practical foundation in networking, routing, switching, wireless essentials, security and automation.",
+      "featured": false,
+      "hours": 100,
+      "id": "NET002",
+      "image": "https://drive.google.com/file/d/1PXybI6hQNE8naOlhOzkoBp1K84u5sopo/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "Cisco CCNA 200-301",
+      "name_en": "Cisco CCNA (200-301)",
+      "order": 9,
+      "price_graduate": "3700",
+      "price_sons": "1850",
+      "price_undergraduate": "3400",
+      "skills_ar": [
+        "Introduction to Networks ITN",
+        "Switching, Routing and Wireless Essentials",
+        "Enterprise Networking, Security and Automation",
+        "معامل أجهزة Cisco والاستعداد للاختبار"
+      ],
+      "skills_en": [
+        "Introduction to Networks ITN",
+        "Switching, Routing and Wireless Essentials",
+        "Enterprise Networking, Security and Automation",
+        "Cisco Device Labs and Exam Preparation"
+      ],
+      "syllabus_ar": [
+        "Introduction to Networks ITN",
+        "Switching, Routing and Wireless Essentials",
+        "Enterprise Networking, Security and Automation",
+        "معامل أجهزة Cisco والاستعداد للاختبار"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: Introduction to Networks ITN",
+        "يتناول البرنامج: Switching, Routing and Wireless Essentials",
+        "يتناول البرنامج: Enterprise Networking, Security and Automation",
+        "يتناول البرنامج: معامل أجهزة Cisco والاستعداد للاختبار"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to Networks ITN",
+        "This program covers: Switching, Routing and Wireless Essentials",
+        "This program covers: Enterprise Networking, Security and Automation",
+        "This program covers: Cisco Device Labs and Exam Preparation"
+      ],
+      "syllabus_en": [
+        "Introduction to Networks ITN",
+        "Switching, Routing and Wireless Essentials",
+        "Enterprise Networking, Security and Automation",
+        "Cisco Device Labs and Exam Preparation"
+      ],
+      "training_hours": "100",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cisco CCNA 200-301 - NET002",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cisco CCNA (200-301) - NET002"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "network",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج احترافي لتصميم وتشغيل شبكات المؤسسات الأساسية والمتقدمة وخدمات التوجيه.",
+      "description_en": "An advanced program for implementing enterprise core technologies and advanced routing and services.",
+      "featured": false,
+      "hours": 100,
+      "id": "NET003",
+      "image": "https://drive.google.com/file/d/1klm8y8MKxQswIW1yZh2foNa2u0cQJbQP/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "Cisco CCNP Enterprise ENCOR وENARSI",
+      "name_en": "Cisco CCNP Enterprise (ENCOR & ENARSI)",
+      "order": 10,
+      "price_graduate": "6000",
+      "price_sons": "3000",
+      "price_undergraduate": "5500",
+      "skills_ar": [
+        "تنفيذ وتشغيل تقنيات نواة شبكة المؤسسات ENCOR",
+        "التوجيه المتقدم وخدمات الشبكات ENARSI",
+        "المعامل العملية والاستعداد للاختبار"
+      ],
+      "skills_en": [
+        "Implementing and Operating Enterprise Core Technologies ENCOR",
+        "Enterprise Advanced Routing and Services ENARSI",
+        "Practical Labs and Exam Preparation"
+      ],
+      "syllabus_ar": [
+        "تنفيذ وتشغيل تقنيات نواة شبكة المؤسسات ENCOR",
+        "التوجيه المتقدم وخدمات الشبكات ENARSI",
+        "المعامل العملية والاستعداد للاختبار"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: تنفيذ وتشغيل تقنيات نواة شبكة المؤسسات ENCOR",
+        "يتناول البرنامج: التوجيه المتقدم وخدمات الشبكات ENARSI",
+        "يتناول البرنامج: المعامل العملية والاستعداد للاختبار"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Implementing and Operating Enterprise Core Technologies ENCOR",
+        "This program covers: Enterprise Advanced Routing and Services ENARSI",
+        "This program covers: Practical Labs and Exam Preparation"
+      ],
+      "syllabus_en": [
+        "Implementing and Operating Enterprise Core Technologies ENCOR",
+        "Enterprise Advanced Routing and Services ENARSI",
+        "Practical Labs and Exam Preparation"
+      ],
+      "training_hours": "100",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cisco CCNP Enterprise ENCOR وENARSI - NET003",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cisco CCNP Enterprise (ENCOR & ENARSI) - NET003"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "network",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [
+        ""
+      ],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152LinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "تدريب تطبيقي في معايير TCP/IP ومفاهيم التوجيه والتحويل، مع زيارة لمركز بيانات WE.",
+      "description_en": "Hands-on training in TCP/IP, routing protocols and switching concepts, with practical work and a WE data center visit.",
+      "featured": false,
+      "hours": 50,
+      "id": "NET004",
+      "image": "https://drive.google.com/file/d/1VZJVZnFFHbU50TbdV_DEMQ7VN0RZ8Z7b/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "تدريب الشبكات",
+      "name_en": "Network Training",
+      "order": 11,
+      "price_graduate": "2000",
+      "price_sons": "1000",
+      "price_undergraduate": "1800",
+      "skills_ar": [
+        "معيار TCP/IP",
+        "مقدمة في بروتوكولات التوجيه",
+        "مقدمة في مفاهيم التحويل",
+        "التدريب العملي والزيارة الميدانية",
+        "زيارة مركز بيانات WE"
+      ],
+      "skills_en": [
+        "TCP/IP Standard",
+        "Introduction to Routing Protocols",
+        "Introduction to Switching Concepts",
+        "Practical Training and Field Visit",
+        "WE Data Center Field Visit"
+      ],
+      "syllabus_ar": [
+        "معيار TCP/IP",
+        "مقدمة في بروتوكولات التوجيه",
+        "مقدمة في مفاهيم التحويل",
+        "التدريب العملي والزيارة الميدانية",
+        "زيارة مركز بيانات WE"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: معيار TCP/IP",
+        "يتناول البرنامج: مقدمة في بروتوكولات التوجيه",
+        "يتناول البرنامج: مقدمة في مفاهيم التحويل",
+        "يتناول البرنامج: التدريب العملي والزيارة الميدانية",
+        "يتناول البرنامج: زيارة مركز بيانات WE"
+      ],
+      "syllabus_details_en": [
+        "This program covers: TCP/IP Standard",
+        "This program covers: Introduction to Routing Protocols",
+        "This program covers: Introduction to Switching Concepts",
+        "This program covers: Practical Training and Field Visit",
+        "This program covers: WE Data Center Field Visit"
+      ],
+      "syllabus_en": [
+        "TCP/IP Standard",
+        "Introduction to Routing Protocols",
+        "Introduction to Switching Concepts",
+        "Practical Training and Field Visit",
+        "WE Data Center Field Visit"
+      ],
+      "training_hours": "50",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج تدريب الشبكات - NET004",
+      "whatsapp_message_en": "Hello, I would like to know the price of Network Training - NET004"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "cyber",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "دبلومة شاملة لإعداد محللي SOC وفريق الدفاع الأزرق، تشمل أمن الشبكات وLinux وPython وSIEM والاستخبارات والاستجابة للحوادث.",
+      "description_en": "A comprehensive diploma preparing Blue Team and SOC Analyst professionals through networking, Linux, Python, SIEM, threat intelligence, forensics and incident response.",
       "featured": true,
       "hours": 250,
       "id": "CYB001",
-      "image": "https://drive.google.com/file/d/1IeheeJAG4X26A79GjLu130auz0bXzNUF/view?usp=sharing",
-      "level_ar": "",
-      "level_en": "",
-      "name_ar": "دبلومة الأمن السيبراني - Blue Team (SOC Analyst)",
+      "image": "https://drive.google.com/file/d/17bYniJq5pkITI9Ez2G23xle8Ag5aVLlF/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة الأمن السيبراني - Blue Team وSOC",
       "name_en": "Cyber Security Diploma - Blue Team (SOC Analyst)",
-      "order": 1,
+      "order": 12,
       "price_graduate": "10200",
       "price_sons": "5100",
       "price_undergraduate": "9700",
       "skills_ar": [
-        "أمن الشبكات والجدران النارية",
-        "شبكات CCNA",
-        "إدارة أنظمة Linux",
-        "Python للأمن السيبراني",
-        "عمليات مركز العمليات الأمنية SOC",
-        "تنفيذ ومراقبة أنظمة SIEM",
-        "استخبارات التهديدات",
-        "صيد التهديدات",
-        "الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
-        "الاختراق الأخلاقي",
-        "إدارة الأنظمة و MCSA",
-        "حماية العلامة التجارية ومراقبة Dark Web",
-        "المراقبة الأمنية واكتشاف الحوادث",
-        "مهارات محلل SOC والمسار الوظيفي",
-        "مهارات المقابلات التقنية في الأمن السيبراني"
-      ],
-      "skills_en": [
-        "Network Security & Firewall",
-        "CCNA & Networking",
-        "Linux Administration",
-        "Python for Cybersecurity",
-        "SOC Operations",
-        "SIEM Implementation & Monitoring",
-        "Threat Intelligence",
-        "Threat Hunting",
-        "Digital Forensics & Incident Response (DFIR)",
-        "Ethical Hacking",
-        "MCSA / System Administration",
-        "Brand Protection & Dark Web Monitoring",
-        "Security Monitoring & Incident Detection",
-        "SOC Analyst Skills & Career Path",
-        "Cybersecurity Technical Interview Skills"
-      ],
-      "syllabus_ar": [
         "CCNA - المسار السريع",
         "أمن الشبكات والجدران النارية",
-        "Linux",
+        "إدارة أنظمة Linux",
         "MCSA - المسار السريع",
         "Python للأمن السيبراني",
         "الاختراق الأخلاقي",
-        "عمليات مركز العمليات الأمنية SOC",
-        "حلول SIEM: التشغيل والتنفيذ",
+        "مركز العمليات الأمنية SOC",
+        "حلول SIEM والتشغيل والتنفيذ",
         "استخبارات التهديدات وصيد التهديدات",
         "الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
         "حماية العلامة التجارية ومراقبة Dark Web",
         "خريطة طريق محلل SOC والمسار الوظيفي",
-        "الاستعداد لمقابلات العمل التقنية في الأمن السيبراني"
+        "الاستعداد لمقابلات الأمن السيبراني"
+      ],
+      "skills_en": [
+        "CCNA Fast Track",
+        "Network Security and Firewall",
+        "Linux Administration",
+        "MCSA Fast Track",
+        "Python for Cybersecurity",
+        "Ethical Hacking",
+        "Security Operations Center SOC",
+        "SIEM Operation and Implementation",
+        "Threat Intelligence and Threat Hunting",
+        "Digital Forensics and Incident Response DFIR",
+        "Brand Protection and Dark Web Monitoring",
+        "SOC Analyst Roadmap and Career Path",
+        "Cybersecurity Technical Interview Preparation"
+      ],
+      "syllabus_ar": [
+        "CCNA - المسار السريع",
+        "أمن الشبكات والجدران النارية",
+        "إدارة أنظمة Linux",
+        "MCSA - المسار السريع",
+        "Python للأمن السيبراني",
+        "الاختراق الأخلاقي",
+        "مركز العمليات الأمنية SOC",
+        "حلول SIEM والتشغيل والتنفيذ",
+        "استخبارات التهديدات وصيد التهديدات",
+        "الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
+        "حماية العلامة التجارية ومراقبة Dark Web",
+        "خريطة طريق محلل SOC والمسار الوظيفي",
+        "الاستعداد لمقابلات الأمن السيبراني"
       ],
       "syllabus_details_ar": [
-        "أساسيات الشبكات والتوجيه والتحويل.",
-        "تكوين الجدران النارية وحماية محيط الشبكة.",
-        "إدارة وتأمين أنظمة Linux.",
-        "إدارة وتأمين بيئات Windows والخوادم.",
-        "أتمتة المهام الأمنية وبناء أدوات التحليل.",
-        "اكتشاف الثغرات واختبار الأنظمة بشكل قانوني.",
-        "مراقبة التنبيهات والأحداث الأمنية في الوقت الفعلي.",
-        "جمع وتحليل السجلات الأمنية باستخدام SIEM.",
-        "التتبع الاستباقي للتهديدات المخفية.",
-        "التحقيق في الاختراقات وجمع الأدلة الرقمية.",
-        "مراقبة Dark Web لحماية المؤسسة وبياناتها.",
-        "المهارات المطلوبة لمسار محلل SOC.",
-        "تجهيز عملي للمقابلات التقنية مع خبراء الصناعة."
+        "يتناول البرنامج: CCNA - المسار السريع",
+        "يتناول البرنامج: أمن الشبكات والجدران النارية",
+        "يتناول البرنامج: إدارة أنظمة Linux",
+        "يتناول البرنامج: MCSA - المسار السريع",
+        "يتناول البرنامج: Python للأمن السيبراني",
+        "يتناول البرنامج: الاختراق الأخلاقي",
+        "يتناول البرنامج: مركز العمليات الأمنية SOC",
+        "يتناول البرنامج: حلول SIEM والتشغيل والتنفيذ",
+        "يتناول البرنامج: استخبارات التهديدات وصيد التهديدات",
+        "يتناول البرنامج: الأدلة الجنائية الرقمية والاستجابة للحوادث DFIR",
+        "يتناول البرنامج: حماية العلامة التجارية ومراقبة Dark Web",
+        "يتناول البرنامج: خريطة طريق محلل SOC والمسار الوظيفي",
+        "يتناول البرنامج: الاستعداد لمقابلات الأمن السيبراني"
       ],
       "syllabus_details_en": [
-        "Networking fundamentals, routing and switching.",
-        "Firewall configuration and network perimeter security.",
-        "Linux administration and hardening.",
-        "Windows enterprise and server administration.",
-        "Security automation and analysis tools with Python.",
-        "Legal vulnerability discovery and security testing.",
-        "Real-time monitoring of alerts and security events.",
-        "Security log collection and analysis with SIEM.",
-        "Proactive tracking of hidden threats.",
-        "Digital investigation, evidence collection and incident response.",
-        "Dark Web monitoring for brand and data protection.",
-        "Skills and career path for SOC Analysts.",
-        "Mock interviews and technical preparation with industry experts."
+        "This program covers: CCNA Fast Track",
+        "This program covers: Network Security and Firewall",
+        "This program covers: Linux Administration",
+        "This program covers: MCSA Fast Track",
+        "This program covers: Python for Cybersecurity",
+        "This program covers: Ethical Hacking",
+        "This program covers: Security Operations Center SOC",
+        "This program covers: SIEM Operation and Implementation",
+        "This program covers: Threat Intelligence and Threat Hunting",
+        "This program covers: Digital Forensics and Incident Response DFIR",
+        "This program covers: Brand Protection and Dark Web Monitoring",
+        "This program covers: SOC Analyst Roadmap and Career Path",
+        "This program covers: Cybersecurity Technical Interview Preparation"
       ],
       "syllabus_en": [
-        "CCNA (Fast Track)",
-        "Network Security & Firewall",
-        "Linux",
-        "MCSA (Fast Track)",
-        "Python for Security",
+        "CCNA Fast Track",
+        "Network Security and Firewall",
+        "Linux Administration",
+        "MCSA Fast Track",
+        "Python for Cybersecurity",
         "Ethical Hacking",
-        "SOC (Security Operation Center)",
-        "SIEM Solution (Operation and Implementation)",
-        "Threat Intelligence & Threat Hunting",
-        "Digital Forensics and Incident Response (DFIR)",
-        "Brand Protection & Dark Web Monitoring",
-        "SOC Analyst Roadmap & Career Path",
-        "Technical Cyber Security Job Interview Preparation"
+        "Security Operations Center SOC",
+        "SIEM Operation and Implementation",
+        "Threat Intelligence and Threat Hunting",
+        "Digital Forensics and Incident Response DFIR",
+        "Brand Protection and Dark Web Monitoring",
+        "SOC Analyst Roadmap and Career Path",
+        "Cybersecurity Technical Interview Preparation"
       ],
-      "training_hours": "",
+      "training_hours": "250",
       "whatsapp_available": true,
-      "whatsapp_link": "https://chat.whatsapp.com/HAMWJFKOgBfLPAT5yT7Qcl?s=cl&p=a&ilr=0",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cyber Security Professional - CYB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Professional - CYB001"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة الأمن السيبراني - Blue Team وSOC - CYB001",
+      "whatsapp_message_en": "Hello, I would like to know the price of Cyber Security Diploma - Blue Team (SOC Analyst) - CYB001"
     },
     {
       "active": true,
-      "attachments": [
-        "Course Material",
-        "Labs"
-      ],
-      "category_id": "network",
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
-      "certificate_images": [
-        ""
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
-      "cost": "",
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": true,
-      "hours": 0,
-      "id": "Tele001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Telecommunications",
-      "name_en": "Telecommunications",
-      "order": 2,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
-      "skills_ar": [
-        "Linux",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes"
-      ],
-      "skills_en": [
-        "Linux",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes"
-      ],
-      "syllabus_ar": [
-        "Linux Fundamentals",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes",
-        "Monitoring"
-      ],
-      "syllabus_en": [
-        "Linux Fundamentals",
-        "Git",
-        "Docker",
-        "CI/CD",
-        "Kubernetes",
-        "Monitoring"
-      ],
-      "training_hours": "",
-      "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج DevOps Engineer - DEV001",
-      "whatsapp_message_en": "Hello, I would like to know the price of DevOps Engineer - DEV001"
-    },
-    {
-      "active": true,
-      "attachments": [
-        "PDF Notes",
-        "Labs"
-      ],
-      "category_id": "network",
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
-      "certificate_images": [
-        ""
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
-      "cost": "",
-      "delivery": [
-        "Offline"
-      ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": true,
-      "hours": 0,
-      "id": "NET001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Networking & Infrastructure",
-      "name_en": "Networking & Infrastructure",
-      "order": 3,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
-      "skills_ar": [
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Cisco Fundamentals"
-      ],
-      "skills_en": [
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Cisco Fundamentals"
-      ],
-      "syllabus_ar": [
-        "Network Fundamentals",
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Wireless",
-        "Troubleshooting"
-      ],
-      "syllabus_en": [
-        "Network Fundamentals",
-        "IP Addressing",
-        "Switching",
-        "Routing",
-        "Wireless",
-        "Troubleshooting"
-      ],
-      "training_hours": "",
-      "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج CCNA & Networking - NET001",
-      "whatsapp_message_en": "Hello, I would like to know the price of CCNA & Networking - NET001"
-    },
-    {
-      "active": true,
-      "attachments": [
-        "Python Tutorial PDF|https://docs.python.org/3/tutorial/tutorial.pdf",
-        "Exercises and projects"
-      ],
+      "attachments": [],
       "category_id": "programming",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
-      "certificate_images": [
-        ""
-      ],
+      "certificate_images": [],
       "certificates": [
-        "Training Sector Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Online",
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": true,
-      "hours": 0,
-      "id": "SW001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Software Development",
-      "name_en": "Software Development",
-      "order": 4,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
-      "skills_ar": [
-        "أساسيات Python",
-        "البرمجة الكائنية",
-        "التعامل مع الملفات",
-        "بناء مشاريع صغيرة"
-      ],
-      "skills_en": [
-        "Python syntax",
-        "OOP",
-        "Files and APIs",
-        "Mini projects"
-      ],
-      "syllabus_ar": [
-        "Python basics",
-        "Functions and modules",
-        "OOP",
-        "Files and exceptions",
-        "APIs",
-        "Final project"
-      ],
-      "syllabus_en": [
-        "Python basics",
-        "Functions and modules",
-        "OOP",
-        "Files and exceptions",
-        "APIs",
-        "Final project"
-      ],
-      "training_hours": "",
-      "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Python Programming Bootcamp - PY001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Python Programming Bootcamp - PY001"
-    },
-    {
-      "active": true,
-      "attachments": [
-        "Course Roadmap",
-        "Practical labs",
-        "Git Book PDF|https://git-scm.com/book/en/v2/book.pdf"
-      ],
-      "category_id": "data-ai",
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
-      "certificate_images": [
-        ""
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
-      "cost": "",
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": true,
-      "hours": 0,
-      "id": "AI001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Artificial Intelligence",
-      "name_en": "Artificial Intelligence",
-      "order": 5,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
-      "skills_ar": [
-        "HTML وCSS",
-        "JavaScript",
-        "REST APIs",
-        "قواعد البيانات",
-        "Git"
-      ],
-      "skills_en": [
-        "HTML and CSS",
-        "JavaScript",
-        "REST APIs",
-        "Databases",
-        "Git"
-      ],
-      "syllabus_ar": [
-        "HTML fundamentals",
-        "Responsive CSS",
-        "JavaScript ES6",
-        "REST APIs",
-        "Authentication",
-        "Deployment"
-      ],
-      "syllabus_en": [
-        "HTML fundamentals",
-        "Responsive CSS",
-        "JavaScript ES6",
-        "REST APIs",
-        "Authentication",
-        "Deployment"
-      ],
-      "training_hours": "",
-      "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Full Stack Web Development - WEB001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development - WEB001"
-    },
-    {
-      "active": true,
-      "attachments": [
-        "Command Reference",
-        "Lab checklist",
-        "Administration exercises"
-      ],
-      "category_id": "data-ai",
-      "certificate_details_ar": [
-        ""
-      ],
-      "certificate_details_en": [
-        ""
-      ],
-      "certificate_images": [
-        ""
-      ],
-      "certificates": [
-        "Training Sector Certificate"
-      ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
-      "cost": "",
-      "delivery": [
-        "Online",
-        "Offline"
-      ],
-      "description_ar": "",
-      "description_en": "",
+      "delivery_pricing": {},
+      "description_ar": "دبلومة تؤسس مهارات علوم الحاسب والبرمجة بلغة C++ وJava وهياكل البيانات والخوارزميات وقواعد البيانات وتصميم الأنظمة.",
+      "description_en": "A foundation diploma in computer science, C++, Java, data structures, algorithms, databases, software design, testing and mini projects.",
       "featured": false,
-      "hours": 0,
-      "id": "DA001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Data Science & Analytics",
-      "name_en": "Data Science & Analytics",
-      "order": 6,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
+      "hours": 150,
+      "id": "PROG002",
+      "image": "https://drive.google.com/file/d/1EVhqtodx6Ocb6wQr3Bo-rcgPXIgYlPiT/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة أساسيات البرمجة",
+      "name_en": "Programming Fundamentals Diploma",
+      "order": 13,
+      "price_graduate": "5000",
+      "price_sons": "2500",
+      "price_undergraduate": "4500",
       "skills_ar": [
-        "Linux CLI",
-        "إدارة المستخدمين",
-        "الصلاحيات",
-        "الخدمات",
-        "النسخ الاحتياطي"
+        "مقدمة في علوم الحاسب",
+        "البرمجة بلغة C++",
+        "البرمجة كائنية التوجه بلغة C++ وJava",
+        "هياكل البيانات والخوارزميات",
+        "مقدمة في قواعد البيانات",
+        "Git وGitHub",
+        "مفاهيم Agile وUML",
+        "Java والملفات",
+        "مبادئ SOLID والاختبار",
+        "Clean Code وهندسة البرمجيات",
+        "حل المشكلات وتصحيح الأخطاء",
+        "مشروعات تطبيقية صغيرة"
       ],
       "skills_en": [
-        "Linux CLI",
-        "Users and groups",
-        "Permissions",
-        "Services",
-        "Backups"
+        "Introduction to Computer Science",
+        "Programming with C++",
+        "Object-Oriented Programming with C++ and Java",
+        "Data Structures and Algorithms",
+        "Introduction to Databases",
+        "Git and GitHub",
+        "Agile Concepts and UML",
+        "Java and Files",
+        "SOLID Principles and Unit Testing",
+        "Clean Code and Software Architecture",
+        "Problem Solving and Debugging",
+        "Mini Projects"
       ],
       "syllabus_ar": [
-        "Linux fundamentals",
-        "Shell commands",
-        "Users and permissions",
-        "Processes",
-        "Networking",
-        "Backup and recovery"
+        "مقدمة في علوم الحاسب",
+        "البرمجة بلغة C++",
+        "البرمجة كائنية التوجه بلغة C++ وJava",
+        "هياكل البيانات والخوارزميات",
+        "مقدمة في قواعد البيانات",
+        "Git وGitHub",
+        "مفاهيم Agile وUML",
+        "Java والملفات",
+        "مبادئ SOLID والاختبار",
+        "Clean Code وهندسة البرمجيات",
+        "حل المشكلات وتصحيح الأخطاء",
+        "مشروعات تطبيقية صغيرة"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مقدمة في علوم الحاسب",
+        "يتناول البرنامج: البرمجة بلغة C++",
+        "يتناول البرنامج: البرمجة كائنية التوجه بلغة C++ وJava",
+        "يتناول البرنامج: هياكل البيانات والخوارزميات",
+        "يتناول البرنامج: مقدمة في قواعد البيانات",
+        "يتناول البرنامج: Git وGitHub",
+        "يتناول البرنامج: مفاهيم Agile وUML",
+        "يتناول البرنامج: Java والملفات",
+        "يتناول البرنامج: مبادئ SOLID والاختبار",
+        "يتناول البرنامج: Clean Code وهندسة البرمجيات",
+        "يتناول البرنامج: حل المشكلات وتصحيح الأخطاء",
+        "يتناول البرنامج: مشروعات تطبيقية صغيرة"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to Computer Science",
+        "This program covers: Programming with C++",
+        "This program covers: Object-Oriented Programming with C++ and Java",
+        "This program covers: Data Structures and Algorithms",
+        "This program covers: Introduction to Databases",
+        "This program covers: Git and GitHub",
+        "This program covers: Agile Concepts and UML",
+        "This program covers: Java and Files",
+        "This program covers: SOLID Principles and Unit Testing",
+        "This program covers: Clean Code and Software Architecture",
+        "This program covers: Problem Solving and Debugging",
+        "This program covers: Mini Projects"
       ],
       "syllabus_en": [
-        "Linux fundamentals",
-        "Shell commands",
-        "Users and permissions",
-        "Processes",
-        "Networking",
-        "Backup and recovery"
+        "Introduction to Computer Science",
+        "Programming with C++",
+        "Object-Oriented Programming with C++ and Java",
+        "Data Structures and Algorithms",
+        "Introduction to Databases",
+        "Git and GitHub",
+        "Agile Concepts and UML",
+        "Java and Files",
+        "SOLID Principles and Unit Testing",
+        "Clean Code and Software Architecture",
+        "Problem Solving and Debugging",
+        "Mini Projects"
       ],
-      "training_hours": "",
+      "training_hours": "150",
       "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Linux System Administration - LIN001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Linux System Administration - LIN001"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة أساسيات البرمجة - PROG002",
+      "whatsapp_message_en": "Hello, I would like to know the price of Programming Fundamentals Diploma - PROG002"
     },
     {
       "active": true,
-      "attachments": [
-        "Cloud Study Guide",
-        "Architecture exercises",
-        "Security checklist"
-      ],
-      "category_id": "devops",
+      "attachments": [],
+      "category_id": "programming",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
-      "certificate_images": [
-        ""
-      ],
+      "certificate_images": [],
       "certificates": [
-        "Training Sector Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Online",
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "-",
-      "description_en": "-",
-      "featured": true,
-      "hours": 0,
-      "id": "CLO001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Cloud Computing",
-      "name_en": "Cloud Computing",
-      "order": 7,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
+      "delivery_pricing": {},
+      "description_ar": "دبلومة متكاملة لتطوير الواجهات الأمامية والخلفية باستخدام HTML وCSS وJavaScript وReact وPHP وLaravel وMySQL.",
+      "description_en": "A full-stack diploma covering HTML, CSS, Bootstrap, JavaScript, jQuery, React, PHP, MySQL, Laravel, REST services and a final project.",
+      "featured": false,
+      "hours": 200,
+      "id": "PROG003",
+      "image": "https://drive.google.com/file/d/16ort1Oak2wY3ntOQ-72hzktfXWSSh3ol/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تطوير الويب Full Stack",
+      "name_en": "Full Stack Web Development Diploma (PHP & Laravel)",
+      "order": 14,
+      "price_graduate": "8000",
+      "price_sons": "4000",
+      "price_undergraduate": "7500",
       "skills_ar": [
-        "Cloud concepts",
-        "IaaS وPaaS",
-        "التخزين السحابي",
-        "الشبكات السحابية",
-        "الأمان"
+        "تطوير الواجهات الأمامية وHTML5 وCSS",
+        "Bootstrap وJavaScript وjQuery",
+        "React",
+        "PHP وMySQL وOOP",
+        "إطار Laravel ووحدات التحكم",
+        "المستخدمون والمصادقة",
+        "خدمات REST وAJAX وJSON",
+        "MVC وCookies وSessions",
+        "استضافة المواقع",
+        "المشروع النهائي"
       ],
       "skills_en": [
-        "Cloud concepts",
-        "IaaS and PaaS",
-        "Cloud storage",
-        "Cloud networking",
-        "Security"
+        "Front-End Development, HTML5 and CSS",
+        "Bootstrap, JavaScript and jQuery",
+        "React",
+        "PHP, MySQL and OOP",
+        "Laravel Framework and Controllers",
+        "Users and Authentication",
+        "REST, AJAX and JSON Services",
+        "MVC, Cookies and Sessions",
+        "Website Hosting",
+        "Final Project"
       ],
       "syllabus_ar": [
-        "Cloud models",
-        "Virtual machines",
-        "Storage",
-        "Networking",
-        "IAM",
-        "Cost and security"
+        "تطوير الواجهات الأمامية وHTML5 وCSS",
+        "Bootstrap وJavaScript وjQuery",
+        "React",
+        "PHP وMySQL وOOP",
+        "إطار Laravel ووحدات التحكم",
+        "المستخدمون والمصادقة",
+        "خدمات REST وAJAX وJSON",
+        "MVC وCookies وSessions",
+        "استضافة المواقع",
+        "المشروع النهائي"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: تطوير الواجهات الأمامية وHTML5 وCSS",
+        "يتناول البرنامج: Bootstrap وJavaScript وjQuery",
+        "يتناول البرنامج: React",
+        "يتناول البرنامج: PHP وMySQL وOOP",
+        "يتناول البرنامج: إطار Laravel ووحدات التحكم",
+        "يتناول البرنامج: المستخدمون والمصادقة",
+        "يتناول البرنامج: خدمات REST وAJAX وJSON",
+        "يتناول البرنامج: MVC وCookies وSessions",
+        "يتناول البرنامج: استضافة المواقع",
+        "يتناول البرنامج: المشروع النهائي"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Front-End Development, HTML5 and CSS",
+        "This program covers: Bootstrap, JavaScript and jQuery",
+        "This program covers: React",
+        "This program covers: PHP, MySQL and OOP",
+        "This program covers: Laravel Framework and Controllers",
+        "This program covers: Users and Authentication",
+        "This program covers: REST, AJAX and JSON Services",
+        "This program covers: MVC, Cookies and Sessions",
+        "This program covers: Website Hosting",
+        "This program covers: Final Project"
       ],
       "syllabus_en": [
-        "Cloud models",
-        "Virtual machines",
-        "Storage",
-        "Networking",
-        "IAM",
-        "Cost and security"
+        "Front-End Development, HTML5 and CSS",
+        "Bootstrap, JavaScript and jQuery",
+        "React",
+        "PHP, MySQL and OOP",
+        "Laravel Framework and Controllers",
+        "Users and Authentication",
+        "REST, AJAX and JSON Services",
+        "MVC, Cookies and Sessions",
+        "Website Hosting",
+        "Final Project"
       ],
-      "training_hours": "",
+      "training_hours": "200",
       "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Cloud Computing Fundamentals - CLO001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Cloud Computing Fundamentals - CLO001"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تطوير الويب Full Stack - PROG003",
+      "whatsapp_message_en": "Hello, I would like to know the price of Full Stack Web Development Diploma (PHP & Laravel) - PROG003"
     },
     {
       "active": true,
-      "attachments": [
-        "Templates",
-        "Dashboard project",
-        "Data glossary"
+      "attachments": [],
+      "category_id": "programming",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "دبلومة لتطوير تطبيقات الويب الخلفية باستخدام C# وASP.NET وقواعد بيانات SQL وEntity Framework وMVC وواجهات API.",
+      "description_en": "A backend web development diploma covering C#, ASP.NET, SQL databases, Entity Framework, MVC, APIs, testing and agile practices.",
+      "featured": false,
+      "hours": 170,
+      "id": "PROG004",
+      "image": "https://drive.google.com/file/d/1cgxPz5DwUXvUpUJXQp4VrID1fo8be-vm/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تطوير الويب Back-End ASP.NET",
+      "name_en": "Back-End Web Development Diploma (ASP.NET)",
+      "order": 15,
+      "price_graduate": "6000",
+      "price_sons": "3000",
+      "price_undergraduate": "5500",
+      "skills_ar": [
+        "مقدمة في ASP.NET وأنماط التصميم",
+        "SQL Database ومشروع متكامل",
+        "C# وAgile",
+        "البرمجة كائنية التوجه والاختبار",
+        "Advanced C# وLINQ",
+        "Entity Framework",
+        "MVC وAPI"
+      ],
+      "skills_en": [
+        "Introduction to ASP.NET and Design Patterns",
+        "SQL Database and Full Project",
+        "C# and Agile",
+        "Object-Oriented Programming and Testing",
+        "Advanced C# and LINQ",
+        "Entity Framework",
+        "MVC and API"
+      ],
+      "syllabus_ar": [
+        "مقدمة في ASP.NET وأنماط التصميم",
+        "SQL Database ومشروع متكامل",
+        "C# وAgile",
+        "البرمجة كائنية التوجه والاختبار",
+        "Advanced C# وLINQ",
+        "Entity Framework",
+        "MVC وAPI"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مقدمة في ASP.NET وأنماط التصميم",
+        "يتناول البرنامج: SQL Database ومشروع متكامل",
+        "يتناول البرنامج: C# وAgile",
+        "يتناول البرنامج: البرمجة كائنية التوجه والاختبار",
+        "يتناول البرنامج: Advanced C# وLINQ",
+        "يتناول البرنامج: Entity Framework",
+        "يتناول البرنامج: MVC وAPI"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to ASP.NET and Design Patterns",
+        "This program covers: SQL Database and Full Project",
+        "This program covers: C# and Agile",
+        "This program covers: Object-Oriented Programming and Testing",
+        "This program covers: Advanced C# and LINQ",
+        "This program covers: Entity Framework",
+        "This program covers: MVC and API"
+      ],
+      "syllabus_en": [
+        "Introduction to ASP.NET and Design Patterns",
+        "SQL Database and Full Project",
+        "C# and Agile",
+        "Object-Oriented Programming and Testing",
+        "Advanced C# and LINQ",
+        "Entity Framework",
+        "MVC and API"
+      ],
+      "training_hours": "170",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تطوير الويب Back-End ASP.NET - PROG004",
+      "whatsapp_message_en": "Hello, I would like to know the price of Back-End Web Development Diploma (ASP.NET) - PROG004"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "programming",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "دبلومة عملية لبناء تطبيقات الهاتف باستخدام Dart وFlutter وإدارة الحالة وقواعد البيانات وواجهات API، مع أساسيات Backend وDjango والاستضافة.",
+      "description_en": "A practical diploma for building mobile applications with Dart and Flutter, state management, databases, APIs, backend development, Django and hosting.",
+      "featured": false,
+      "hours": 132,
+      "id": "PROG005",
+      "image": "https://drive.google.com/file/d/1to5f-zSlSSr5JkbOykBpvKKuhBZSFCPO/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تطبيقات الهاتف باستخدام Flutter",
+      "name_en": "Flutter Mobile Application Diploma",
+      "order": 16,
+      "price_graduate": "6500",
+      "price_sons": "3250",
+      "price_undergraduate": "6000",
+      "skills_ar": [
+        "Dart",
+        "البرمجة كائنية التوجه وحل المشكلات",
+        "Flutter والموضوعات المتقدمة",
+        "واجهات API وإدارة الحالة",
+        "قواعد البيانات وهندسة البرمجيات",
+        "نظرة عامة على Python",
+        "تطوير Backend وDjango",
+        "الاستضافة والنطاقات"
+      ],
+      "skills_en": [
+        "Dart",
+        "Object-Oriented Programming and Problem Solving",
+        "Flutter and Advanced Topics",
+        "APIs and State Management",
+        "Databases and Software Engineering",
+        "Python Overview",
+        "Backend Development and Django",
+        "Hosting and Domains"
+      ],
+      "syllabus_ar": [
+        "Dart",
+        "البرمجة كائنية التوجه وحل المشكلات",
+        "Flutter والموضوعات المتقدمة",
+        "واجهات API وإدارة الحالة",
+        "قواعد البيانات وهندسة البرمجيات",
+        "نظرة عامة على Python",
+        "تطوير Backend وDjango",
+        "الاستضافة والنطاقات"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: Dart",
+        "يتناول البرنامج: البرمجة كائنية التوجه وحل المشكلات",
+        "يتناول البرنامج: Flutter والموضوعات المتقدمة",
+        "يتناول البرنامج: واجهات API وإدارة الحالة",
+        "يتناول البرنامج: قواعد البيانات وهندسة البرمجيات",
+        "يتناول البرنامج: نظرة عامة على Python",
+        "يتناول البرنامج: تطوير Backend وDjango",
+        "يتناول البرنامج: الاستضافة والنطاقات"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Dart",
+        "This program covers: Object-Oriented Programming and Problem Solving",
+        "This program covers: Flutter and Advanced Topics",
+        "This program covers: APIs and State Management",
+        "This program covers: Databases and Software Engineering",
+        "This program covers: Python Overview",
+        "This program covers: Backend Development and Django",
+        "This program covers: Hosting and Domains"
+      ],
+      "syllabus_en": [
+        "Dart",
+        "Object-Oriented Programming and Problem Solving",
+        "Flutter and Advanced Topics",
+        "APIs and State Management",
+        "Databases and Software Engineering",
+        "Python Overview",
+        "Backend Development and Django",
+        "Hosting and Domains"
+      ],
+      "training_hours": "132",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تطبيقات الهاتف باستخدام Flutter - PROG005",
+      "whatsapp_message_en": "Hello, I would like to know the price of Flutter Mobile Application Diploma - PROG005"
+    },
+    {
+      "active": true,
+      "attachments": [],
       "category_id": "design",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
-      "certificate_images": [
-        ""
-      ],
+      "certificate_images": [],
       "certificates": [
-        "Training Sector Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Online",
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "-",
-      "description_en": "-",
+      "delivery_pricing": {},
+      "description_ar": "دبلومة عملية لفهم الفرق بين UI وUX وتصميم الواجهات والنماذج الأولية والتفكير التصميمي والاختبار.",
+      "description_en": "A practical diploma covering UI and UX principles, visual design, prototyping, design thinking, application and testing processes.",
       "featured": true,
-      "hours": 0,
-      "id": "ES001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Embedded Systems",
-      "name_en": "Embedded Systems",
-      "order": 8,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
+      "hours": 120,
+      "id": "DES001",
+      "image": "https://drive.google.com/file/d/1rnkRNbt4GT9KDQMkzsPiiJOurO0vqGgz/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تصميم UI / UX",
+      "name_en": "UI / UX Design Diploma",
+      "order": 17,
+      "price_graduate": "4000",
+      "price_sons": "2000",
+      "price_undergraduate": "3500",
       "skills_ar": [
-        "Excel formulas",
-        "تنظيف البيانات",
-        "Power Query",
-        "Dashboards",
-        "Data storytelling"
+        "الفرق بين UI وUX",
+        "التصميم البصري والنماذج الأولية",
+        "عمليات التصميم وطرق UI",
+        "طرق UX والتفكير التصميمي",
+        "عملية تصميم UI وUX",
+        "عملية الاختبار والتطبيقات"
       ],
       "skills_en": [
-        "Excel formulas",
-        "Data cleaning",
-        "Power Query",
-        "Dashboards",
-        "Data storytelling"
+        "Difference Between UI and UX",
+        "Visual Design and Prototyping",
+        "Design Processes and UI Methods",
+        "UX Methods and Design Thinking",
+        "UI and UX Design Process",
+        "Testing Process and Applications"
       ],
       "syllabus_ar": [
-        "Excel essentials",
-        "Data cleaning",
-        "Power Query",
-        "Data modeling",
-        "DAX basics",
-        "Dashboard project"
+        "الفرق بين UI وUX",
+        "التصميم البصري والنماذج الأولية",
+        "عمليات التصميم وطرق UI",
+        "طرق UX والتفكير التصميمي",
+        "عملية تصميم UI وUX",
+        "عملية الاختبار والتطبيقات"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: الفرق بين UI وUX",
+        "يتناول البرنامج: التصميم البصري والنماذج الأولية",
+        "يتناول البرنامج: عمليات التصميم وطرق UI",
+        "يتناول البرنامج: طرق UX والتفكير التصميمي",
+        "يتناول البرنامج: عملية تصميم UI وUX",
+        "يتناول البرنامج: عملية الاختبار والتطبيقات"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Difference Between UI and UX",
+        "This program covers: Visual Design and Prototyping",
+        "This program covers: Design Processes and UI Methods",
+        "This program covers: UX Methods and Design Thinking",
+        "This program covers: UI and UX Design Process",
+        "This program covers: Testing Process and Applications"
       ],
       "syllabus_en": [
-        "Excel essentials",
-        "Data cleaning",
-        "Power Query",
-        "Data modeling",
-        "DAX basics",
-        "Dashboard project"
+        "Difference Between UI and UX",
+        "Visual Design and Prototyping",
+        "Design Processes and UI Methods",
+        "UX Methods and Design Thinking",
+        "UI and UX Design Process",
+        "Testing Process and Applications"
       ],
-      "training_hours": "",
+      "training_hours": "120",
       "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Data Analysis with Excel & Power BI - DAT001",
-      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis with Excel & Power BI - DAT001"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تصميم UI / UX - DES001",
+      "whatsapp_message_en": "Hello, I would like to know the price of UI / UX Design Diploma - DES001"
     },
     {
       "active": true,
-      "attachments": [
-        "ML Workbook",
-        "Datasets",
-        "Practice notebooks"
-      ],
-      "category_id": "data-ai",
+      "attachments": [],
+      "category_id": "programming",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
-      "certificate_images": [
-        ""
-      ],
+      "certificate_images": [],
       "certificates": [
-        "Training Sector Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Online",
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "",
-      "description_en": "",
+      "delivery_pricing": {},
+      "description_ar": "دبلومة في أساسيات الاختبار اليدوي والآلي وأدوات Jira وXray واختبار API وSelenium وTestNG وMaven.",
+      "description_en": "A software testing diploma covering ISTQB fundamentals, manual testing, Jira, Xray, API testing, Java automation, Selenium, TestNG and Maven.",
       "featured": false,
-      "hours": 0,
-      "id": "UI001",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "UI/UX Design",
-      "name_en": "UI/UX Design",
-      "order": 9,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
+      "hours": 120,
+      "id": "PROG006",
+      "image": "https://drive.google.com/file/d/1InxB2GGNAK3Xfk1i4j9gSnk8dFpIHb4b/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة اختبار البرمجيات",
+      "name_en": "Software Testing Diploma",
+      "order": 18,
+      "price_graduate": "7000",
+      "price_sons": "3500",
+      "price_undergraduate": "6500",
       "skills_ar": [
-        "Python للبيانات",
-        "تحضير البيانات",
-        "الانحدار والتصنيف",
-        "تقييم النماذج"
+        "أساسيات الاختبار وISTQB Foundation",
+        "الاختبار اليدوي",
+        "Jira وXray",
+        "اختبار API",
+        "Java للأتمتة",
+        "Selenium Automation",
+        "TestNG وMaven والتقارير"
       ],
       "skills_en": [
-        "Python for data",
-        "Data preparation",
-        "Regression and classification",
-        "Model evaluation"
+        "Testing Fundamentals and ISTQB Foundation",
+        "Manual Testing",
+        "Jira and Xray",
+        "API Testing",
+        "Java for Automation",
+        "Selenium Automation",
+        "TestNG, Maven and Reporting"
       ],
       "syllabus_ar": [
-        "AI overview",
-        "NumPy and Pandas",
-        "Data preparation",
-        "Regression",
-        "Classification",
-        "Model evaluation"
+        "أساسيات الاختبار وISTQB Foundation",
+        "الاختبار اليدوي",
+        "Jira وXray",
+        "اختبار API",
+        "Java للأتمتة",
+        "Selenium Automation",
+        "TestNG وMaven والتقارير"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: أساسيات الاختبار وISTQB Foundation",
+        "يتناول البرنامج: الاختبار اليدوي",
+        "يتناول البرنامج: Jira وXray",
+        "يتناول البرنامج: اختبار API",
+        "يتناول البرنامج: Java للأتمتة",
+        "يتناول البرنامج: Selenium Automation",
+        "يتناول البرنامج: TestNG وMaven والتقارير"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Testing Fundamentals and ISTQB Foundation",
+        "This program covers: Manual Testing",
+        "This program covers: Jira and Xray",
+        "This program covers: API Testing",
+        "This program covers: Java for Automation",
+        "This program covers: Selenium Automation",
+        "This program covers: TestNG, Maven and Reporting"
       ],
       "syllabus_en": [
-        "AI overview",
-        "NumPy and Pandas",
-        "Data preparation",
-        "Regression",
-        "Classification",
-        "Model evaluation"
+        "Testing Fundamentals and ISTQB Foundation",
+        "Manual Testing",
+        "Jira and Xray",
+        "API Testing",
+        "Java for Automation",
+        "Selenium Automation",
+        "TestNG, Maven and Reporting"
       ],
-      "training_hours": "",
+      "training_hours": "120",
       "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج AI & Machine Learning Foundations - AI001",
-      "whatsapp_message_en": "Hello, I would like to know the price of AI & Machine Learning Foundations - AI001"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة اختبار البرمجيات - PROG006",
+      "whatsapp_message_en": "Hello, I would like to know the price of Software Testing Diploma - PROG006"
     },
     {
       "active": true,
-      "attachments": [
-        "OWASP Top 10 PDF|https://owasp.org/www-chapter-quebec-city/assets/presentations/Top10_2021.pdf",
-        "Lab safety rules",
-        "Report template"
-      ],
-      "category_id": "support",
+      "attachments": [],
+      "category_id": "ai-data",
       "certificate_details_ar": [
-        ""
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
       ],
       "certificate_details_en": [
-        ""
+        "Certificate accredited by WE Training and Development Sector"
       ],
-      "certificate_images": [
-        ""
-      ],
+      "certificate_images": [],
       "certificates": [
-        "Training Sector Certificate"
+        "شهادة معتمدة من WE / WE Accredited Certificate"
       ],
-      "contact_address": "",
-      "contact_email": "",
-      "contact_mobile": "",
-      "contact_phone": "",
-      "contact_social": "",
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
       "cost": "",
       "delivery": [
-        "Online",
-        "Offline"
+        "On-Site"
       ],
-      "description_ar": "",
-      "description_en": "",
-      "featured": true,
-      "hours": 0,
-      "id": "BC002",
-      "image": "",
-      "level_ar": "-",
-      "level_en": "-",
-      "name_ar": "Business, Sales & Career Development",
-      "name_en": "Business, Sales & Career Development",
-      "order": 10,
-      "price_graduate": "",
-      "price_sons": "",
-      "price_undergraduate": "",
+      "delivery_pricing": {},
+      "description_ar": "برنامج تأسيسي في الذكاء الاصطناعي وPython وتجهيز البيانات وخوارزميات تعلم الآلة وتقييم النماذج وضبط المعاملات.",
+      "description_en": "A foundation program in AI, Python, data preprocessing, machine learning, regression, classification, ensembles and model evaluation.",
+      "featured": false,
+      "hours": 70,
+      "id": "AI001",
+      "image": "https://drive.google.com/file/d/1HSctg-r-Ia32IxS8SO-vgcKJdy-8Mv6e/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "مستوى AI Associate - تعلم الآلة",
+      "name_en": "AI Associate Level (Machine Learning)",
+      "order": 19,
+      "price_graduate": "3500",
+      "price_sons": "1750",
+      "price_undergraduate": "3000",
       "skills_ar": [
-        "Reconnaissance",
-        "أمن الشبكات",
-        "Web security",
-        "كتابة التقارير",
-        "أخلاقيات الاختبار"
+        "ما هو الذكاء الاصطناعي؟",
+        "البرمجة بلغة Python",
+        "تجهيز البيانات",
+        "تعلم الآلة",
+        "تقنيات Regression",
+        "تقنيات Classification",
+        "Ensemble Methods",
+        "تقييم النموذج وضبط Hyperparameters"
       ],
       "skills_en": [
-        "Reconnaissance",
-        "Network security",
-        "Web security",
-        "Reporting",
-        "Testing ethics"
+        "What is AI?",
+        "Python Programming",
+        "Data Preprocessing",
+        "Machine Learning",
+        "Regression Techniques",
+        "Classification Techniques",
+        "Ensemble Methods",
+        "Model Evaluation and Hyperparameter Tuning"
       ],
       "syllabus_ar": [
-        "Ethics and scope",
-        "Reconnaissance",
-        "Scanning",
-        "Web vulnerabilities",
-        "Reporting",
-        "Remediation"
+        "ما هو الذكاء الاصطناعي؟",
+        "البرمجة بلغة Python",
+        "تجهيز البيانات",
+        "تعلم الآلة",
+        "تقنيات Regression",
+        "تقنيات Classification",
+        "Ensemble Methods",
+        "تقييم النموذج وضبط Hyperparameters"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: ما هو الذكاء الاصطناعي؟",
+        "يتناول البرنامج: البرمجة بلغة Python",
+        "يتناول البرنامج: تجهيز البيانات",
+        "يتناول البرنامج: تعلم الآلة",
+        "يتناول البرنامج: تقنيات Regression",
+        "يتناول البرنامج: تقنيات Classification",
+        "يتناول البرنامج: Ensemble Methods",
+        "يتناول البرنامج: تقييم النموذج وضبط Hyperparameters"
+      ],
+      "syllabus_details_en": [
+        "This program covers: What is AI?",
+        "This program covers: Python Programming",
+        "This program covers: Data Preprocessing",
+        "This program covers: Machine Learning",
+        "This program covers: Regression Techniques",
+        "This program covers: Classification Techniques",
+        "This program covers: Ensemble Methods",
+        "This program covers: Model Evaluation and Hyperparameter Tuning"
       ],
       "syllabus_en": [
-        "Ethics and scope",
-        "Reconnaissance",
-        "Scanning",
-        "Web vulnerabilities",
-        "Reporting",
-        "Remediation"
+        "What is AI?",
+        "Python Programming",
+        "Data Preprocessing",
+        "Machine Learning",
+        "Regression Techniques",
+        "Classification Techniques",
+        "Ensemble Methods",
+        "Model Evaluation and Hyperparameter Tuning"
       ],
-      "training_hours": "",
+      "training_hours": "70",
       "whatsapp_available": true,
-      "whatsapp_link": "",
-      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج Ethical Hacking Essentials - SEC002",
-      "whatsapp_message_en": "Hello, I would like to know the price of Ethical Hacking Essentials - SEC002"
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج مستوى AI Associate - تعلم الآلة - AI001",
+      "whatsapp_message_en": "Hello, I would like to know the price of AI Associate Level (Machine Learning) - AI001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "ai-data",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج احترافي في الشبكات العصبية والتعلم العميق ورؤية الحاسب وCNN وMask-RCNN وYOLO-NAS وSAM.",
+      "description_en": "An advanced program in neural networks, deep learning, computer vision, CNN, Mask-RCNN, labeling, YOLO-NAS and SAM.",
+      "featured": false,
+      "hours": 40,
+      "id": "AI002",
+      "image": "https://drive.google.com/file/d/1o9hPPjJYTfT_5F2GwQGo-XR0Whvopzb7/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "مستوى AI Professional - التعلم العميق ورؤية الحاسب",
+      "name_en": "AI Professional Level (Deep Learning & Computer Vision)",
+      "order": 20,
+      "price_graduate": "4000",
+      "price_sons": "2000",
+      "price_undergraduate": "3500",
+      "skills_ar": [
+        "الشبكات العصبية والتعلم العميق",
+        "الشبكات الالتفافية CNN",
+        "Mask-RCNN",
+        "وضع العلامات والتعليق على البيانات",
+        "YOLO-NAS",
+        "SAM"
+      ],
+      "skills_en": [
+        "Neural Networks and Deep Learning",
+        "Convolutional Neural Networks",
+        "Mask-RCNN",
+        "Labeling and Annotating",
+        "YOLO-NAS",
+        "SAM"
+      ],
+      "syllabus_ar": [
+        "الشبكات العصبية والتعلم العميق",
+        "الشبكات الالتفافية CNN",
+        "Mask-RCNN",
+        "وضع العلامات والتعليق على البيانات",
+        "YOLO-NAS",
+        "SAM"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: الشبكات العصبية والتعلم العميق",
+        "يتناول البرنامج: الشبكات الالتفافية CNN",
+        "يتناول البرنامج: Mask-RCNN",
+        "يتناول البرنامج: وضع العلامات والتعليق على البيانات",
+        "يتناول البرنامج: YOLO-NAS",
+        "يتناول البرنامج: SAM"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Neural Networks and Deep Learning",
+        "This program covers: Convolutional Neural Networks",
+        "This program covers: Mask-RCNN",
+        "This program covers: Labeling and Annotating",
+        "This program covers: YOLO-NAS",
+        "This program covers: SAM"
+      ],
+      "syllabus_en": [
+        "Neural Networks and Deep Learning",
+        "Convolutional Neural Networks",
+        "Mask-RCNN",
+        "Labeling and Annotating",
+        "YOLO-NAS",
+        "SAM"
+      ],
+      "training_hours": "40",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج مستوى AI Professional - التعلم العميق ورؤية الحاسب - AI002",
+      "whatsapp_message_en": "Hello, I would like to know the price of AI Professional Level (Deep Learning & Computer Vision) - AI002"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "ai-data",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج متقدم في تقنيات تعلم الآلة والتعلم العميق ومعالجة اللغة الطبيعية والذكاء الاصطناعي التوليدي وأبعاده الأخلاقية.",
+      "description_en": "An expert program in advanced machine learning, deep learning architectures, natural language processing, generative AI and ethical implications.",
+      "featured": false,
+      "hours": 60,
+      "id": "AI003",
+      "image": "https://drive.google.com/file/d/1WRz1qSebTlnjEuZ-BpLqNXw3A-wZ1H2-/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "مستوى AI Expert - NLP وGenAI",
+      "name_en": "AI Expert Level (NLP & GenAI)",
+      "order": 21,
+      "price_graduate": "4500",
+      "price_sons": "2250",
+      "price_undergraduate": "4000",
+      "skills_ar": [
+        "تقنيات تعلم الآلة المتقدمة",
+        "معمارية التعلم العميق المتقدمة",
+        "معالجة اللغة الطبيعية NLP",
+        "الذكاء الاصطناعي التوليدي GenAI",
+        "الأبعاد الأخلاقية والمجتمعية"
+      ],
+      "skills_en": [
+        "Advanced Machine Learning Techniques",
+        "Advanced Deep Learning Architectures",
+        "Natural Language Processing NLP",
+        "Generative AI GenAI",
+        "Ethical and Societal Implications"
+      ],
+      "syllabus_ar": [
+        "تقنيات تعلم الآلة المتقدمة",
+        "معمارية التعلم العميق المتقدمة",
+        "معالجة اللغة الطبيعية NLP",
+        "الذكاء الاصطناعي التوليدي GenAI",
+        "الأبعاد الأخلاقية والمجتمعية"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: تقنيات تعلم الآلة المتقدمة",
+        "يتناول البرنامج: معمارية التعلم العميق المتقدمة",
+        "يتناول البرنامج: معالجة اللغة الطبيعية NLP",
+        "يتناول البرنامج: الذكاء الاصطناعي التوليدي GenAI",
+        "يتناول البرنامج: الأبعاد الأخلاقية والمجتمعية"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Advanced Machine Learning Techniques",
+        "This program covers: Advanced Deep Learning Architectures",
+        "This program covers: Natural Language Processing NLP",
+        "This program covers: Generative AI GenAI",
+        "This program covers: Ethical and Societal Implications"
+      ],
+      "syllabus_en": [
+        "Advanced Machine Learning Techniques",
+        "Advanced Deep Learning Architectures",
+        "Natural Language Processing NLP",
+        "Generative AI GenAI",
+        "Ethical and Societal Implications"
+      ],
+      "training_hours": "60",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج مستوى AI Expert - NLP وGenAI - AI003",
+      "whatsapp_message_en": "Hello, I would like to know the price of AI Expert Level (NLP & GenAI) - AI003"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "ai-data",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site",
+        "Online"
+      ],
+      "delivery_pricing": {
+        "On-Site": {
+          "graduate": "5500",
+          "sons_daughters": "2750",
+          "undergraduate": "5000"
+        },
+        "Online": {
+          "graduate": "4500",
+          "sons_daughters": "2250",
+          "undergraduate": "4000"
+        }
+      },
+      "description_ar": "دبلومة تحليل بيانات متاحة بنظامي On-Site وOnline، وتغطي Excel وPower Query وSQL Server وPython وPower BI.",
+      "description_en": "A single Data Analysis Diploma available in both On-Site and Online delivery modes, covering Excel, Power Query, SQL Server, Python and Power BI.",
+      "featured": false,
+      "hours": 145,
+      "id": "AI004",
+      "image": "https://drive.google.com/file/d/1XdZ1-lxD-onzcc6B_LAjeECVBUonxlb6/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "دبلومة تحليل البيانات - حضوري وأونلاين",
+      "name_en": "Data Analysis Diploma - On-Site and Online",
+      "order": 22,
+      "price_graduate": "On-Site: 5500 | Online: 4500",
+      "price_sons": "On-Site: 2750 | Online: 2250",
+      "price_undergraduate": "On-Site: 5000 | Online: 4000",
+      "skills_ar": [
+        "Excel",
+        "Power Query",
+        "SQL Server",
+        "Python لتحليل البيانات",
+        "Power BI"
+      ],
+      "skills_en": [
+        "Excel",
+        "Power Query",
+        "SQL Server",
+        "Python for Data Analysis",
+        "Power BI"
+      ],
+      "syllabus_ar": [
+        "Excel",
+        "Power Query",
+        "SQL Server",
+        "Python لتحليل البيانات",
+        "Power BI"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: Excel",
+        "يتناول البرنامج: Power Query",
+        "يتناول البرنامج: SQL Server",
+        "يتناول البرنامج: Python لتحليل البيانات",
+        "يتناول البرنامج: Power BI"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Excel",
+        "This program covers: Power Query",
+        "This program covers: SQL Server",
+        "This program covers: Python for Data Analysis",
+        "This program covers: Power BI"
+      ],
+      "syllabus_en": [
+        "Excel",
+        "Power Query",
+        "SQL Server",
+        "Python for Data Analysis",
+        "Power BI"
+      ],
+      "training_hours": "145",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج دبلومة تحليل البيانات - حضوري وأونلاين - AI004",
+      "whatsapp_message_en": "Hello, I would like to know the price of Data Analysis Diploma - On-Site and Online - AI004"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "cloud",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج في تصميم الحلول السحابية يشمل البنية التحتية والأمان والشبكات والحوسبة والتخزين وقواعد البيانات والأتمتة والمشروع التطبيقي.",
+      "description_en": "A cloud architecture program covering infrastructure, reliability, security, networking, compute, storage, databases, automation, monitoring and a capstone project.",
+      "featured": false,
+      "hours": 60,
+      "id": "CLO001",
+      "image": "https://drive.google.com/file/d/1r3fZK1eQco8JMkxOO9_PVoxLOp3N5q8h/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "الحوسبة السحابية AWS - Solutions Architect",
+      "name_en": "AWS Cloud Computing - Solutions Architect",
+      "order": 23,
+      "price_graduate": "4500",
+      "price_sons": "2250",
+      "price_undergraduate": "4000",
+      "skills_ar": [
+        "مقدمة في Amazon Web Services",
+        "أساسيات تصميم الحلول",
+        "البنية العالمية والاعتمادية",
+        "أمان الحساب",
+        "الشبكات والحوسبة والتخزين",
+        "الأتمتة وقواعد البيانات والخدمات Serverless",
+        "النسخ الاحتياطي والاستعادة والمراقبة",
+        "المشروع التطبيقي"
+      ],
+      "skills_en": [
+        "Introduction to Amazon Web Services",
+        "Architecting Fundamentals",
+        "Global Infrastructure and Reliability",
+        "Account Security",
+        "Networking, Compute and Storage",
+        "Automation, Databases and Serverless",
+        "Backup, Recovery and Monitoring",
+        "Capstone Project"
+      ],
+      "syllabus_ar": [
+        "مقدمة في Amazon Web Services",
+        "أساسيات تصميم الحلول",
+        "البنية العالمية والاعتمادية",
+        "أمان الحساب",
+        "الشبكات والحوسبة والتخزين",
+        "الأتمتة وقواعد البيانات والخدمات Serverless",
+        "النسخ الاحتياطي والاستعادة والمراقبة",
+        "المشروع التطبيقي"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مقدمة في Amazon Web Services",
+        "يتناول البرنامج: أساسيات تصميم الحلول",
+        "يتناول البرنامج: البنية العالمية والاعتمادية",
+        "يتناول البرنامج: أمان الحساب",
+        "يتناول البرنامج: الشبكات والحوسبة والتخزين",
+        "يتناول البرنامج: الأتمتة وقواعد البيانات والخدمات Serverless",
+        "يتناول البرنامج: النسخ الاحتياطي والاستعادة والمراقبة",
+        "يتناول البرنامج: المشروع التطبيقي"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Introduction to Amazon Web Services",
+        "This program covers: Architecting Fundamentals",
+        "This program covers: Global Infrastructure and Reliability",
+        "This program covers: Account Security",
+        "This program covers: Networking, Compute and Storage",
+        "This program covers: Automation, Databases and Serverless",
+        "This program covers: Backup, Recovery and Monitoring",
+        "This program covers: Capstone Project"
+      ],
+      "syllabus_en": [
+        "Introduction to Amazon Web Services",
+        "Architecting Fundamentals",
+        "Global Infrastructure and Reliability",
+        "Account Security",
+        "Networking, Compute and Storage",
+        "Automation, Databases and Serverless",
+        "Backup, Recovery and Monitoring",
+        "Capstone Project"
+      ],
+      "training_hours": "60",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج الحوسبة السحابية AWS - Solutions Architect - CLO001",
+      "whatsapp_message_en": "Hello, I would like to know the price of AWS Cloud Computing - Solutions Architect - CLO001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "professional",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج لتطوير مهارات التواصل والعرض والعمل الجماعي والذكاء العاطفي والتخطيط المهني والعلامة الشخصية والاستعداد للمقابلات.",
+      "description_en": "A professional development program covering communication, presentations, public speaking, teamwork, emotional intelligence, career planning, personal branding and interviews.",
+      "featured": false,
+      "hours": 75,
+      "id": "PROF001",
+      "image": "https://drive.google.com/file/d/12q22XHgQjYIFXUT1wpsSskzuScfNaYpL/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "WE Shape Your Future",
+      "name_en": "WE Shape Your Future",
+      "order": 24,
+      "price_graduate": "3000",
+      "price_sons": "1500",
+      "price_undergraduate": "2500",
+      "skills_ar": [
+        "مهارات التواصل والعرض والتحدث أمام الجمهور",
+        "بناء الفريق والذكاء العاطفي",
+        "الوعي المالي",
+        "رسم المسار المهني وإدارة الوقت",
+        "اتخاذ القرار وحل المشكلات",
+        "العلامة الشخصية وتجربة العميل",
+        "مهارات المقابلات والتطوير الشخصي"
+      ],
+      "skills_en": [
+        "Communication, Presentation and Public Speaking",
+        "Team Building and Emotional Intelligence",
+        "Financial Awareness",
+        "Career Roadmap and Time Management",
+        "Decision Making and Problem Solving",
+        "Personal Branding and Customer Experience",
+        "Interview Skills and Personal Development"
+      ],
+      "syllabus_ar": [
+        "مهارات التواصل والعرض والتحدث أمام الجمهور",
+        "بناء الفريق والذكاء العاطفي",
+        "الوعي المالي",
+        "رسم المسار المهني وإدارة الوقت",
+        "اتخاذ القرار وحل المشكلات",
+        "العلامة الشخصية وتجربة العميل",
+        "مهارات المقابلات والتطوير الشخصي"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: مهارات التواصل والعرض والتحدث أمام الجمهور",
+        "يتناول البرنامج: بناء الفريق والذكاء العاطفي",
+        "يتناول البرنامج: الوعي المالي",
+        "يتناول البرنامج: رسم المسار المهني وإدارة الوقت",
+        "يتناول البرنامج: اتخاذ القرار وحل المشكلات",
+        "يتناول البرنامج: العلامة الشخصية وتجربة العميل",
+        "يتناول البرنامج: مهارات المقابلات والتطوير الشخصي"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Communication, Presentation and Public Speaking",
+        "This program covers: Team Building and Emotional Intelligence",
+        "This program covers: Financial Awareness",
+        "This program covers: Career Roadmap and Time Management",
+        "This program covers: Decision Making and Problem Solving",
+        "This program covers: Personal Branding and Customer Experience",
+        "This program covers: Interview Skills and Personal Development"
+      ],
+      "syllabus_en": [
+        "Communication, Presentation and Public Speaking",
+        "Team Building and Emotional Intelligence",
+        "Financial Awareness",
+        "Career Roadmap and Time Management",
+        "Decision Making and Problem Solving",
+        "Personal Branding and Customer Experience",
+        "Interview Skills and Personal Development"
+      ],
+      "training_hours": "75",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج WE Shape Your Future - PROF001",
+      "whatsapp_message_en": "Hello, I would like to know the price of WE Shape Your Future - PROF001"
+    },
+    {
+      "active": true,
+      "attachments": [],
+      "category_id": "professional",
+      "certificate_details_ar": [
+        "شهادة معتمدة من قطاع التدريب والتطوير بشركة WE"
+      ],
+      "certificate_details_en": [
+        "Certificate accredited by WE Training and Development Sector"
+      ],
+      "certificate_images": [],
+      "certificates": [
+        "شهادة معتمدة من WE / WE Accredited Certificate"
+      ],
+      "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+      "contact_email": "we.training@te.eg",
+      "contact_mobile": "01550001181",
+      "contact_phone": "23129208 - 23129028",
+      "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+      "cost": "",
+      "delivery": [
+        "On-Site"
+      ],
+      "delivery_pricing": {},
+      "description_ar": "برنامج عملي لفهم دورة المبيعات واحتياجات العميل وتعظيم الفرص والبيع الإضافي وأخلاقيات العمل والمبيعات.",
+      "description_en": "A practical sales program covering the sales process, customer needs, opportunity creation, up-selling, cross-selling and business ethics.",
+      "featured": false,
+      "hours": 50,
+      "id": "PROF002",
+      "image": "https://drive.google.com/file/d/1_YxWXFfW1F8ZixqwP_TkgztvCmxY7ZSB/view?usp=sharing",
+      "level_ar": "احترافي",
+      "level_en": "Professional",
+      "name_ar": "إتقان المبيعات",
+      "name_en": "Mastering Sales",
+      "order": 25,
+      "price_graduate": "2000",
+      "price_sons": "1000",
+      "price_undergraduate": "1500",
+      "skills_ar": [
+        "دورة المبيعات",
+        "تحديد احتياجات العميل",
+        "إنشاء وتعظيم الفرص",
+        "Up-selling وCross-selling",
+        "الأخطاء الشائعة في تقنيات البيع",
+        "مفهوم أخلاقيات العمل والسلوك الأخلاقي",
+        "القضايا الأخلاقية في المبيعات"
+      ],
+      "skills_en": [
+        "Sales Process",
+        "Identifying Customer Needs",
+        "Creating and Maximizing Opportunities",
+        "Applying Up-selling and Cross-selling",
+        "Common Sales Technique Mistakes",
+        "Business Ethics and Ethical Behavior",
+        "Ethical Issues in Sales"
+      ],
+      "syllabus_ar": [
+        "دورة المبيعات",
+        "تحديد احتياجات العميل",
+        "إنشاء وتعظيم الفرص",
+        "Up-selling وCross-selling",
+        "الأخطاء الشائعة في تقنيات البيع",
+        "مفهوم أخلاقيات العمل والسلوك الأخلاقي",
+        "القضايا الأخلاقية في المبيعات"
+      ],
+      "syllabus_details_ar": [
+        "يتناول البرنامج: دورة المبيعات",
+        "يتناول البرنامج: تحديد احتياجات العميل",
+        "يتناول البرنامج: إنشاء وتعظيم الفرص",
+        "يتناول البرنامج: Up-selling وCross-selling",
+        "يتناول البرنامج: الأخطاء الشائعة في تقنيات البيع",
+        "يتناول البرنامج: مفهوم أخلاقيات العمل والسلوك الأخلاقي",
+        "يتناول البرنامج: القضايا الأخلاقية في المبيعات"
+      ],
+      "syllabus_details_en": [
+        "This program covers: Sales Process",
+        "This program covers: Identifying Customer Needs",
+        "This program covers: Creating and Maximizing Opportunities",
+        "This program covers: Applying Up-selling and Cross-selling",
+        "This program covers: Common Sales Technique Mistakes",
+        "This program covers: Business Ethics and Ethical Behavior",
+        "This program covers: Ethical Issues in Sales"
+      ],
+      "syllabus_en": [
+        "Sales Process",
+        "Identifying Customer Needs",
+        "Creating and Maximizing Opportunities",
+        "Applying Up-selling and Cross-selling",
+        "Common Sales Technique Mistakes",
+        "Business Ethics and Ethical Behavior",
+        "Ethical Issues in Sales"
+      ],
+      "training_hours": "50",
+      "whatsapp_available": true,
+      "whatsapp_link": "https://wa.me/201550001181",
+      "whatsapp_message_ar": "مرحبًا، أريد معرفة سعر برنامج إتقان المبيعات - PROF002",
+      "whatsapp_message_en": "Hello, I would like to know the price of Mastering Sales - PROF002"
     }
   ],
-  "last_updated": "2026-08-16T17:55:46.174Z",
   "settings": {
-    "app_title_ar": "برامج وكورسات تكنولوجيا المعلومات",
-    "app_title_en": "WE Training Programs & Diplomas",
-    "hero_eyebrow_ar": "ابدأ مسارك المهني",
-    "hero_eyebrow_en": "Start your career path",
-    "hero_text_ar": "برامج تدريب عملية في DevOps، الشبكات، الأمن السيبراني، البرمجة، والـCloud.",
-    "hero_text_en": "Practical programs in DevOps, Networking, Cyber Security, Programming and Cloud.",
-    "hero_title_ar": "طوّر مهاراتك في الـ IT",
-    "hero_title_en": "Build Your IT Skills",
-    "logo_url": "https://drive.google.com/file/d/1uq8IwrtZrfCKuiRRVT0MdHDoYzeom0z8/view?usp=sharing",
-    "notification_topic": "all_users",
-    "organization_name_ar": "قطاع التدريب و التطوير  -  إدارة تسويق البرامج",
-    "organization_name_en": "WE-Training & Development Sector",
+    "app_title_ar": "برامج ودبلومات التدريب 2026",
+    "app_title_en": "WE Training Programs & Diplomas 2026",
+    "contact_address": "5 Mehwar El Shaheed St., 6th District, Nasr City",
+    "contact_email": "we.training@te.eg",
+    "contact_mobile": "01550001181",
+    "contact_phone": "23129208 - 23129028",
+    "contact_social": "Facebook: https://www.facebook.com/qr?id=100068087433152\nLinkedIn: https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+    "facebook_url": "https://www.facebook.com/qr?id=100068087433152",
+    "hero_eyebrow_ar": "برامج ودبلومات تدريبية لعام 2026",
+    "hero_eyebrow_en": "Training Programs & Diplomas 2026",
+    "hero_text_ar": "استكشف برامج التدريب المتخصصة في الاتصالات والشبكات والأمن السيبراني والبرمجة والبيانات والمهارات المهنية.",
+    "hero_text_en": "Explore specialized training programs in telecommunications, networking, cybersecurity, programming, data and professional skills.",
+    "hero_title_ar": "طوّر مهاراتك وابنِ مستقبلك",
+    "hero_title_en": "Build Your Skills. Shape Your Future.",
+    "linkedin_url": "https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/",
+    "logo_url": "",
+    "notification_topic": "",
+    "organization_name_ar": "قطاع التدريب والتطوير بشركة WE",
+    "organization_name_en": "WE Training and Development Sector",
     "show_favorites": true,
     "show_featured": true,
     "show_search": true,
-    "whatsapp_number": "201000000000"
+    "social_links": {
+      "facebook": "https://www.facebook.com/qr?id=100068087433152",
+      "linkedin": "https://www.linkedin.com/in/we-training-and-development-sector-a932a3315/"
+    },
+    "whatsapp_number": "01550001181"
   },
-  "version": 16
+  "version": 17
 }
